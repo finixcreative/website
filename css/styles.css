@@ -1,4 +1,90 @@
+/* ADD ON CLASSES */
+.constrain {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.slide {
+	height: 100%;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 60px 0;
+}
+
+/* GENERAL STYLES */
+* {
+	text-decoration: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in;
+	-webkit-transition: all .3s ease-in;
+}
+html, body {
+	height: 100%;
+}
 body {
-	background: #f93;
+	background: #444;
 	color: #fff;
+	margin: 0;
+	font-family: sans-serif;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {text-decoration: none;}
+header {
+}
+nav {
+	background: #f15a24;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+}
+nav ul {width: 100%;}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	color: #fff;
+	padding: 20px;
+	display: block;
+}
+nav ul li a:hover {
+	background: #f93;
+}
+
+#products {
+	background: #fff;
+	color: #444;
+}
+#products ul {}
+#products ul li {
+	background: #ccc;
+	width: 33.33%;
+	padding-bottom: 33.33%;
+	position: relative;
+	display: inline-block;
+}
+#products ul li:hover {
+	background: #ddd;
+}
+#products ul li a {
+	width: 100%;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	display: table-cell;
+}
+#products ul li a h3 {
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+#products ul li a img {
+	min-width: 100%;
+	min-height: 100%;
 }

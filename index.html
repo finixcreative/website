@@ -1,34 +1,22 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="controllers">
 <head>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#">Products</a>
-				</li>
-				<li>
-					<a href="#">About</a>
-				</li>
-				<li>
-					<a href="#">Blog</a>
-				</li>
-				<li>
-					<a href="#">Contact</a>
+	<header ng-controller="SlideController as slide">
+		<nav ng-controller="NavController as nav">
+			<ul class="constrain">
+				<li ng-repeat="product in nav.products" ng-class="{{product.slide}}">
+					<a ng-click="slide.selectTab({{product.slide}})">{{product.name}}</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section id="home" class="slide">
+		<section id="home" class="slide" ng-show="panel.isSelected(1)">
 			<div class="content">
 				<h1>Digital Marketing and Web Design</h1>
 				<h2>Solutions for Small Businesses</h2>
@@ -38,23 +26,30 @@
 				<a href="#">Get Started!</a>
 			</div>
 		</section>
-		<section id="products" class="slide">
-			<header>
-				<h1>Our products</h1>
-				<h3>What does your business need?</h3>
+		<section id="products" class="slide" ng-show="panel.isSelected(2)" ng-controller="StoreController as store">
+			<header class="constrain">
+				<h1>Products</h1>
+				<h2>What does your business need?</h2>
 			</header>
 			<ul id="tiles">
-				<li class="tile" ng-repeat="product in products">
-					<a href="">
+				<li class="tile" ng-repeat="product in store.products">
+					<a href="{{product.url}}">
+						<h3>{{product.name}}</h3>
 						<img src="{{product.src}}" alt="{{product.alt}}"/>
-						{{product.name}}
 					</a>
 				</li>
 			</ul>
 		</section>
-		<section id="about" class="slide"></section>
-		<section id="blog" class="slide"></section>
-		<section id="contact" class="slide"></section>
+		<section id="about" class="slide" ng-show="panel.isSelected(3)">
+			<h1>About</h1>
+			<article></article>
+		</section>
+		<section id="blog" class="slide" ng-show="panel.isSelected(4)">
+			{{blog}}
+		</section>
+		<section id="contact" class="slide" ng-show="panel.isSelected(5)">
+			{{contact}}
+		</section>
 	</main>
 	<footer>
 		&copy; Finix, 2014.
