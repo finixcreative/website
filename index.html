@@ -4,33 +4,47 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
-	<header ng-controller="SlideController as slide">
-		<nav ng-controller="NavController as nav">
-			<ul class="constrain">
-				<li ng-repeat="product in nav.products" ng-class="{{product.slide}}">
-					<a ng-click="slide.selectTab({{product.slide}})">{{product.name}}</a>
+<body ng-controller="SlideController as slide">
+	<header>
+		<nav class="constrain">
+			<ul>
+				<li ng-class="{ active:slide.isSelected(1) }">
+					<a href ng-click="slide.selectTab(1)"><img src="images/logo-finix-2014.png" alt="Finix Logo"/></a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(2) }">
+					<a href ng-click="slide.selectTab(2)">Products</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(3) }">
+					<a href ng-click="slide.selectTab(3)">About</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(4) }">
+					<a href ng-click="slide.selectTab(4)">Blog</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(5) }">
+					<a href ng-click="slide.selectTab(5)">Contact</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section id="home" class="slide" ng-show="panel.isSelected(1)">
-			<div class="content">
-				<h1>Digital Marketing and Web Design</h1>
+		<section id="home" class="slide" ng-show="slide.isSelected(1)">
+			<div class="content constrain">
+				<img src="images/logo-finix-2014.png" alt="Finix Logo"/>
+				<h1>Digital Marketing &amp; Web Design</h1>
 				<h2>Solutions for Small Businesses</h2>
 				<p>
 					We're a digital marketing and web design agency. Our mission is simple: help great local businesses reach new customers and build lasting brand loyalty. We offer a complete suite of marketing and design services that fit any small business budget.
 				</p>
-				<a href="#">Get Started!</a>
+				<a href ng-click="slide.selectTab(2)">Get Started!</a>
 			</div>
 		</section>
-		<section id="products" class="slide" ng-show="panel.isSelected(2)" ng-controller="StoreController as store">
-			<header class="constrain">
+		<section id="products" class="slide" ng-show="slide.isSelected(2)" ng-controller="StoreController as store">
+			<div class="constrain">
 				<h1>Products</h1>
 				<h2>What does your business need?</h2>
-			</header>
+			</div>
 			<ul id="tiles">
 				<li class="tile" ng-repeat="product in store.products">
 					<a href="{{product.url}}">
@@ -40,19 +54,23 @@
 				</li>
 			</ul>
 		</section>
-		<section id="about" class="slide" ng-show="panel.isSelected(3)">
+		<section id="about" class="slide" ng-show="slide.isSelected(3)">
 			<h1>About</h1>
 			<article></article>
 		</section>
-		<section id="blog" class="slide" ng-show="panel.isSelected(4)">
+		<section id="blog" class="slide" ng-show="slide.isSelected(4)">
+			<h1>Blog</h1>
 			{{blog}}
 		</section>
-		<section id="contact" class="slide" ng-show="panel.isSelected(5)">
-			{{contact}}
+		<section id="contact" class="slide" ng-show="slide.isSelected(5)">
+			<h1>Contact</h1>
+			<form>
+				{{}}
+			</form>
 		</section>
+		<footer>
+			<p class="constrain">&copy; 2014 Finix. All rights reserved.</p>
+		</footer>
 	</main>
-	<footer>
-		&copy; Finix, 2014.
-	</footer>
 </body>
 </html>

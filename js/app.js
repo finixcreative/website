@@ -1,8 +1,5 @@
 (function (){
 	var app = angular.module('controllers', []);
-	app.controller('NavController', function(){
-		this.products = nav;
-	});
 
 	app.controller('SlideController', function(){
 		this.tab = 1;
@@ -17,29 +14,6 @@
 	app.controller('StoreController', function(){
 		this.products = store;
 	});
-
-	var nav = [
-		{
-			name: 'Home',
-			slide: '{ active:slide.isSelected(1) }',
-		},
-		{
-			name: 'Products',
-			slide: '{ active:slide.isSelected(2) }',
-		},
-		{
-			name: 'About',
-			slide: '3',
-		},
-		{
-			name: 'Blog',
-			slide: '4',
-		},
-		{
-			name: 'Contact',
-			slide: '5',
-		}
-	];
 
 	var store = [
 		{
