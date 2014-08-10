@@ -41,9 +41,8 @@
 			</div>
 		</section>
 		<section id="products" class="slide" ng-show="slide.isSelected(2)" ng-controller="StoreController as store">
-			<div class="constrain">
-				<h1>Products</h1>
-				<h2>What does your business need?</h2>
+			<div class="content constrain">
+				<h3>What does your business need?</h3>
 			</div>
 			<ul id="tiles">
 				<li class="tile" ng-repeat="product in store.products">
@@ -55,21 +54,35 @@
 			</ul>
 		</section>
 		<section id="about" class="slide" ng-show="slide.isSelected(3)">
-			<h1>About</h1>
-			<article></article>
+			<div class="content constrain">
+				<h3>About Us</h3>
+				<article></article>
+			</div>
 		</section>
 		<section id="blog" class="slide" ng-show="slide.isSelected(4)">
-			<h1>Blog</h1>
-			{{blog}}
+			<div class="content constrain">			
+				<h3>Blog</h3>
+				{{blog}}
+			</div>		
 		</section>
 		<section id="contact" class="slide" ng-show="slide.isSelected(5)">
-			<h1>Contact</h1>
-			<form></form>
+			<div class="content constrain">
+				<h3>Contact Us</h3>
+				<form></form>
+			</div>
 		</section>
 		<footer>
-			<div class="footer-content constrain">
+			<div class="content constrain">
 				<h3>Follow Us:</h3>
-				<p>&copy; 2014 Finix. All rights reserved.</p>
+				<div class="social">
+					<a href="https://www.facebook.com/finixcreative">Facebook</a>
+					<a href="https://twitter.com/FinixCreative">Twitter</a>
+					<a href="https://www.linkedin.com/company/finix">Linkedin</a>
+					<a href="https://plus.google.com/+Finixcreative">Google+</a>
+					<a href="http://instagram.com/finixcreative">Instagram</a>
+					<a href="http://www.pinterest.com/finixcreative">Pinterest</a>
+				</div>
+				<div class="copyright"><p>&copy; 2014 Finix. All rights reserved.</p></div>
 			</div>
 		</footer>
 	</main>
