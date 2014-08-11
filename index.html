@@ -53,8 +53,9 @@
 			<ul id="tiles">
 				<li class="tile" ng-repeat="product in store.products">
 					<a href="{{product.url}}" background="{{product.src}}">
-						<img src="{{product.src}}" alt="{{product.alt}}"/>
+						<img src="{{product.src}}" alt="{{product.name}}"/>
 						<div class="text-box">
+							<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
 							<h3>{{product.name}}</h3>
 							<p>{{product.description}}</p>
 						</div>
