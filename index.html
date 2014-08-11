@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="controllers">
 <head>
+	<title>Digital Marketing and Web Design Solutions for Small Businesses | Finix</title>
+	<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
+	<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
+	<meta name="author" content="Richard Smith">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
@@ -35,7 +41,7 @@
 				<h1>Digital Marketing &amp; Web Design</h1>
 				<h2>Solutions for Small Businesses</h2>
 				<p>
-					We're a digital marketing and web design agency. Our mission is simple: help great local businesses reach new customers and build lasting brand loyalty. We offer a complete suite of marketing and design services that fit any small business budget.
+					We're a digital marketing and web design agency. Our mission is simple: help great local businesses reach new customers and build lasting brand loyalty. We offer a complete suite of marketing and design services that fit any small business budget. So what are you waiting for?
 				</p>
 				<a href ng-click="slide.selectTab(2)">Get Started!</a>
 			</div>
@@ -46,9 +52,12 @@
 			</div>
 			<ul id="tiles">
 				<li class="tile" ng-repeat="product in store.products">
-					<a href="{{product.url}}">
-						<h3>{{product.name}}</h3>
+					<a href="{{product.url}}" background="{{product.src}}">
 						<img src="{{product.src}}" alt="{{product.alt}}"/>
+						<div class="text-box">
+							<h3>{{product.name}}</h3>
+							<p>{{product.description}}</p>
+						</div>
 					</a>
 				</li>
 			</ul>
@@ -62,7 +71,7 @@
 		<section id="blog" class="slide" ng-show="slide.isSelected(4)">
 			<div class="content constrain">			
 				<h3>Blog</h3>
-				{{blog}}
+				<article></article>
 			</div>		
 		</section>
 		<section id="contact" class="slide" ng-show="slide.isSelected(5)">
@@ -73,8 +82,16 @@
 		</section>
 		<footer>
 			<div class="content constrain">
-				<h3>Follow Us:</h3>
+				<div class="contact">
+					<h3>Contact Us:</h3>
+					<a>rsmith@finixcreative.com</a>
+					<a>203-295-4369</a>
+					<a>4 Justinian Way #C<br>
+						Boston, MA 02135</a>
+					</p>
+				</div>
 				<div class="social">
+					<h3>Follow Us:</h3>
 					<a href="https://www.facebook.com/finixcreative">Facebook</a>
 					<a href="https://twitter.com/FinixCreative">Twitter</a>
 					<a href="https://www.linkedin.com/company/finix">Linkedin</a>

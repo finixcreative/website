@@ -99,7 +99,7 @@ nav ul li a img {
 }
 #home a:hover {
 	background: #fff;
-	color: #444;
+	color: #f15a24;
 }
 #home p {font-size: 20px;}
 
@@ -108,14 +108,14 @@ nav ul li a img {
 	color: #444;
 }
 #products ul {
-	height: calc(100% - 158px);
-	height: -o-calc(100% - 158px);
-	height: -moz-calc(100% - 158px);
-	height: -webkit-calc(100% - 158px);
+	height: calc(100% - 103px);
+	height: -o-calc(100% - 103px);
+	height: -moz-calc(100% - 103px);
+	height: -webkit-calc(100% - 103px);
 	bottom: 0;
 }
 #products ul li {
-	background: #ccc;
+	background: #f93;
 	width: 20%;
 	height: 100%;
 	position: relative;
@@ -123,9 +123,24 @@ nav ul li a img {
 	display: inline-block;
 	overflow: hidden;
 }
-#products ul li:hover {background: #ddd;}
+#products ul li:hover {}
+#products ul li .text-box {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: rgba(241,90,36,0.8);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	z-index: 888;
+	display: none;
+}
+#products ul li:hover .text-box {
+	display: block;
+}
 #products ul li a {
 	width: 100%;
+	height: 100%;
 	position: absolute;
 	display: block;
 	display: table-cell;
@@ -145,12 +160,11 @@ footer {
 	background: #444;
 	width: 100%;
 	border-top: 2px solid #fff;
-}
-footer .social {
 	float: left;
 }
-footer .copyright {
-	clear: both;
+footer .contact, footer .social {
+	float: left;
+	width: 50%;
 }
 footer a {
 	color: #fff;
@@ -163,4 +177,8 @@ footer a {
 footer a:hover {
 	color: #f15a24;
 	background: #fff;
+}
+.copyright {
+	clear: both;
+	font-size: 0.75em;
 }
