@@ -43,7 +43,7 @@
 				<p>
 					We're a digital marketing and web design agency. Our mission is simple: help great local businesses reach new customers and build lasting brand loyalty. We offer a complete suite of marketing and design services that fit any small business budget. So what are you waiting for?
 				</p>
-				<a href ng-click="slide.selectTab(2)">Get Started!</a>
+				<a class="button" href ng-click="slide.selectTab(2)">Get Started!</a>
 			</div>
 		</section>
 		<section id="products" class="slide" ng-show="slide.isSelected(2)" ng-controller="StoreController as store">
@@ -66,19 +66,34 @@
 		<section id="about" class="slide" ng-show="slide.isSelected(3)">
 			<div class="content constrain">
 				<h3>About Us</h3>
-				<article></article>
+				<article>
+					<p>Finix is a digital marketing and web design team from Boston, formed in 2013. We are committed to providing high-end internet-based marketing, web design, and branding solutions at a price that fits a small business budget. Digital marketing has quickly become the easiest and most effective way to reach customers in your target markets. The internet is the great equalizer, giving small and mid-sized businesses a soapbox to spread their message, generate consumer awareness, and sell their products. The opportunity to develop a strong brand and compete with larger corporations on a national scale is within reach - and all it takes to succeed is some quality help and guidance. <a href ng-click="slide.selectTab(2)">That's where we come in!</a></p>
+				</article>
 			</div>
 		</section>
-		<section id="blog" class="slide" ng-show="slide.isSelected(4)">
-			<div class="content constrain">			
-				<h3>Blog</h3>
-				<article></article>
-			</div>		
+		<section id="blog" class="slide" ng-controller="ArticlesController as articles" ng-show="slide.isSelected(4)">
+				<div id="searchbar" class="constrain">
+					<input type="search" name="search" placeholder="Search" ng-model="search">
+				</div>
+				<div id="blogfeed" class="contentfeed constrain">
+					<article ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
+						<h4>{{ product.headline }}: {{ product.subheadline }}</h4>
+						<a href="{{ product.profile }}"><h5>{{ product.author }}</h5></a>
+						<img src="{{ product.image }}" alt="{{ product.caption }}"/>
+						<p>{{product.content}}</p>
+						<a id="readmore" class="button" href="#">Read More!</a>
+					</article>
+				</div>
 		</section>
 		<section id="contact" class="slide" ng-show="slide.isSelected(5)">
 			<div class="content constrain">
 				<h3>Contact Us</h3>
-				<form></form>
+				<form id="contactform" action="mailto:rs3designs@yahoo.com" method="post" enctype="text/plain">
+					<input class="textline" type="text" name="name" placeholder="Name" size="55" required/>
+					<input class="textline" type="text" name="email" placeholder="Email" size="55" required/>
+					<textarea class="textfield" placeholder="Message" rows="4" cols="40"/></textarea>
+					<input class="submit" type="submit" value="Send"/>
+				</form>
 			</div>
 		</section>
 		<footer>
