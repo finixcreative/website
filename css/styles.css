@@ -181,11 +181,12 @@ nav ul li a img {
 	font-size: 20px;
 	display: block;
 }
-#blog input[type=search]:focus, input[type=search]:hover {
+#blog input[type=search]:focus,
+#blog input[type=search]:hover,
+#blog input[type=search]:hover > #blog #searchbar {
 	outline: none;
 	background-color: rgba(0,0,0,0.1);
 }
-#blog input[type=search]:hover > #searchbar {background: #ccc;}
 ::-webkit-input-placeholder {color: #444; font-weight: 100;}
 :-moz-placeholder {color: #444; font-weight: 100;}
 ::-moz-placeholder {color: #444; font-weight: 100;}
