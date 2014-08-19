@@ -26,7 +26,7 @@
 			url: '/products/web',
 			icon: 'images/icons/icon-web.png',
 			icontag: 'Icon - Web',
-			description: 'In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.',
+			shortdescription: 'In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.',
 		},
 		{
 			name: 'Branding',
@@ -34,7 +34,7 @@
 			url: '/products/brand',
 			icon: 'images/icons/icon-brand.png',
 			icontag: 'Icon - Brand',
-			description: 'The first step for any new company! Logo creation and brand identity development give your fledgeling business a professional look.',
+			shortdescription: 'The first step for any new company! Logo creation and brand identity development give your fledgeling business a professional look.',
 		},
 		{
 			name: 'Email Marketing',
@@ -42,7 +42,7 @@
 			url: '/products/email',
 			icon: 'images/icons/icon-email.png',
 			icontag: 'Icon - Email',
-			description: 'The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign, or "email blast". If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.',
+			shortdescription: 'The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign, or "email blast". If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.',
 		},
 		{
 			name: 'Print Design',
@@ -50,7 +50,7 @@
 			url: '/products/print',
 			icon: 'images/icons/icon-print.png',
 			icontag: 'Icon - Print',
-			description: 'Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you with professional, eye-catching designs for all of your needs.',
+			shortdescription: 'Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you with professional, eye-catching designs for all of your needs.',
 		},
 		{
 			name: 'Social Media',
@@ -58,7 +58,7 @@
 			url: '/products/social',
 			icon: 'images/icons/icon-social.png',
 			icontag: 'Icon - Social',
-			description: 'Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between their number of social media "likes" and the value of each stock. Every business has something to gain from building a social media presence!',
+			shortdescription: 'Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between their number of social media "likes" and the value of each stock. Every business has something to gain from building a social media presence!',
 		}
 	];
 
