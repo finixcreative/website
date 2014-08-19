@@ -25,7 +25,7 @@
 }
 html, body, main {height: 100%;}
 body {
-	background: url('../images/background-boston_skyline.png') #444;
+	background: #f15a24;
 	background-attachment: fixed;
 	background-size: cover;
 	color: #fff;
@@ -95,6 +95,9 @@ nav ul li a img {
 }
 
 /* HOME */
+#home {
+	background: url('../images/background-boston_skyline.png');
+}
 #home img {
 	height: auto;
 	width: 20%;
