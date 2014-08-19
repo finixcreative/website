@@ -96,8 +96,18 @@
 				</form>
 			</div>
 		</section>
-		<section id="product-detail" class="slide" ng-show="slide.isSelected(6)" ng-include="product.html">
-			
+		<section id="product-detail" class="slide"  ng-controller="StoreController as store" ng-show="slide.isSelected(6)">
+			<h1>{{product.name}}</h1>
+			<p>{{product.longdescription}}</p>
+			<ul>
+				<li ng-repeat="product.specs in products">{{product.spec}}</li>
+			</ul>
+			<form ng-model>
+				<label for="customername">Name</label><input type="text" id="customername" name="name"/>
+				<label for="customerphone">Phone</label><input type="text" id="customerphone" name="phone"/>
+				<label for="customeremail">Email</label><input type="text" id="customeremail" name="email"/>
+				<label for="buynow">Buy now!</label><input type="button" id="buynow" name="submit"/>
+			</form>
 		</section>
 		<footer>
 			<div class="content constrain">
