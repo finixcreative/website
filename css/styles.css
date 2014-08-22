@@ -229,8 +229,11 @@ footer .social a {
 	width: auto;
 	display: block;
 	float: left;
-	padding: 10px;
 	border: 1px solid #fff;
+}
+footer .social img {
+	width: 30px;
+	height: auto;
 }
 footer a:hover {
 	color: #f15a24;
