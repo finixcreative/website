@@ -107,7 +107,7 @@ nav ul li a img {
 #home p {font-size: 20px;}
 
 /* PRODUCTS */
-#products, #about, #blog {
+#products, #product-detail, #about, #blog {
 	background: #fff;
 	color: #444;
 }

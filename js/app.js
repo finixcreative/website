@@ -27,6 +27,7 @@
 			icon: 'images/icons/icon-web.png',
 			icontag: 'Icon - Web',
 			shortdescription: 'In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.',
+			longdescription: 'In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.',
 		},
 		{
 			name: 'Branding',
