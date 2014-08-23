@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<link rel="icon" href="images/icons/social/icon-finix.png"/>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -63,15 +64,30 @@
 				</li>
 			</ul>
 		</section>
-		<section id="about" class="slide" ng-show="slide.isSelected(3)">
+		<section id="about" class="" ng-show="slide.isSelected(3)">
 			<div class="content constrain">
-				<h3>About Us</h3>
+				<h3>Get to know Finix</h3>
 				<article>
 					<p>Finix is a digital marketing and web design team from Boston, formed in 2013. We are committed to providing high-end internet-based marketing, web design, and branding solutions at a price that fits a small business budget. Digital marketing has quickly become the easiest and most effective way to reach customers in your target markets. The internet is the great equalizer, giving small and mid-sized businesses a soapbox to spread their message, generate consumer awareness, and sell their products. The opportunity to develop a strong brand and compete with larger corporations on a national scale is within reach - and all it takes to succeed is some quality help and guidance. <a href ng-click="slide.selectTab(2)">That's where we come in!</a></p>
 				</article>
 			</div>
+			<div class="content constrain">
+				<h3>Meet the Team</h3>
+			</div>
+			<ul ng-controller="TeamController as team">
+				<li class="teamprofile" ng-repeat="product in team.products">
+					<a href="{{product.}}">
+						<img src="{{product.portrait}}" alt="{{product.portraitalt}}"/>
+						<div class="text-box">
+							<h4>{{product.name}}</h4>
+							<h5>{{product.title}}</h5>
+							<p>{{product.bio}}</p>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</section>
-		<section id="blog" class="slide" ng-controller="ArticlesController as articles" ng-show="slide.isSelected(4)">
+		<section id="blog" class="" ng-controller="ArticlesController as articles" ng-show="slide.isSelected(4)">
 				<div id="searchbar" class="constrain">
 					<input type="search" name="search" placeholder="Search" ng-model="search">
 				</div>

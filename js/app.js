@@ -15,6 +15,10 @@
 		this.products = store;
 	});
 
+	app.controller('TeamController', function(){
+		this.products = team;
+	});
+
 	app.controller('ArticlesController', function(){
 		this.products = articles;
 	});
@@ -61,6 +65,51 @@
 			icontag: 'Icon - Social',
 			shortdescription: 'Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between their number of social media "likes" and the value of each stock. Every business has something to gain from building a social media presence!',
 		}
+	];
+
+	var team = [
+		{
+			name: "Richard Smith",
+			title: "Co-founder",
+			portrait: "images/team/richard_smith.jpg",
+			portraitalt: "Richard Smith",
+			bio: "Richard likes mango, avocado, coconut, lime, pineapple and jalapeno.",
+		},
+		{
+			name: "Allison Vollmar",
+			title: "Co-founder",
+			portrait: "images/team/allison_vollmar.jpg",
+			portraitalt: "Allison Vollmar",
+			bio: "Allison loves brunch, and her favorite food is creme brulee french toast.",
+		},
+		{
+			name: "Penelope the Puppy",
+			title: "Director of Mammal Resources",
+			portrait: "images/team/penelope_smith_vollmar.jpg",
+			portraitalt: "Penelope Smith-Vollmar",
+			bio: "Penelope's favorite food is whatever the humans around her are eating.",
+		},
+		{
+			name: "Chris Baeckstrom",
+			title: "Desktop Publishing Specialist",
+			portrait: "images/team/chris_baeckstrom.jpg",
+			portraitalt: "Chris Baeckstrom",
+			bio: "Chris enjoys spending time at the beach.",
+		},
+		{
+			name: "Alex Cummings",
+			title: "Game Design Specialist",
+			portrait: "images/team/alex_cummings.jpg",
+			portraitalt: "Alex Cummings",
+			bio: "Alex does hilarious impressions.",
+		},
+		{
+			name: "Work with us!",
+			title: "Position Title",
+			portrait: "images/team/open_position.jpg",
+			portraitalt: "Open Position",
+			bio: "We're hiring talented, creative individuals to join our growing team.",
+		},
 	];
 
 	var articles = [
