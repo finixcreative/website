@@ -228,16 +228,28 @@ footer .social a {
 	color: #fff;
 	width: auto;
 	display: block;
+	padding: 3px;
 	float: left;
-	border: 1px solid #fff;
 }
 footer .social img {
-	width: 30px;
+	width: 36px;
 	height: auto;
+	margin: 0;
+	filter: saturate(0%);
+	-webkit-filter: saturate(0%);
+	-moz-filter: saturate(0%);
+	-o-filter: saturate(0%);
+	-ms-filter: saturate(0%);
+	box-shadow: 0 0 0 1px #fff;
 }
-footer a:hover {
-	color: #f15a24;
-	background: #fff;
+footer a:hover {color: #f15a24;}
+footer a:hover img {
+	box-shadow: 0 0 0 2px #f15a24;
+	filter: saturate(100%);
+	-webkit-filter: saturate(100%);
+	-moz-filter: saturate(100%);
+	-o-filter: saturate(100%);
+	-ms-filter: saturate(100%);
 }
 .copyright {
 	clear: both;
