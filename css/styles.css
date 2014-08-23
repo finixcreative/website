@@ -191,7 +191,6 @@ li.teamprofile img {
 /* BLOG */
 #blog #searchbar {
 	width: 100%;
-	padding: 5px 0 0 0;
 	display: block;
 }
 #blog input[type=search] {
@@ -218,7 +217,6 @@ li.teamprofile img {
 :-moz-placeholder {color: #444; font-weight: 100;}
 ::-moz-placeholder {color: #444; font-weight: 100;}
 :-ms-input-placeholder {color: #444; font-weight: 100;}
-#blog .contentfeed {overflow: auto;}
 
 /* CONTACT */
 #contact {background: #f15a24;}
