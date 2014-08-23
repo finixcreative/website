@@ -114,10 +114,10 @@
 		},
 		{
 			name: "Work with us!",
-			title: "Position Title",
+			title: "Many positions available",
 			portrait: "images/team/open_position.jpg",
 			portraitalt: "Open Position",
-			bio: "We're hiring talented, creative individuals to join our growing team.",
+			bio: "We're looking for talented, creative individuals to join our growing team.",
 			link: "www.linkedin.com/company/finix",
 		},
 	];
