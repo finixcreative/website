@@ -57,6 +57,20 @@ a.button:hover {
 	background: #fff;
 	color: #f15a24;
 }
+a.buttonalt {
+	color: #f15a24;
+	width: 200px;
+	padding: 15px 20px;
+	margin: 20px auto;
+	border: 2px solid #f15a24;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+}
+a.buttonalt:hover {
+	background: #f15a24;
+	color: #fff;
+}
 
 /* HEADER & NAV */
 header {
