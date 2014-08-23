@@ -197,13 +197,13 @@ li.teamprofile img {
     background: url("../images/search.png") no-repeat;
     background-size: 20px;
     background-position: 20px 50%;
-    color: #444;
+    color: #f15a24;
 	width: 100%;
 	max-width: 960px;
 	padding: 20px 20px 20px 50px;
 	margin: 0 auto;
 	border: none;
-	border-bottom: 1px solid #444;
+	border-bottom: 1px solid #f15a24;
 	font-size: 20px;
 	display: block;
 }
@@ -213,10 +213,10 @@ li.teamprofile img {
 	outline: none;
 	background-color: rgba(0,0,0,0.1);
 }
-::-webkit-input-placeholder {color: #444; font-weight: 100;}
-:-moz-placeholder {color: #444; font-weight: 100;}
-::-moz-placeholder {color: #444; font-weight: 100;}
-:-ms-input-placeholder {color: #444; font-weight: 100;}
+::-webkit-input-placeholder {color: #f15a24; font-weight: 100;}
+:-moz-placeholder {color: #f15a24; font-weight: 100;}
+::-moz-placeholder {color: #f15a24; font-weight: 100;}
+:-ms-input-placeholder {color: #f15a24; font-weight: 100;}
 
 /* CONTACT */
 #contact {background: #f15a24;}
