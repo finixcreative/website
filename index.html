@@ -79,8 +79,8 @@
 					<a href="{{product.}}">
 						<img src="{{product.portrait}}" alt="{{product.portraitalt}}"/>
 						<div class="text-box">
-							<h4>{{product.name}}</h4>
-							<h5>{{product.title}}</h5>
+							<h3>{{product.name}}</h3>
+							<h4>{{product.title}}</h4>
 							<p>{{product.bio}}</p>
 						</div>
 					</a>
@@ -93,8 +93,8 @@
 				</div>
 				<div id="blogfeed" class="content constrain">
 					<article ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
-						<h4>{{ product.headline }}: {{ product.subheadline }}</h4>
-						<a href="{{ product.profile }}"><h5>{{ product.author }}</h5></a>
+						<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
+						<a href="{{ product.profile }}"><h4>{{ product.author }}</h4></a>
 						<img src="{{ product.image }}" alt="{{ product.caption }}"/>
 						<p>{{product.content}}</p>
 						<a id="readmore" class="button" href="#">Read More!</a>
