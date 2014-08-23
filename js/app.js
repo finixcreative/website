@@ -74,6 +74,7 @@
 			portrait: "images/team/richard_smith.jpg",
 			portraitalt: "Richard Smith",
 			bio: "Richard likes mango, avocado, coconut, lime, pineapple and jalapeno.",
+			link: "www.linkedin.com/in/richardrsmith3/",
 		},
 		{
 			name: "Allison Vollmar",
@@ -81,6 +82,7 @@
 			portrait: "images/team/allison_vollmar.jpg",
 			portraitalt: "Allison Vollmar",
 			bio: "Allison loves brunch, and her favorite food is creme brulee french toast.",
+			link: "www.linkedin.com/pub/allison-vollmar/8/ab2/610",
 		},
 		{
 			name: "Penelope the Puppy",
@@ -88,6 +90,7 @@
 			portrait: "images/team/penelope_smith_vollmar.jpg",
 			portraitalt: "Penelope Smith-Vollmar",
 			bio: "Penelope's favorite food is whatever the humans around her are eating.",
+			link: "#",
 		},
 		{
 			name: "Chris Baeckstrom",
@@ -95,6 +98,7 @@
 			portrait: "images/team/chris_baeckstrom.jpg",
 			portraitalt: "Chris Baeckstrom",
 			bio: "Chris enjoys spending time at the beach.",
+			link: "www.linkedin.com/pub/christopher-baeckstrom/74/b7a/548",
 		},
 		{
 			name: "Alex Cummings",
@@ -102,6 +106,7 @@
 			portrait: "images/team/alex_cummings.jpg",
 			portraitalt: "Alex Cummings",
 			bio: "Alex does hilarious impressions.",
+			link: "#",
 		},
 		{
 			name: "Work with us!",
@@ -109,6 +114,7 @@
 			portrait: "images/team/open_position.jpg",
 			portraitalt: "Open Position",
 			bio: "We're hiring talented, creative individuals to join our growing team.",
+			link: "www.linkedin.com/company/finix",
 		},
 	];
 
