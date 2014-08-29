@@ -8,6 +8,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+	<script type="text/javascript" src="js/buy.js"></script>
+	<script type="text/javascript">// <![CDATA[
+		Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
+	// ]]></script>
 	<script type="text/javascript" src="js/app.js"></script>
 	<link rel="icon" href="images/icons/social/icon-finix.png"/>
     <link type="text/css" rel="stylesheet" href="css/styles.css"/>
@@ -91,12 +96,16 @@
 				</div>
 				<div id="blogfeed" class="constrain">
 					<article class="content" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
+						<img src="{{ product.image }}" alt="{{ product.caption }}"/>
 						<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
 						<a href="{{ product.profile }}"><h4>{{ product.author }}</h4></a>
-						<img src="{{ product.image }}" alt="{{ product.caption }}"/>
 						<p>{{product.content}}</p>
 						<a id="readmore" class="buttonalt" href="#">Read More!</a>
 					</article>
+				</div>
+				<div class="constrain content" ng-show="!articles.length">
+					<h3>Womp womp...</h3>
+					<p>Sorry, we couldn't find any articles containing "{{search}}".</p>
 				</div>
 		</section>
 		<section id="contact" class="slide" ng-show="slide.isSelected(5)">
