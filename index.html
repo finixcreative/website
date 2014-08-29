@@ -97,9 +97,11 @@
 				<div id="blogfeed" class="constrain">
 					<article class="content" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
 						<img src="{{ product.image }}" alt="{{ product.caption }}"/>
-						<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
-						<a href="{{ product.profile }}"><h4>{{ product.author }}</h4></a>
-						<p>{{product.content}}</p>
+						<div class="articletext">
+							<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
+							<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
+							<p>{{product.content}}</p>
+						</div>
 						<a id="readmore" class="buttonalt" href="#">Read More!</a>
 					</article>
 				</div>
