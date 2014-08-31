@@ -8,10 +8,26 @@
 </head>
 <body ng-controller="SlideController as slide">
 	<header>
-		<nav
-			class="constrain"
-			data-ng-include data-src="'html/nav.htm'"
-			>
+		<nav class="constrain">
+			<ul>
+				<li ng-class="{ active:slide.isSelected(1) }">
+					<a href ng-click="slide.selectTab(1)">
+						<img src="images/logo-finix-2014.png" alt="Finix Logo"/>
+					</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(2) }">
+					<a href ng-click="slide.selectTab(2)">Products</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(3) }">
+					<a href ng-click="slide.selectTab(3)">About</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(4) }">
+					<a href ng-click="slide.selectTab(4)">Blog</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(5) }">
+					<a href ng-click="slide.selectTab(5)">Contact</a>
+				</li>
+			</ul>
 		</nav>
 	</header>
 	<main>
