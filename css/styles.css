@@ -1,4 +1,4 @@
-/* ADD ON CLASSES */
+/* ADD-ON CLASSES */
 .constrain {
 	max-width: 960px;
 	margin: 0 auto;
@@ -235,6 +235,12 @@ li.teamprofile img {
 :-moz-placeholder {color: #f15a24; font-weight: 100;}
 ::-moz-placeholder {color: #f15a24; font-weight: 100;}
 :-ms-input-placeholder {color: #f15a24; font-weight: 100;}
+#blog img {
+	margin: 20px 20px 0 0;
+}
+#blog p {
+	text-align: justify;
+}
 
 /* CONTACT */
 #contact {}
