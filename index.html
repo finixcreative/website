@@ -1,141 +1,55 @@
 <!DOCTYPE html>
 <html ng-app="controllers">
-<head>
-	<title>Digital Marketing and Web Design Solutions for Small Businesses | Finix</title>
-	<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
-	<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
-	<meta name="author" content="Richard Smith">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-	<script type="text/javascript" src="js/buy.js"></script>
-	<script type="text/javascript">// <![CDATA[
-		Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
-	// ]]></script>
-	<script type="text/javascript" src="js/app.js"></script>
-	<link rel="icon" href="images/icons/social/icon-finix.png"/>
-    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
-</head>
+<head data-ng-include data-src="'html/head.htm'"></head>
 <body ng-controller="SlideController as slide">
 	<header>
-		<nav class="constrain">
-			<ul>
-				<li ng-class="{ active:slide.isSelected(1) }">
-					<a href ng-click="slide.selectTab(1)"><img src="images/logo-finix-2014.png" alt="Finix Logo"/></a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(2) }">
-					<a href ng-click="slide.selectTab(2)">Products</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(3) }">
-					<a href ng-click="slide.selectTab(3)">About</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(4) }">
-					<a href ng-click="slide.selectTab(4)">Blog</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(5) }">
-					<a href ng-click="slide.selectTab(5)">Contact</a>
-				</li>
-			</ul>
+		<nav
+			class="constrain"
+			data-ng-include data-src="'html/nav.htm'"
+			>
 		</nav>
 	</header>
 	<main>
-		<section id="home" class="slide" ng-show="slide.isSelected(1)">
-			<div class="content constrain">
-				<img src="images/logo-finix-2014.png" alt="Finix Logo"/>
-				<h1>Digital Marketing &amp; Web Design</h1>
-				<h2>Solutions for Small Businesses</h2>
-				<p>
-					We're a digital marketing and web design agency. Our mission is simple: help great local businesses reach new customers and build lasting brand loyalty. We offer a complete suite of marketing and design services that fit any small business budget. So what are you waiting for?
-				</p>
-				<a class="button" href ng-click="slide.selectTab(2)">Get Started!</a>
-			</div>
+		<section
+			id="home"
+			class="slide"
+			data-ng-include data-src="'html/section-home.htm'"
+			ng-show="slide.isSelected(1)"
+			>
 		</section>
-		<section id="products" class="slide" ng-show="slide.isSelected(2)" ng-controller="StoreController as store">
-			<div class="content constrain">
-				<h3>What does your business need?</h3>
-			</div>
-			<ul id="tiles">
-				<li class="tile" ng-repeat="product in store.products">
-					<a href ng-click="slide.selectTab(6)" background="{{product.src}}">
-						<img src="{{product.src}}" alt="{{product.name}}"/>
-						<div class="text-box">
-							<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
-							<h3>{{product.name}}</h3>
-							<p>{{product.shortdescription}}</p>
-						</div>
-					</a>
-				</li>
-			</ul>
+		<section
+			id="products"
+			class="slide"
+			ng-controller="StoreController as store"
+			data-ng-include data-src="'html/section-products.htm'"
+			ng-show="slide.isSelected(2)"
+			>
 		</section>
-		<section id="about" class="" ng-show="slide.isSelected(3)">
-			<div class="constrain">
-				<article class="content">
-					<h3>Get to know Finix . . .</h3>
-					<p>Finix is a digital marketing and web design team from Boston, formed in 2013. We are committed to providing high-end internet-based marketing, web design, and branding solutions at a price that fits a small business budget. Digital marketing has quickly become the easiest and most effective way to reach customers in your target markets. The internet is the great equalizer, giving small and mid-sized businesses a soapbox to spread their message, generate consumer awareness, and sell their products. The opportunity to develop a strong brand and compete with larger corporations on a national scale is within reach - and all it takes to succeed is some quality help and guidance. <a href ng-click="slide.selectTab(2)">That's where we come in!</a></p>
-				</article>
-				<h3 class="content">Meet the Team!</h3>
-			</div>
-			<ul ng-controller="TeamController as team">
-				<li class="teamprofile" ng-repeat="product in team.products">
-					<a href="http://{{product.link}}" target="_blank">
-						<img src="{{product.portrait}}" alt="{{product.portraitalt}}"/>
-						<div class="text-box">
-							<h3>{{product.name}}</h3>
-							<h4>{{product.title}}</h4>
-							<p>{{product.bio}}</p>
-						</div>
-					</a>
-				</li>
-			</ul>
+		<section
+			id="about"
+			class=""
+			data-ng-include data-src="'html/section-about.htm'"
+			ng-show="slide.isSelected(3)"
+			>
 		</section>
-		<section id="blog" class="" ng-controller="ArticlesController as articles" ng-show="slide.isSelected(4)">
-				<div id="searchbar" class="constrain">
-					<input type="search" name="search" placeholder="Search" ng-model="search">
-				</div>
-				<div id="blogfeed" class="constrain">
-					<article class="content" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
-						<img src="{{ product.image }}" alt="{{ product.caption }}"/>
-						<div class="articletext">
-							<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
-							<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
-							<p>{{product.content}}</p>
-						</div>
-						<a id="readmore" class="buttonalt" href="#">Read More!</a>
-					</article>
-				</div>
-				<div class="constrain content" ng-show="!articles.length">
-					<h3>Womp womp...</h3>
-					<p>Sorry, we couldn't find any articles containing "{{search}}".</p>
-				</div>
+		<section
+			id="blog"
+			class=""
+			data-ng-include data-src="'html/section-blog.htm'"
+			ng-controller="ArticlesController as articles"
+			ng-show="slide.isSelected(4)"
+			>
 		</section>
-		<section id="contact" class="slide" ng-show="slide.isSelected(5)">
-			<div class="content constrain">
-				<h3>Contact Us</h3>
-				<form id="contactform" action="mailto:rs3designs@yahoo.com" method="post" enctype="text/plain">
-					<input class="textline" type="text" name="name" placeholder="Name" size="55" required/>
-					<input class="textline" type="text" name="email" placeholder="Email" size="55" required/>
-					<textarea class="textfield" placeholder="Message" rows="4" cols="40"/></textarea>
-					<input class="submit" type="submit" value="Send"/>
-				</form>
-			</div>
+		<section
+			id="contact"
+			class="slide"
+			data-ng-include data-src="'html/section-contact.htm'"
+			ng-show="slide.isSelected(5)"
+			>
 		</section>
-		<footer>
-			<div class="content constrain">
-				<div class="contact">
-					<h3>Contact Us:</h3>
-					<a>rsmith@finixcreative.com</a><br>
-					<a>203-295-4369</a><br>
-				</div>
-				<div class="social" ng-controller="SocialController as social">
-					<h3>Follow Us:</h3>
-					<a id="{{product.name}}" href="https://{{product.link}}" target="_blank" ng-repeat="product in social.products">
-						<img src="images/icons/social/icon-{{product.name}}.png" alt="{{product.name}} icon"/>
-					</a>
-				</div>
-				<div class="copyright"><p>&copy; 2014 Finix. All rights reserved.</p></div>
-			</div>
+		<footer
+			data-ng-include data-src="'html/footer.htm'"
+			>
 		</footer>
 	</main>
 </body>
