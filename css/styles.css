@@ -237,6 +237,7 @@ li.teamprofile img {
 :-ms-input-placeholder {color: #f15a24; font-weight: 100;}
 #blog img {
 	margin: 20px 20px 0 0;
+	float: left;
 }
 #blog p {
 	text-align: justify;
