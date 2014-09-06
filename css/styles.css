@@ -205,6 +205,9 @@ li.teamprofile img {
 	height: auto;
 	margin: 0;
 }
+li.teamprofile a {
+	display: block;
+}
 
 /* BLOG */
 #blog #searchbar {
