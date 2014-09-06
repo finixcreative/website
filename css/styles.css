@@ -250,6 +250,8 @@ li.teamprofile img {
 /* CONTACT */
 #contact {
 	background: url('../images/background-boston_skyline.png');
+	background-size: cover;
+	background-attachment: fixed;
 }
 #contact .description {
 	width: 50%;
