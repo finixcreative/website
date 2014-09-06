@@ -200,13 +200,14 @@ li.teamprofile {
 	bottom: 0;
 	display: inline-block;
 }
-li.teamprofile img {
-	width: 100%;
-	height: auto;
-	margin: 0;
-}
 li.teamprofile a {
 	display: block;
+}
+li.teamprofile img {
+	width: 100%;
+	height: auto;	
+	margin: 0;
+	float: left;
 }
 
 /* BLOG */
