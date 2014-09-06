@@ -77,7 +77,7 @@
 			title: "Co-founder",
 			portrait: "images/team/richard_smith.jpg",
 			portraitalt: "Richard Smith",
-			bio: "Richard likes mango, avocado, coconut, lime, pineapple and jalapeno.",
+			bio: "Richard puts on his pants like everyone else, one leg at a time.",
 			link: "www.linkedin.com/in/richardrsmith3/",
 		},
 		{
@@ -85,7 +85,7 @@
 			title: "Co-founder",
 			portrait: "images/team/allison_vollmar.jpg",
 			portraitalt: "Allison Vollmar",
-			bio: "Allison loves brunch, and her favorite food is creme brulee french toast.",
+			bio: "Allison woke up like this.",
 			link: "www.linkedin.com/pub/allison-vollmar/8/ab2/610",
 		},
 		{
@@ -93,7 +93,7 @@
 			title: "Director of Mammal Resources",
 			portrait: "images/team/penelope_smith_vollmar.jpg",
 			portraitalt: "Penelope Smith-Vollmar",
-			bio: "Penelope's favorite food is whatever the humans around her are eating.",
+			bio: "Penelope is the actual center of the universe.",
 			link: "#",
 		},
 		{
@@ -101,7 +101,7 @@
 			title: "Desktop Publishing Specialist",
 			portrait: "images/team/chris_baeckstrom.jpg",
 			portraitalt: "Chris Baeckstrom",
-			bio: "Chris enjoys spending time at the beach.",
+			bio: "Chris knows what you did last summer.",
 			link: "www.linkedin.com/pub/christopher-baeckstrom/74/b7a/548",
 		},
 		{
@@ -109,7 +109,31 @@
 			title: "Game Design Specialist",
 			portrait: "images/team/alex_cummings.jpg",
 			portraitalt: "Alex Cummings",
-			bio: "Alex does hilarious impressions.",
+			bio: "Alex makes it rain.",
+			link: "#",
+		},
+		{
+			name: "Andrew Farrar",
+			title: "Web Developer",
+			portrait: "images/team/andrew_farrar.png",
+			portraitalt: "Andrew Farrar",
+			bio: "Andrew takes no prisoners.",
+			link: "#",
+		},
+		{
+			name: "Jack Norcross",
+			title: "Legal Consultant",
+			portrait: "images/team/jack_norcross.png",
+			portraitalt: "Jack Norcross",
+			bio: "Jack is pretty fly for a white guy.",
+			link: "#",
+		},
+		{
+			name: "Matt Fabian",
+			title: "Game Developer",
+			portrait: "images/team/matt_fabian.png",
+			portraitalt: "Matt Fabian",
+			bio: "Matt shot the Sheriff.",
 			link: "#",
 		},
 		{
