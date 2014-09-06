@@ -248,9 +248,15 @@ li.teamprofile img {
 }
 
 /* CONTACT */
-#contact {}
+#contact {
+	background: url('../images/background-boston_skyline.png');
+}
+#contact .description {
+	width: 50%;
+	float: left;
+}
 #contact form {
-	width: 600px;
+	width: 50%;
 	background: #fff;
 	margin: 0 auto;
 }
