@@ -115,7 +115,7 @@
 		{
 			name: "Work with us!",
 			title: "Many positions available",
-			portrait: "images/team/open_position.jpg",
+			portrait: "images/team/batsignal.png",
 			portraitalt: "Open Position",
 			bio: "We're looking for talented, creative individuals to join our growing team.",
 			link: "www.linkedin.com/company/finix",
