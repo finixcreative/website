@@ -258,7 +258,7 @@ li.teamprofile img {
 #contact form {
 	width: 50%;
 	background: #fff;
-	margin: 0 auto;
+	float: left;
 }
 #contact form input, #contact form input[type=textarea] {
 	width: 100%;
