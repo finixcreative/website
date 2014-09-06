@@ -260,6 +260,7 @@ li.teamprofile img {
 #contact form {
 	width: 50%;
 	background: #fff;
+	padding: 20px;
 	float: left;
 }
 #contact form input, #contact form input[type=textarea] {
@@ -270,6 +271,9 @@ li.teamprofile img {
 }
 #contact form input:hover, #contact form input[type=textarea]:hover {
 	background: rgba(0,0,0,0.1);
+}
+#contact form h3 {
+	color: #f15a24;
 }
 
 /* FOOTER */
