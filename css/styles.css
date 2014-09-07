@@ -283,7 +283,7 @@ li.teamprofile img {
 #product .hero {
 	background: url("../images/products/web.jpg");
 	background-size: cover;
-	background-position: fixed;
+	background-attachment: fixed;
 	padding: 20px 0;
 }
 #product .hero img {
