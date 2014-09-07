@@ -279,7 +279,6 @@ li.teamprofile img {
 /* PRODUCT PAGE */
 #product {
 	background: #fff;
-	color: #444;
 }
 #product .hero {
 	background: url("../images/products/web.jpg");
@@ -295,6 +294,7 @@ li.teamprofile img {
 }
 #product .description {
 	width: 50%;
+	color: #444;
 }
 #product form {
 	width: 50%;
