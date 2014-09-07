@@ -279,6 +279,7 @@ li.teamprofile img {
 /* PRODUCT PAGE */
 #product {
 	background: #fff;
+	color: #444;
 }
 #product .hero {
 	background: url("../images/products/web.jpg");
