@@ -284,6 +284,7 @@ li.teamprofile img {
 	background: url("images/products/web.jpg");
 	background-size: cover;
 	background-position: fixed;
+	padding: 20px 0;
 }
 #product .hero img {
 	width: auto;
