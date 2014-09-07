@@ -292,6 +292,13 @@ li.teamprofile img {
 	margin: 0 auto;
 	display: block;
 }
+#product .description {
+	width: 50%;
+}
+#product form {
+	width: 50%;
+	background: #f15a24;
+}
 
 /* FOOTER */
 footer {
