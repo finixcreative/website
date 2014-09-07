@@ -1,9 +1,26 @@
-<img src="" alt=""/>
-<h1>{{product.name}}</h1>
-<p>{{product.longdescription}}</p>
-<ul>
-	<li ng-repeat="product.specs in products">{{product.spec}}</li>
-</ul>
-<div id="orderform" data-ng-include data-src="'form-order.htm'"></div>
-<div id="gallery">{{product.gallery}}</div>
-<div id="testimonials">{{product.testimonials}}</div>
+<div class="hero">
+	<img src="" alt=""/>
+	<h1>{{product.name}}</h1>
+</div>
+<div class="body">
+	<div class="description">
+		<p>{{product.longdescription}}</p>
+		<ul id="details">
+			<li ng-repeat="product.specs in products">
+				{{product.spec}}
+			</li>
+		</ul>
+		<ul id="gallery">
+			<li ng-repeat="product.img in products">
+				<img src="{{product.img}}" alt="{{product.alt}}"/>
+			</li>
+		</ul>
+		<ul id="testimonials">
+			<li ng-repeat="product.testimonial in products">
+				<p>{{product.testimonial}}</p>
+				<a href="{{product.source}}">{{product.source}}</a>
+			</li>
+		</ul>
+	</div>
+	<div class="orderform" data-ng-include data-src="'form-order.htm'"></div>
+</div>
