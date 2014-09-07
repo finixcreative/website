@@ -276,6 +276,11 @@ li.teamprofile img {
 	color: #f15a24;
 }
 
+/* PRODUCT PAGE */
+#product .hero {
+	background: #ccc;
+}
+
 /* FOOTER */
 footer {
 	background: #444;
