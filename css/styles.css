@@ -297,11 +297,13 @@ li.teamprofile img {
 	color: #444;
 	float: left;
 }
-#product form {
+#product .orderform {
 	width: 50%;
+	float: left;
+}
+#product form {
 	height: 200px;
 	background: #f15a24;
-	float: left;
 }
 
 /* FOOTER */
