@@ -75,6 +75,17 @@ a.buttonalt:hover {
 	height: 100%;
 }
 .slide:active {}
+.form {
+	width: 50%;
+	background: #f15a24;
+	float: left;
+}
+form {
+	background: #f15a24;
+	color: #fff;
+	height: auto;
+	padding: 20px;
+}
 
 /* HEADER & NAV */
 header {
@@ -297,15 +308,6 @@ li.teamprofile img {
 	width: 50%;
 	color: #444;
 	float: left;
-}
-#product .orderform {
-	width: 50%;
-	float: left;
-}
-#product form {
-	background: #f15a24;
-	height: 200px;
-	padding: 20px;
 }
 
 /* FOOTER */
