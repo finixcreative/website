@@ -295,10 +295,13 @@ li.teamprofile img {
 #product .description {
 	width: 50%;
 	color: #444;
+	float: left;
 }
 #product form {
 	width: 50%;
+	height: 200px;
 	background: #f15a24;
+	float: left;
 }
 
 /* FOOTER */
