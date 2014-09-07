@@ -277,8 +277,19 @@ li.teamprofile img {
 }
 
 /* PRODUCT PAGE */
+#product {
+	background: #fff;
+}
 #product .hero {
-	background: #ccc;
+	background: url("images/products/web.jpg");
+	background-size: cover;
+	background-position: fixed;
+}
+#product .hero img {
+	width: auto;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
 }
 
 /* FOOTER */
