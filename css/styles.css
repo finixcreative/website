@@ -75,16 +75,15 @@ a.buttonalt:hover {
 	height: 100%;
 }
 .slide:active {}
+.description {
+	width: 50%;
+	color: #444;
+	float: left;
+}
 .form {
 	width: 50%;
 	color: #f15a24;
 	float: left;
-}
-form {
-	background: #f15a24;
-	color: #fff;
-	height: auto;
-	padding: 20px;
 }
 
 /* HEADER & NAV */
@@ -134,6 +133,18 @@ li:hover .text-box {display: block;}
 
 main {padding-top: 55px;}
 article {border-bottom: 1px solid #ccc;}
+
+/* FORM */
+form {
+	background: #f15a24;
+	color: #fff;
+	height: auto;
+	padding: 20px;
+}
+input {
+	width: 100%;
+	padding: 10px;
+}
 
 /* HOME */
 #home {
@@ -265,8 +276,7 @@ li.teamprofile img {
 	background-attachment: fixed;
 }
 #contact .description {
-	width: 50%;
-	float: left;
+	color: ;
 }
 #contact form {
 	width: 50%;
@@ -303,11 +313,6 @@ li.teamprofile img {
 	height: auto;
 	margin: 20px auto 0;
 	display: block;
-}
-#product .description {
-	width: 50%;
-	color: #444;
-	float: left;
 }
 
 /* FOOTER */
