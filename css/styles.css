@@ -157,18 +157,18 @@ input, textarea {
 	width: 100%;
 	padding: 10px;
 	margin: 0;
-	border: 1px solid #24F1C7;
+	border: 1px solid #00A483;
 }
 input:hover,
 input:focus,
 textarea:hover,
 textarea:focus {
-	border: 1px solid #00A483;
+	border: 1px solid #24F1C7;
 	outline: none;
 }
 textarea {height: 200px;}
 button {
-	background: #24F1C7;
+	background: #00A483;	
 	color: #fff;
 	padding: 10px 20px;
 	margin: 15px 0 0 0;
@@ -178,7 +178,7 @@ button {
 	text-transform: uppercase;
 }
 button:hover {
-	background: #00A483;	
+	background: #24F1C7;
 }
 button:focus {
 	outline: none;
