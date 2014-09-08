@@ -166,7 +166,7 @@ textarea:focus {
 	border: 1px solid #00A483;
 	outline: none;
 }
-textarea {height: 300px;}
+textarea {height: 200px;}
 button {
 	background: #24F1C7;
 	color: #fff;
