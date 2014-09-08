@@ -141,10 +141,14 @@ form {
 	height: auto;
 	padding: 20px;
 }
+#contact form {background: #fff;}
 input {
 	width: 100%;
 	padding: 10px;
+	margin: 0;
+	border: none;
 }
+input:hover {background: rgba(0,0,0,0.1);}
 
 /* HOME */
 #home {
@@ -277,24 +281,6 @@ li.teamprofile img {
 }
 #contact .description {
 	color: ;
-}
-#contact form {
-	width: 50%;
-	background: #fff;
-	padding: 20px;
-	float: left;
-}
-#contact form input, #contact form input[type=textarea] {
-	width: 100%;
-	padding: 20px;
-	margin: 0;
-	border: none;
-}
-#contact form input:hover, #contact form input[type=textarea]:hover {
-	background: rgba(0,0,0,0.1);
-}
-#contact form h3 {
-	color: #f15a24;
 }
 
 /* PRODUCT PAGE */
