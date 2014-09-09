@@ -242,6 +242,7 @@ label {}
 	margin: 0 auto;
 	display: block;
 }
+#products p {font-size: 20px;}
 
 /* ABOUT */
 #about {
