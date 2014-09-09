@@ -98,7 +98,7 @@
 		},
 		{
 			name: "Chris Baeckstrom",
-			title: "Desktop Publishing Specialist",
+			title: "Desktop Publisher",
 			portrait: "images/team/chris_baeckstrom.jpg",
 			portraitalt: "Chris Baeckstrom",
 			bio: "Chris knows what you did last summer.",

@@ -321,14 +321,11 @@ li.teamprofile img {
 
 /* PRODUCT PAGE */
 #product {
-	background: #fff;
-	width: 100%;
-	float: left;
-}
-#product .hero {
-	background: url("../images/products/web.jpg");
+	background: url("../images/products/product-web.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	width: 100%;
+	float: left;
 }
 #product .hero img {
 	width: 20%;
