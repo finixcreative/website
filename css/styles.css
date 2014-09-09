@@ -86,6 +86,12 @@ a.buttonalt:hover {
 	height: 100%;
 }
 .slide:active {}
+.logo {
+	width: 15%;
+	height: auto;
+	margin: 20px auto 0;
+	display: block;
+}
 .description {
 	width: 50%;
 	float: left;
@@ -189,12 +195,6 @@ label {}
 	background: url('../images/background-boston_skyline.png');
 	background-size: cover;
 	background-attachment: fixed;
-}
-#home img {
-	height: auto;
-	width: 20%;
-	margin: 20px auto 0;
-	display: block;
 }
 #home p {font-size: 20px;}
 
@@ -326,12 +326,6 @@ li.teamprofile img {
 	color: #fff;
 	width: 100%;
 	float: left;
-}
-#product img {
-	width: 20%;
-	height: auto;
-	margin: 20px auto 0;
-	display: block;
 }
 
 /* FOOTER */
