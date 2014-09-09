@@ -88,12 +88,10 @@ a.buttonalt:hover {
 .slide:active {}
 .description {
 	width: 50%;
-	color: #444;
 	float: left;
 }
 .form {
 	width: 50%;
-	color: #f15a24;
 	float: left;
 }
 
