@@ -324,6 +324,7 @@ li.teamprofile img {
 	background: url("../images/products/product-web.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	color: #fff;
 	width: 100%;
 	float: left;
 }
