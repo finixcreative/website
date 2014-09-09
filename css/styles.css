@@ -327,6 +327,8 @@ li.teamprofile img {
 	width: 100%;
 	float: left;
 }
+#product h1 {margin-bottom: 0;}
+#product form h3 {margin-top: 0;}
 
 /* FOOTER */
 footer {
