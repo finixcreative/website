@@ -31,7 +31,7 @@
 		{
 			name: 'Web Design',
 			src: 'images/products/web.jpg',
-			url: '/products/web',
+			url: 'html/product-web.html',
 			link: 'slide.selectTab(6)',
 			icon: 'images/icons/icon-web.png',
 			icontag: 'Icon - Web',
@@ -41,7 +41,7 @@
 		{
 			name: 'Branding',
 			src: 'images/products/brand.jpg',
-			url: '/products/brand',
+			url: 'html/product-brand.html',
 			link: 'slide.selectTab(7)',
 			icon: 'images/icons/icon-brand.png',
 			icontag: 'Icon - Brand',
@@ -50,7 +50,7 @@
 		{
 			name: 'Email Marketing',
 			src: 'images/products/email.jpg',
-			url: '/products/email',
+			url: 'html/product-email.html',
 			link: 'slide.selectTab(8)',
 			icon: 'images/icons/icon-email.png',
 			icontag: 'Icon - Email',
@@ -59,7 +59,7 @@
 		{
 			name: 'Print Design',
 			src: 'images/products/print.jpg',
-			url: '/products/print',
+			url: 'html/product-print.html',
 			link: 'slide.selectTab(9)',
 			icon: 'images/icons/icon-print.png',
 			icontag: 'Icon - Print',
@@ -68,7 +68,7 @@
 		{
 			name: 'Social Media',
 			src: 'images/products/social.jpg',
-			url: '/products/social',
+			url: 'html/product-social.html',
 			link: 'slide.selectTab(10)',
 			icon: 'images/icons/icon-social.png',
 			icontag: 'Icon - Social',
