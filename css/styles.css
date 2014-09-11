@@ -152,7 +152,7 @@ article {border-bottom: 1px solid #ccc;}
 /* FORM */
 form {
 	background: #fff;
-	color: #00A483;
+	color: #f15a24;
 	height: auto;
 	padding: 20px;
 	box-shadow: 0 0 0 10px rgba(0,0,0,0.2);
@@ -161,18 +161,18 @@ input, textarea {
 	width: 100%;
 	padding: 15px 20px;
 	margin: 0;
-	border: 1px solid #00A483;
+	border: 1px solid #f15a24;
 }
 input:hover,
 input:focus,
 textarea:hover,
 textarea:focus {
-	border: 1px solid #24F1C7;
+	border: 1px solid #f93;
 	outline: none;
 }
 textarea {height: 200px;}
 button {
-	background: #00A483;	
+	background: #f15a24;	
 	color: #fff;
 	padding: 15px 20px;
 	margin: 15px 0 0 0;
@@ -182,7 +182,7 @@ button {
 	text-transform: uppercase;
 }
 button:hover {
-	background: #24F1C7;
+	background: #f93;
 }
 button:focus {
 	outline: none;
@@ -319,7 +319,7 @@ li.teamprofile img {
 }
 
 /* PRODUCT PAGE */
-#product {
+.product {
 	background: url("../images/products/product-web.jpg");
 	background-size: cover;
 	background-attachment: fixed;
@@ -327,8 +327,8 @@ li.teamprofile img {
 	width: 100%;
 	float: left;
 }
-#product h1 {margin-bottom: 0;}
-#product form h3 {margin-top: 0;}
+.product h1 {margin-bottom: 0;}
+.product form h3 {margin-top: 0;}
 
 /* FOOTER */
 footer {

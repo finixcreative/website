@@ -81,11 +81,43 @@
 			>
 		</section>
 		<section
-			id="product"
-			class=""
-			data-ng-include data-src="'html/product.html'"
+			id="product-web"
+			class="product"
+			data-ng-include data-src="'html/product-web.html'"
 			ng-controller="StoreController as store"
 			ng-show="slide.isSelected(6)"
+			>
+		</section>
+		<section
+			id="product-brand"
+			class="product"
+			data-ng-include data-src="'html/product-brand.html'"
+			ng-controller="StoreController as store"
+			ng-show="slide.isSelected(7)"
+			>
+		</section>
+		<section
+			id="product-email"
+			class="product"
+			data-ng-include data-src="'html/product-email.html'"
+			ng-controller="StoreController as store"
+			ng-show="slide.isSelected(8)"
+			>
+		</section>
+		<section
+			id="product-print"
+			class="product"
+			data-ng-include data-src="'html/product-print.html'"
+			ng-controller="StoreController as store"
+			ng-show="slide.isSelected(9)"
+			>
+		</section>
+		<section
+			id="product-social"
+			class="product"
+			data-ng-include data-src="'html/product-social.html'"
+			ng-controller="StoreController as store"
+			ng-show="slide.isSelected(10)"
 			>
 		</section>
 		<footer

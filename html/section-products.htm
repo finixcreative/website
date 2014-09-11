@@ -3,7 +3,7 @@
 </div>
 <ul id="tiles">
 	<li class="tile" ng-repeat="product in store.products">
-		<a href ng-click="slide.selectTab(6)" background="{{product.src}}">
+		<a href ng-click="{{product.link}}" background="{{product.src}}">
 			<img src="{{product.src}}" alt="{{product.name}}"/>
 			<div class="text-box">
 				<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
