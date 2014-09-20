@@ -1,3 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="controllers">
+<head>
+	<title>Digital Marketing and Web Design Solutions for Small Businesses | Finix</title>
+	<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
+	<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
+	<meta name="author" content="Richard Smith">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/icons/social/icon-finix.png"/>
+	<link type="text/css" rel="stylesheet" href="../css/styles.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+	<script type="text/javascript" src="../js/buy.js"></script>
+	<script type="text/javascript">// <![CDATA[
+		Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
+	// ]]></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+	<script type="text/javascript" src="../js/app.js"></script>
+</head>
+<body ng-controller="SlideController as slide">
+	<header>
+		<nav class="constrain">
+			<ul>
+				<li ng-class="{ active:slide.isSelected(1) }">
+					<a href ng-click="slide.selectTab(1)">
+						<img src="images/logo-finix-2014.png" alt="Finix Logo"/>
+					</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(2) }">
+					<a href ng-click="slide.selectTab(2)">Products</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(3) }">
+					<a href ng-click="slide.selectTab(3)">About</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(4) }">
+					<a href ng-click="slide.selectTab(4)">Blog</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(5) }">
+					<a href ng-click="slide.selectTab(5)">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+
+
 <div class="body constrain">
 	<div class="content">
 		<img class="logo" src="images/icons/icon-email.png" alt="Email Marketing"/>
@@ -34,3 +81,11 @@
 		</form>
 	</div>
 </div>
+
+		<footer
+			data-ng-include data-src="'footer.htm'"
+			>
+		</footer>
+	</main>
+</body>
+</html>
