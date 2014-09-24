@@ -320,7 +320,7 @@ li.teamprofile img {
 }
 
 /* PRODUCT PAGE */
-#product-* {
+.product {
 	background: url("../images/products/product-web.jpg");
 	background-size: cover;
 	background-attachment: fixed;
@@ -328,14 +328,8 @@ li.teamprofile img {
 	width: 100%;
 	float: left;
 }
-#product-print,
-#product-email,
-#product-brand,
-#product-social,
-#product-web {}
-
-#product-* h1 {margin-bottom: 0;}
-#product-* form h3 {margin-top: 0;}
+.product h1 {margin-bottom: 0;}
+.product form h3 {margin-top: 0;}
 
 /* FOOTER */
 footer {
