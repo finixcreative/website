@@ -23,69 +23,50 @@
 		<nav class="constrain">
 			<ul>
 				<li ng-class="{ active:slide.isSelected(1) }">
-					<a href ng-click="slide.selectTab(1)">
+					<a href="http://www.finixcreative.com">
 						<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
 					</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(2) }">
-					<a href ng-click="slide.selectTab(2)">Products</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(3) }">
-					<a href ng-click="slide.selectTab(3)">About</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(4) }">
-					<a href ng-click="slide.selectTab(4)">Blog</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(5) }">
-					<a href ng-click="slide.selectTab(5)">Contact</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<main>
-
-
-<div class="body constrain">
-	<div class="content">
-		<img class="logo" src="../images/icons/icon-web.png" alt="Web Design"/>
-		<h1>Web Design</h1>
-	</div>
-	<div class="description content">
-		<h3>Build your online presence</h3>
-		<p>
-			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-		</p>
-		<ul id="details">
-			<li ng-repeat="product.specs in products">
-				{{product.spec}}
-			</li>
-		</ul>
-		<ul id="gallery">
-			<li ng-repeat="product.img in products">
-				<img src="{{product.img}}" alt="{{product.alt}}"/>
-			</li>
-		</ul>
-		<ul id="testimonials">
-			<li ng-repeat="product.testimonial in products">
-				<p>{{product.testimonial}}</p>
-				<a href="{{product.source}}">{{product.source}}</a>
-			</li>
-		</ul>
-	</div>
-	<div class="form content">
-		<form ng-model>
-			<h3>Get started now!</h3>
-			<label for="name">Name</label><input type="text" id="name" name="name" required/>
-			<label for="email">Email</label><input type="text" id="email" name="email" required/>
-			<button type="button" id="buynow" name="submit">Buy Now!</button>
-		</form>
-	</div>
-</div>
-
-		<footer
-			data-ng-include data-src="'footer.htm'"
-			>
-		</footer>
+	<main id="product-web">
+		<div class="body constrain">
+			<div class="content">
+				<img class="logo" src="../images/icons/icon-web.png" alt="Web Design"/>
+				<h1>Web Design</h1>
+			</div>
+			<div class="description content">
+				<h3>Build your online presence</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+				</p>
+				<ul id="details">
+					<li ng-repeat="product.specs in products">
+						{{product.spec}}
+					</li>
+				</ul>
+				<ul id="gallery">
+					<li ng-repeat="product.img in products">
+						<img src="{{product.img}}" alt="{{product.alt}}"/>
+					</li>
+				</ul>
+				<ul id="testimonials">
+					<li ng-repeat="product.testimonial in products">
+						<p>{{product.testimonial}}</p>
+						<a href="{{product.source}}">{{product.source}}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="form content">
+				<form ng-model>
+					<h3>Get started now!</h3>
+					<label for="name">Name</label><input type="text" id="name" name="name" required/>
+					<label for="email">Email</label><input type="text" id="email" name="email" required/>
+					<button type="button" id="buynow" name="submit">Buy Now!</button>
+				</form>
+			</div>
+		</div>
 	</main>
 </body>
 </html>

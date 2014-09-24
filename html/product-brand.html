@@ -27,64 +27,46 @@
 						<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
 					</a>
 				</li>
-				<li ng-class="{ active:slide.isSelected(2) }">
-					<a href ng-click="slide.selectTab(2)">Products</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(3) }">
-					<a href ng-click="slide.selectTab(3)">About</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(4) }">
-					<a href ng-click="slide.selectTab(4)">Blog</a>
-				</li>
-				<li ng-class="{ active:slide.isSelected(5) }">
-					<a href ng-click="slide.selectTab(5)">Contact</a>
-				</li>
 			</ul>
 		</nav>
 	</header>
-	<main>
-
-<div class="body constrain">
-	<div class="content">
-		<img class="logo" src="../images/icons/icon-brand.png" alt="Branding"/>
-		<h1>Branding</h1>
-	</div>
-	<div class="description content">
-		<h3>Stand out from the crowd!</h3>
-		<p>
-			Branding is the first step for any new company. Logo creation and brand identity development give your fledgeling business a professional look. This package covers a single round each of Stage 1 (three preliminary logo sketches for you to choose from) and Stage 2 (turning one sketch into a finished design) of our logo creation process, as well as a single round of color and font selections (three options).
-		</p>
-		<ul id="details">
-			<li ng-repeat="product.specs in products">
-				{{product.spec}}
-			</li>
-		</ul>
-		<ul id="gallery">
-			<li ng-repeat="product.img in products">
-				<img src="{{product.img}}" alt="{{product.alt}}"/>
-			</li>
-		</ul>
-		<ul id="testimonials">
-			<li ng-repeat="product.testimonial in products">
-				<p>{{product.testimonial}}</p>
-				<a href="{{product.source}}">{{product.source}}</a>
-			</li>
-		</ul>
-	</div>
-	<div class="form content">
-		<form ng-model>
-			<h3>Get started now!</h3>
-			<label for="name">Name</label><input type="text" id="name" name="name" required/>
-			<label for="email">Email</label><input type="text" id="email" name="email" required/>
-			<button type="button" id="buynow" name="submit">Buy Now!</button>
-		</form>
-	</div>
-</div>
-
-		<footer
-			data-ng-include data-src="'footer.htm'"
-			>
-		</footer>
+	<main id="product-brand">
+		<div class="body constrain">
+			<div class="content">
+				<img class="logo" src="../images/icons/icon-brand.png" alt="Branding"/>
+				<h1>Branding</h1>
+			</div>
+			<div class="description content">
+				<h3>Stand out from the crowd!</h3>
+				<p>
+					Branding is the first step for any new company. Logo creation and brand identity development give your fledgeling business a professional look. This package covers a single round each of Stage 1 (three preliminary logo sketches for you to choose from) and Stage 2 (turning one sketch into a finished design) of our logo creation process, as well as a single round of color and font selections (three options).
+				</p>
+				<ul id="details">
+					<li ng-repeat="product.specs in products">
+						{{product.spec}}
+					</li>
+				</ul>
+				<ul id="gallery">
+					<li ng-repeat="product.img in products">
+						<img src="{{product.img}}" alt="{{product.alt}}"/>
+					</li>
+				</ul>
+				<ul id="testimonials">
+					<li ng-repeat="product.testimonial in products">
+						<p>{{product.testimonial}}</p>
+						<a href="{{product.source}}">{{product.source}}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="form content">
+				<form ng-model>
+					<h3>Get started now!</h3>
+					<label for="name">Name</label><input type="text" id="name" name="name" required/>
+					<label for="email">Email</label><input type="text" id="email" name="email" required/>
+					<button type="button" id="buynow" name="submit">Buy Now!</button>
+				</form>
+			</div>
+		</div>
 	</main>
 </body>
 </html>
