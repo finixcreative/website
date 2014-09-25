@@ -105,6 +105,10 @@ a.navlogo {
 	height: 55px;
 	padding: 15px 20px;
 }
+a.navlogo img {
+	height: 25px;
+	width: auto;
+}
 
 /* HEADER & NAV */
 header {
@@ -330,6 +334,7 @@ li.teamprofile img {
 	background-attachment: fixed;
 	color: #fff;
 	width: 100%;
+	padding-top: 0;
 	float: left;
 }
 .product h1 {margin-bottom: 0;}
