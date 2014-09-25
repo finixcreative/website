@@ -101,13 +101,11 @@ a.buttonalt:hover {
 	width: 50%;
 	float: left;
 }
-a.navlogo {
-	height: 55px;
-	padding: 15px 20px;
-}
+a.navlogo {}
 a.navlogo img {
-	height: 25px;
+	height: 55px;
 	width: auto;
+	padding: 15px 20px;
 }
 
 /* HEADER & NAV */
