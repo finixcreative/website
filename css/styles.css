@@ -326,8 +326,22 @@ li.teamprofile img {
 }
 
 /* PRODUCT PAGE */
-.product {
+#product-web {
 	background: url("../images/products/product-web.jpg");
+}
+#product-brand {
+	background: url("../images/products/product-brand.jpg");
+}
+#product-email {
+	background: url("../images/products/product-email.jpg");
+}
+#product-print {
+	background: url("../images/products/product-print.jpg");
+}
+#product-social {
+	background: url("../images/products/product-social.jpg");
+}
+.product {
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
