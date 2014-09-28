@@ -328,21 +328,25 @@ li.teamprofile img {
 /* PRODUCT PAGE */
 #product-web {
 	background: url("../images/products/product-web.jpg");
+	background-size: cover;
 }
 #product-brand {
 	background: url("../images/products/product-brand.jpg");
+	background-size: cover;
 }
 #product-email {
 	background: url("../images/products/product-email.jpg");
+	background-size: cover;
 }
 #product-print {
 	background: url("../images/products/product-print.jpg");
+	background-size: cover;
 }
 #product-social {
 	background: url("../images/products/product-social.jpg");
+	background-size: cover;
 }
 .product {
-	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
 	width: 100%;
