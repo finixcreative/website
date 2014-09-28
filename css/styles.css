@@ -327,27 +327,31 @@ li.teamprofile img {
 
 /* PRODUCT PAGE */
 #product-web {
-	background: url("../images/products/product-web.jpg");
+	background: url("../images/products/product-web.jpg") center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 #product-brand {
-	background: url("../images/products/product-brand.jpg");
+	background: url("../images/products/product-brand.jpg") center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 #product-email {
-	background: url("../images/products/product-email.jpg");
+	background: url("../images/products/product-email.jpg") center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 #product-print {
-	background: url("../images/products/product-print.jpg");
+	background: url("../images/products/product-print.jpg") center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 #product-social {
-	background: url("../images/products/product-social.jpg");
+	background: url("../images/products/product-social.jpg") center no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .product {
-	background-attachment: fixed;
 	color: #fff;
 	width: 100%;
 	padding-top: 0;
