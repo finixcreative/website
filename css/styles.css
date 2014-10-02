@@ -76,7 +76,8 @@ a.buttonalt:hover {
 .body {
 	background: #fff;
 	color: #444;
-	display: block;
+	width: 100%;
+	float: left;
 }
 
 /* ADD-ON CLASSES */
