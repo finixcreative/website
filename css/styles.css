@@ -73,7 +73,11 @@ a.buttonalt:hover {
 	background: #f15a24;
 	color: #fff;
 }
-.body {background: #fff;}
+.body {
+	background: #fff;
+	color: #444;
+	display: block;
+}
 
 /* ADD-ON CLASSES */
 .constrain {
@@ -102,7 +106,9 @@ a.buttonalt:hover {
 	width: 50%;
 	float: left;
 }
-a.navlogo {}
+a.navlogo {
+	float: left;
+}
 a.navlogo img {
 	height: 55px;
 	width: auto;
