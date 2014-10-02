@@ -108,7 +108,7 @@ a.buttonalt:hover {
 	float: left;
 }
 a.navlogo {
-	float: left;
+	position: fixed;
 }
 a.navlogo img {
 	height: 55px;
