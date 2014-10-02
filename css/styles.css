@@ -78,6 +78,7 @@ a.buttonalt:hover {
 	color: #444;
 	width: 100%;
 	float: left;
+	box-shadow: 0 0 0 10px rgba(0,0,0,0.2);
 }
 
 /* ADD-ON CLASSES */
@@ -170,7 +171,7 @@ form {
 	color: #f15a24;
 	height: auto;
 	padding: 20px;
-	box-shadow: 0 0 0 10px rgba(0,0,0,0.2);
+	border: 1px solid #f15a24;
 }
 input, textarea {
 	width: 100%;
@@ -347,7 +348,7 @@ li.teamprofile img {
 	background-attachment: fixed;
 }
 #product-email {
-	background: url("../images/products/product-email.jpg") center no-repeat;
+	background: url("../images/products/product-email.jpg") top center no-repeat;
 	background-color: #33ddff;
 	background-size: cover;
 	background-attachment: fixed;
@@ -359,7 +360,7 @@ li.teamprofile img {
 	background-attachment: fixed;
 }
 #product-social {
-	background: url("../images/products/product-social.jpg") center no-repeat;
+	background: url("../images/products/product-social.jpg") bottom center no-repeat;
 	background-color: #3366ff;
 	background-size: cover;
 	background-attachment: fixed;
