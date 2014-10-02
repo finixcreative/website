@@ -20,7 +20,7 @@
 </head>
 <body ng-controller="SlideController as slide">
 	<main id="product-email" class="product">
-		<div class="body constrain">
+		<div class="hero constrain">
 			<a class="navlogo" href="/website/">
 				<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
 			</a>
@@ -28,40 +28,42 @@
 				<img class="logo" src="../images/icons/icon-email.png" alt="Email Marketing"/>
 				<h1>Email Marketing</h1>
 			</div>
-			<div class="description content">
-				<h3>Keep your customers coming back!</h3>
-				<p>
-					The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign, or "email blast". If you're promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals. This package includes HTML email design, mail list management, and campaign result analysis.
-				</p>
-				<ul id="details">
-					<li ng-repeat="product.specs in products">
-						{{product.spec}}
-					</li>
-				</ul>
-				<ul id="gallery">
-					<li ng-repeat="product.img in products">
-						<img src="{{product.img}}" alt="{{product.alt}}"/>
-					</li>
-				</ul>
-				<ul id="testimonials">
-					<li ng-repeat="product.testimonial in products">
-						<p>{{product.testimonial}}</p>
-						<a href="{{product.source}}">{{product.source}}</a>
-					</li>
-				</ul>
-			</div>
-			<div class="form content">
-				<form ng-model>
-					<h3>Get started now!</h3>
-					<label for="name">Name</label><input type="text" id="name" name="name" required/>
-					<label for="email">Email</label><input type="text" id="email" name="email" required/>
-					<button type="button" id="buynow" name="submit">Buy Now!</button>
-				</form>
+		</div>
+		<div class="body">
+			<div class="constrain">
+				<div class="description content">
+					<h3>Keep your customers coming back!</h3>
+					<p>
+						The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign, or "email blast". If you're promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals. This package includes HTML email design, mail list management, and campaign result analysis.
+					</p>
+					<ul id="details">
+						<li ng-repeat="product.specs in products">
+							{{product.spec}}
+						</li>
+					</ul>
+					<ul id="gallery">
+						<li ng-repeat="product.img in products">
+							<img src="{{product.img}}" alt="{{product.alt}}"/>
+						</li>
+					</ul>
+					<ul id="testimonials">
+						<li ng-repeat="product.testimonial in products">
+							<p>{{product.testimonial}}</p>
+							<a href="{{product.source}}">{{product.source}}</a>
+						</li>
+					</ul>
+				</div>
+				<div class="form content">
+					<form ng-model>
+						<h3>Get started now!</h3>
+						<label for="name">Name</label><input type="text" id="name" name="name" required/>
+						<label for="email">Email</label><input type="text" id="email" name="email" required/>
+						<button type="button" id="buynow" name="submit">Buy Now!</button>
+					</form>
+				</div>
 			</div>
 		</div>
-		<footer
-			data-ng-include data-src="'footer.htm'"
-			>
+		<footer data-ng-include data-src="'footer.htm'">
 		</footer>
 	</main>
 </body>

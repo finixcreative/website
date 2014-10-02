@@ -20,7 +20,7 @@
 </head>
 <body ng-controller="SlideController as slide">
 	<main id="product-print" class="product">
-		<div class="body constrain">
+		<div class="hero constrain">
 			<a class="navlogo" href="/website/">
 				<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
 			</a>
@@ -28,40 +28,42 @@
 				<img class="logo" src="../images/icons/icon-print.png" alt="Print Marketing"/>
 				<h1>Print Design</h1>
 			</div>
-			<div class="description content">
-				<h3>Make a strong first impression!</h3>
-				<p>
-					Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you professional, eye-catching designs for all of your needs. This package covers one round of design (with three sketches based on information provided), and one round of turning one sketch into a finished design. This also includes one round of color and font selections.
-				</p>
-				<ul id="details">
-					<li ng-repeat="product.specs in products">
-						{{product.spec}}
-					</li>
-				</ul>
-				<ul id="gallery">
-					<li ng-repeat="product.img in products">
-						<img src="{{product.img}}" alt="{{product.alt}}"/>
-					</li>
-				</ul>
-				<ul id="testimonials">
-					<li ng-repeat="product.testimonial in products">
-						<p>{{product.testimonial}}</p>
-						<a href="{{product.source}}">{{product.source}}</a>
-					</li>
-				</ul>
-			</div>
-			<div class="form content">
-				<form ng-model>
-					<h3>Get started now!</h3>
-					<label for="name">Name</label><input type="text" id="name" name="name" required/>
-					<label for="email">Email</label><input type="text" id="email" name="email" required/>
-					<button type="button" id="buynow" name="submit">Buy Now!</button>
-				</form>
+		</div>
+		<div class="body">
+			<div class="constrain">
+				<div class="description content">
+					<h3>Make a strong first impression!</h3>
+					<p>
+						Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you professional, eye-catching designs for all of your needs. This package covers one round of design (with three sketches based on information provided), and one round of turning one sketch into a finished design. This also includes one round of color and font selections.
+					</p>
+					<ul id="details">
+						<li ng-repeat="product.specs in products">
+							{{product.spec}}
+						</li>
+					</ul>
+					<ul id="gallery">
+						<li ng-repeat="product.img in products">
+							<img src="{{product.img}}" alt="{{product.alt}}"/>
+						</li>
+					</ul>
+					<ul id="testimonials">
+						<li ng-repeat="product.testimonial in products">
+							<p>{{product.testimonial}}</p>
+							<a href="{{product.source}}">{{product.source}}</a>
+						</li>
+					</ul>
+				</div>
+				<div class="form content">
+					<form ng-model>
+						<h3>Get started now!</h3>
+						<label for="name">Name</label><input type="text" id="name" name="name" required/>
+						<label for="email">Email</label><input type="text" id="email" name="email" required/>
+						<button type="button" id="buynow" name="submit">Buy Now!</button>
+					</form>
+				</div>
 			</div>
 		</div>
-		<footer
-			data-ng-include data-src="'footer.htm'"
-			>
+		<footer data-ng-include data-src="'footer.htm'">
 		</footer>
 	</main>
 </body>

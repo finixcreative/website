@@ -20,7 +20,7 @@
 </head>
 <body ng-controller="SlideController as slide">
 	<main id="product-social" class="product">
-		<div class="body constrain">
+		<div class="hero constrain">
 			<a class="navlogo" href="/website/">
 				<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
 			</a>
@@ -28,40 +28,42 @@
 				<img class="logo" src="../images/icons/icon-social.png" alt="Social Media Marketing"/>
 				<h1>Social Media Marketing</h1>
 			</div>
-			<div class="description content">
-				<h3>Build lasting customer loyalty!</h3>
-				<p>
-					Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between the number of social media "likes" and the value of each company's stock. Every business has something to gain from building a social media presence! This package includes custom banner graphic creation for any social media site of your choosing (from Facebook, Twitter, Google+, Linkedin, or YouTube), and logo optimization.
-				</p>
-				<ul id="details">
-					<li ng-repeat="product.specs in products">
-						{{product.spec}}
-					</li>
-				</ul>
-				<ul id="gallery">
-					<li ng-repeat="product.img in products">
-						<img src="{{product.img}}" alt="{{product.alt}}"/>
-					</li>
-				</ul>
-				<ul id="testimonials">
-					<li ng-repeat="product.testimonial in products">
-						<p>{{product.testimonial}}</p>
-						<a href="{{product.source}}">{{product.source}}</a>
-					</li>
-				</ul>
-			</div>
-			<div class="form content">
-				<form ng-model>
-					<h3>Get started now!</h3>
-					<label for="name">Name</label><input type="text" id="name" name="name" required/>
-					<label for="email">Email</label><input type="text" id="email" name="email" required/>
-					<button type="button" id="buynow" name="submit">Buy Now!</button>
-				</form>
+		</div>
+		<div class="body">
+			<div class="constrain">
+				<div class="description content">
+					<h3>Build lasting customer loyalty!</h3>
+					<p>
+						Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between the number of social media "likes" and the value of each company's stock. Every business has something to gain from building a social media presence! This package includes custom banner graphic creation for any social media site of your choosing (from Facebook, Twitter, Google+, Linkedin, or YouTube), and logo optimization.
+					</p>
+					<ul id="details">
+						<li ng-repeat="product.specs in products">
+							{{product.spec}}
+						</li>
+					</ul>
+					<ul id="gallery">
+						<li ng-repeat="product.img in products">
+							<img src="{{product.img}}" alt="{{product.alt}}"/>
+						</li>
+					</ul>
+					<ul id="testimonials">
+						<li ng-repeat="product.testimonial in products">
+							<p>{{product.testimonial}}</p>
+							<a href="{{product.source}}">{{product.source}}</a>
+						</li>
+					</ul>
+				</div>
+				<div class="form content">
+					<form ng-model>
+						<h3>Get started now!</h3>
+						<label for="name">Name</label><input type="text" id="name" name="name" required/>
+						<label for="email">Email</label><input type="text" id="email" name="email" required/>
+						<button type="button" id="buynow" name="submit">Buy Now!</button>
+					</form>
+				</div>
 			</div>
 		</div>
-		<footer
-			data-ng-include data-src="'footer.htm'"
-			>
+		<footer data-ng-include data-src="'footer.htm'">
 		</footer>
 	</main>
 </body>
