@@ -323,6 +323,10 @@ li.teamprofile img {
 }
 #blog p {
 	text-align: justify;
+	overflow: hidden;
+}
+#blog p::after {
+	content: "&hellip;";
 }
 
 /* CONTACT */
