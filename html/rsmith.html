@@ -44,10 +44,12 @@
 					<h3>Experience</h3>
 					<ul>
 						<li ng-repeat="job in team.products[0].jobs">
-							{{ job.position }}
-							{{ job.company }}, {{ job.location }}
-							{{ job.dates }}
+							<p>
+							{{ job.position }}<br>
+							{{ job.company }}, {{ job.location }}<br>
+							{{ job.dates }}<br>
 							{{ job.description }}
+							</p>
 						</li>
 					</ul>
 				</div>
@@ -55,9 +57,11 @@
 					<h3>Education</h3>
 					<ul>
 						<li ng-repeat="school in team.products[0].schools">
-							{{ school.name }}
-							{{ school.location }} | {{ school.dates }}
+							<p>
+							{{ school.name }}<br>
+							{{ school.location }} | {{ school.dates }}<br>
 							{{ school.degree }}
+							</p>
 						</li>
 					</ul>
 				</div>
@@ -65,9 +69,11 @@
 					<h3>References</h3>
 					<ul>
 						<li ng-repeat="reference in team.products[0].references">
-							{{ reference.name }}
-							{{ reference.position }}, {{ reference.company }}
+							<p>
+							{{ reference.name }}<br>
+							{{ reference.position }}, {{ reference.company }}<br>
 							{{ reference.email }} | {{ reference.phone }}
+							</p>
 						</li>
 					</ul>
 				</div>
