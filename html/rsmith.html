@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="controllers">
+<head>
+	<title>Richard Smith, Co-founder | Finix</title>
+	<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
+	<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
+	<meta name="author" content="Richard Smith">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="../images/icons/social/icon-finix.png"/>
+	<link type="text/css" rel="stylesheet" href="../css/styles.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+	<script type="text/javascript" src="../js/buy.js"></script>
+	<script type="text/javascript">// <![CDATA[
+		Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
+	// ]]></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+	<script type="text/javascript" src="../js/app.js"></script>
+</head>
+<body ng-controller="TeamController as team">
+	<main>
+		<div class="hero constrain">
+			<a class="navlogo" href="/website/">
+				<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
+			</a>
+			<div class="content">
+				<h1>{{ team.product[0].name }}</h1>
+				<h2>{{ team.product[0].title }}</h2>
+				<h5>{{ team.product[0].email }} | {{ team.product[0].phone }}</h5>
+			</div>
+		</div>
+		<div class="body">
+			<div class="constrain">
+				<div class="content">
+					<h3>Introduction</h3>
+					<p>{{ team.product[0].letter.p1 }}</p>
+					<p>{{ team.product[0].letter.p2 }}</p>
+					<p>{{ team.product[0].letter.p3 }}</p>
+					<p>{{ team.product[0].letter.p4 }}</p>
+					<p>{{ team.product[0].letter.p5 }}</p>
+				</div>
+				<div class="content">
+					<h3>Experience</h3>
+					<ul>
+						<li ng-repeat="job in team.product[0].jobs">
+							{{ job.position }}
+							{{ job.company }}, {{ job.location }}
+							{{ job.dates }}
+							{{ job.description }}
+						</li>
+					</ul>
+				</div>
+				<div class="content">
+					<h3>Education</h3>
+					<ul>
+						<li ng-repeat="school in team.product[0].schools">
+							{{ school.name }}
+							{{ school.location }} | {{ school.dates }}
+							{{ school.degree }}
+						</li>
+					</ul>
+				</div>
+				<div class="content">
+					<h3>References</h3>
+					<ul>
+						<li ng-repeat="reference in team.product[0].references">
+							{{ reference.name }}
+							{{ reference.position }}, {{ reference.company }}
+							{{ reference.email }} | {{ reference.phone }}
+						</li>
+					</ul>
+				</div>
+				<div class="content">
+					<h3>Portfolio</h3>
+				</div>
+				<!--<ul id="tiles">
+					<li class="tile" ng-repeat="product in store.products">
+						<a href="{{product.url}}" background="{{product.src}}">
+							<img src="{{product.src}}" alt="{{product.name}}"/>
+							<div class="text-box">
+								<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
+								<h3>{{product.name}}</h3>
+								<p>{{product.shortdescription}}</p>
+							</div>
+						</a>
+					</li>
+				</ul>-->
+			</div>
+		</div>
+		<footer data-ng-include data-src="'footer.htm'"></footer>
+	</main>
+</body>
+</html>
