@@ -25,25 +25,25 @@
 				<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
 			</a>
 			<div class="content">
-				<h1>{{ team.product[0].name }}</h1>
-				<h2>{{ team.product[0].title }}</h2>
-				<h5>{{ team.product[0].email }} | {{ team.product[0].phone }}</h5>
+				<h1>{{ team.products[0].name }}</h1>
+				<h2>{{ team.products[0].title }}</h2>
+				<h5>{{ team.products[0].email }} | {{ team.products[0].phone }}</h5>
 			</div>
 		</div>
 		<div class="body">
 			<div class="constrain">
 				<div class="content">
 					<h3>Introduction</h3>
-					<p>{{ team.product[0].letter.p1 }}</p>
-					<p>{{ team.product[0].letter.p2 }}</p>
-					<p>{{ team.product[0].letter.p3 }}</p>
-					<p>{{ team.product[0].letter.p4 }}</p>
-					<p>{{ team.product[0].letter.p5 }}</p>
+					<p>{{ team.products[0].letter.p1 }}</p>
+					<p>{{ team.products[0].letter.p2 }}</p>
+					<p>{{ team.products[0].letter.p3 }}</p>
+					<p>{{ team.products[0].letter.p4 }}</p>
+					<p>{{ team.products[0].letter.p5 }}</p>
 				</div>
 				<div class="content">
 					<h3>Experience</h3>
 					<ul>
-						<li ng-repeat="job in team.product[0].jobs">
+						<li ng-repeat="job in team.products[0].jobs">
 							{{ job.position }}
 							{{ job.company }}, {{ job.location }}
 							{{ job.dates }}
@@ -54,7 +54,7 @@
 				<div class="content">
 					<h3>Education</h3>
 					<ul>
-						<li ng-repeat="school in team.product[0].schools">
+						<li ng-repeat="school in team.products[0].schools">
 							{{ school.name }}
 							{{ school.location }} | {{ school.dates }}
 							{{ school.degree }}
@@ -64,7 +64,7 @@
 				<div class="content">
 					<h3>References</h3>
 					<ul>
-						<li ng-repeat="reference in team.product[0].references">
+						<li ng-repeat="reference in team.products[0].references">
 							{{ reference.name }}
 							{{ reference.position }}, {{ reference.company }}
 							{{ reference.email }} | {{ reference.phone }}
