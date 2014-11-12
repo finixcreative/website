@@ -83,7 +83,7 @@
 			portrait: "images/team/richard_smith.jpg",
 			portraitalt: "Richard Smith",
 			bio: "Richard puts on his pants like everyone else, one leg at a time.",
-			link: "/rsmith",
+			link: "html/rsmith.html",
 			altlink: "www.linkedin.com/in/richardrsmith3/",
 			letter: {
 				p1: "I am excited to apply for Hampshire College’s new position of Chief Creative Officer. Hampshire is a beacon of progressive ideas, creativity, and intellectual freedom. The college’s incomparable opportunities attract students from all over the world, who represent a vast range of cultural norms and economic backgrounds. Building strong connections with that diverse and scattered audience poses unique marketing challenges, so Hampshire needs a dedicated and talented CCO to lead the way.",
