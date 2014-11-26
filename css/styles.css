@@ -89,6 +89,9 @@ a.buttonalt:hover {
 .content {
 	padding: 20px;
 }
+.hero {
+	text-align: center;
+}
 .slide {
 	width: 100%;
 	height: 100%;
