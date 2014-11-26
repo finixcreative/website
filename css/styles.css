@@ -330,9 +330,6 @@ li.teamprofile img {
 	text-align: justify;
 	overflow: hidden;
 }
-#blog p::after {
-	content: "&hellip;";
-}
 
 /* CONTACT */
 #contact {
