@@ -114,12 +114,14 @@ a.buttonalt:hover {
 a.navlogo {
 	position: absolute;
 	display: block;
+	padding: 15px 20px;
 }
 a.navlogo:hover {background: rgba(0,0,0,0.2);}
 a.navlogo img {
-	height: 55px;
-	width: auto;
-	padding: 11px 20px;
+	height: 30px;
+	margin: -5px 0;
+	padding: 0;
+	float: left;
 }
 
 /* HEADER & NAV */
