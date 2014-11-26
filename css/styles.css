@@ -112,9 +112,11 @@ a.buttonalt:hover {
 	float: left;
 }
 a.navlogo {
-	position: absolute;
-	display: block;
+	height: 55px;
 	padding: 15px 20px;
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
 }
 a.navlogo:hover {background: rgba(0,0,0,0.2);}
 a.navlogo img {
