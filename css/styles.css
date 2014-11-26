@@ -109,7 +109,7 @@ a.buttonalt:hover {
 	float: left;
 }
 a.navlogo {
-	position: fixed;
+	position: absolute;
 }
 a.navlogo:hover {background: rgba(0,0,0,0.2);}
 a.navlogo img {
