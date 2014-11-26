@@ -100,7 +100,7 @@
 					company: "Finix",
 					location: "Boston, MA",
 					dates: "5/13 - Present",
-					description: ""Launched Finix in May, 2013. Led operations, product development, marketing, training, and recruitment. Established the Finix brand, designed the company logo and website, and created the original product suite. Developed efficient processes to quickly fulfill each product package at minimal expense.",
+					description: "Launched Finix in May, 2013. Led operations, product development, marketing, training, and recruitment. Established the Finix brand, designed the company logo and website, and created the original product suite. Developed efficient processes to quickly fulfill each product package at minimal expense.",
 				},
 				{
 					position: "Creative Director",
