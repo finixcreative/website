@@ -32,6 +32,17 @@
 		</div>
 		<div class="body">
 			<div class="constrain">
+				<ul>
+					<li ng-class="{ active:slide.isSelected(1) }">
+						<a href ng-click="slide.selectTab(1)">Introduction</a>
+					</li>
+					<li ng-class="{ active:slide.isSelected(2) }">
+						<a href ng-click="slide.selectTab(2)">Resume</a>
+					</li>
+					<li ng-class="{ active:slide.isSelected(3) }">
+						<a href ng-click="slide.selectTab(3)">Portfolio</a>
+					</li>
+				</ul>
 				<div class="content">
 					<h3>Introduction</h3>
 					<p>{{ team.products[0].letter.p1 }}</p>
