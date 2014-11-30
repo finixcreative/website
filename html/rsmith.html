@@ -107,12 +107,12 @@
 							</a>
 						</li>
 					</ul>-->
-				</section>
+				</section class="content" ng-show="slide.isSelected(4)">
 					<h3>Contact</h3>
 					<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a>
 					<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a>
 					<a href="{{ team.product[0].linkedin }}">Linkedin</a>
-
+				</section>
 			</div>
 		</div>
 		<footer data-ng-include data-src="'footer.htm'"></footer>
