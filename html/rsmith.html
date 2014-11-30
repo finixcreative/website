@@ -49,15 +49,15 @@
 		</div>
 		<div class="body">
 			<div class="constrain">
-				<div class="content" ng-show="slide.isSelected(1)">
+				<section class="content" ng-show="slide.isSelected(1)">
 					<h3>Introduction</h3>
 					<p>{{ team.products[0].letter.p1 }}</p>
 					<p>{{ team.products[0].letter.p2 }}</p>
 					<p>{{ team.products[0].letter.p3 }}</p>
 					<p>{{ team.products[0].letter.p4 }}</p>
 					<p>{{ team.products[0].letter.p5 }}</p>
-				</div>
-				<div class="content" ng-show="slide.isSelected(2)">
+				</section>
+				<section class="content" ng-show="slide.isSelected(2)">
 					<h3>Experience</h3>
 					<ul>
 						<li ng-repeat="job in team.products[0].jobs">
@@ -69,8 +69,6 @@
 							</p>
 						</li>
 					</ul>
-				</div>
-				<div class="content" ng-show="slide.isSelected(3)">
 					<h3>Education</h3>
 					<ul>
 						<li ng-repeat="school in team.products[0].schools">
@@ -81,8 +79,6 @@
 							</p>
 						</li>
 					</ul>
-				</div>
-				<div class="content">
 					<h3>References</h3>
 					<ul>
 						<li ng-repeat="reference in team.products[0].references">
@@ -93,22 +89,23 @@
 							</p>
 						</li>
 					</ul>
-				</div>
-				<div class="content">
+
+				</section>
+				<section class="content" ng-show="slide.isSelected(3)">
 					<h3>Portfolio</h3>
-				</div>
-				<!--<ul id="tiles">
-					<li class="tile" ng-repeat="product in store.products">
-						<a href="{{product.url}}" background="{{product.src}}">
-							<img src="{{product.src}}" alt="{{product.name}}"/>
-							<div class="text-box">
-								<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
-								<h3>{{product.name}}</h3>
-								<p>{{product.shortdescription}}</p>
-							</div>
-						</a>
-					</li>
-				</ul>-->
+					<!--<ul id="tiles">
+						<li class="tile" ng-repeat="product in store.products">
+							<a href="{{product.url}}" background="{{product.src}}">
+								<img src="{{product.src}}" alt="{{product.name}}"/>
+								<div class="text-box">
+									<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
+									<h3>{{product.name}}</h3>
+									<p>{{product.shortdescription}}</p>
+								</div>
+							</a>
+						</li>
+					</ul>-->
+				</section>
 			</div>
 		</div>
 		<footer data-ng-include data-src="'footer.htm'"></footer>
