@@ -19,11 +19,28 @@
 	<script type="text/javascript" src="../js/app.js"></script>
 </head>
 <body ng-controller="TeamController as team">
+	<header>
+		<nav class="constrain">
+			<ul>
+				<li>
+					<a class="navlogo" href="/website/">
+						<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
+					</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(1) }">
+					<a href ng-click="slide.selectTab(1)">Introduction</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(2) }">
+					<a href ng-click="slide.selectTab(2)">Resume</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(3) }">
+					<a href ng-click="slide.selectTab(3)">Portfolio</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 	<main class="product">
 		<div class="hero constrain">
-			<a class="navlogo" href="/website/">
-				<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
-			</a>
 			<div class="content">
 				<h1>{{ team.products[0].name }}</h1>
 				<h2>{{ team.products[0].title }}</h2>
@@ -31,19 +48,6 @@
 			</div>
 		</div>
 		<div class="body">
-			<nav>
-				<ul class="constrain">
-					<li ng-class="{ active:slide.isSelected(1) }">
-						<a href ng-click="slide.selectTab(1)">Introduction</a>
-					</li>
-					<li ng-class="{ active:slide.isSelected(2) }">
-						<a href ng-click="slide.selectTab(2)">Resume</a>
-					</li>
-					<li ng-class="{ active:slide.isSelected(3) }">
-						<a href ng-click="slide.selectTab(3)">Portfolio</a>
-					</li>
-				</ul>
-			</nav>
 			<div class="constrain">
 				<div class="content" ng-show="slide.isSelected(1)">
 					<h3>Introduction</h3>
