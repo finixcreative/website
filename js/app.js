@@ -196,7 +196,7 @@
 			portrait: "images/team/allison_vollmar.jpg",
 			portraitalt: "Allison Vollmar",
 			bio: "Allison woke up like this.",
-			link: "www.linkedin.com/pub/allison-vollmar/8/ab2/610",
+			link: "http://www.linkedin.com/pub/allison-vollmar/8/ab2/610",
 		},
 		{
 			name: "Penelope the Puppy",
@@ -204,7 +204,7 @@
 			portrait: "images/team/penelope_smith_vollmar.jpg",
 			portraitalt: "Penelope Smith-Vollmar",
 			bio: "Penelope is the actual center of the universe.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Chris Baeckstrom",
@@ -212,7 +212,7 @@
 			portrait: "images/team/chris_baeckstrom.jpg",
 			portraitalt: "Chris Baeckstrom",
 			bio: "Chris is pretty fly for a white guy.",
-			link: "www.linkedin.com/pub/christopher-baeckstrom/74/b7a/548",
+			link: "http://www.linkedin.com/pub/christopher-baeckstrom/74/b7a/548",
 		},
 		{
 			name: "Alex Cummings",
@@ -220,7 +220,7 @@
 			portrait: "images/team/alex_cummings.jpg",
 			portraitalt: "Alex Cummings",
 			bio: "Alex makes it rain.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Andrew Farrar",
@@ -228,7 +228,7 @@
 			portrait: "images/team/andrew_farrar.png",
 			portraitalt: "Andrew Farrar",
 			bio: "Andrew takes no prisoners.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Jack Norcross",
@@ -236,7 +236,7 @@
 			portrait: "images/team/jack_norcross.png",
 			portraitalt: "Jack Norcross",
 			bio: "Jack is chillin' like a villain.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Matt Fabian",
@@ -244,7 +244,7 @@
 			portrait: "images/team/matt_fabian.png",
 			portraitalt: "Matt Fabian",
 			bio: "Matt shot the Sheriff.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Adam Cole",
@@ -252,7 +252,7 @@
 			portrait: "images/team/adam_cole.png",
 			portraitalt: "Adam Cole",
 			bio: "Adam is keeping it real.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Liam Norris",
@@ -260,7 +260,7 @@
 			portrait: "images/team/liam_norris.png",
 			portraitalt: "Liam Norris",
 			bio: "Liam has been around the world in 80 days.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Daniel Johnson",
@@ -268,7 +268,7 @@
 			portrait: "images/team/daniel_johnson.png",
 			portraitalt: "Daniel Johnson",
 			bio: "Dan made the Kessel Run in 12 parsecs.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Chris Vickery",
@@ -276,7 +276,7 @@
 			portrait: "images/team/chris_vickery.png",
 			portraitalt: "Chris Vickery",
 			bio: "Chris brakes for NOTHING.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Jason Jefferson",
@@ -284,7 +284,7 @@
 			portrait: "images/team/jason_jefferson.png",
 			portraitalt: "Jason Jefferson",
 			bio: "Jason reached Oregon without losing any oxen.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Mike Reinganum",
@@ -292,7 +292,7 @@
 			portrait: "images/team/mike_reinganum.png",
 			portraitalt: "Mike Reinganum",
 			bio: "Mike wrote a song for you.",
-			link: "#",
+			link: "",
 		},
 		{
 			name: "Work with us!",
@@ -300,7 +300,7 @@
 			portrait: "images/team/portrait-batsignal.png",
 			portraitalt: "Open Position",
 			bio: "We're looking for talented, creative individuals to join our growing team.",
-			link: "www.linkedin.com/company/finix",
+			link: "http://www.linkedin.com/company/finix",
 		},
 	];
 
