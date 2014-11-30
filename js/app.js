@@ -82,6 +82,7 @@
 			title: "Co-founder",
 			email: "rsmith@finixcreative.com",
 			phone: "203-295-4369",
+			linkedin: "https://www.linkedin.com/in/richardrsmith3",
 			portrait: "images/team/richard_smith.jpg",
 			portraitalt: "Richard Smith",
 			bio: "Richard puts on his pants like everyone else, one leg at a time.",
