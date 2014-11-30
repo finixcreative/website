@@ -43,7 +43,7 @@
 						<a href ng-click="slide.selectTab(3)">Portfolio</a>
 					</li>
 				</ul>
-				<div class="content">
+				<div class="content" ng-show="slide.isSelected(1)">
 					<h3>Introduction</h3>
 					<p>{{ team.products[0].letter.p1 }}</p>
 					<p>{{ team.products[0].letter.p2 }}</p>
@@ -51,7 +51,7 @@
 					<p>{{ team.products[0].letter.p4 }}</p>
 					<p>{{ team.products[0].letter.p5 }}</p>
 				</div>
-				<div class="content">
+				<div class="content" ng-show="slide.isSelected(2)">
 					<h3>Experience</h3>
 					<ul>
 						<li ng-repeat="job in team.products[0].jobs">
@@ -64,7 +64,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="content">
+				<div class="content" ng-show="slide.isSelected(3)">
 					<h3>Education</h3>
 					<ul>
 						<li ng-repeat="school in team.products[0].schools">
