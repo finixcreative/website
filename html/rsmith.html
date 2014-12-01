@@ -116,7 +116,22 @@
 				</section>
 			</div>
 		</div>
-		<footer data-ng-include data-src="'footer.htm'"></footer>
+		<footer data-ng-include data-src="'footer.htm'">
+			<div class="content constrain">
+				<div class="contact">
+					<h3>Contact Us:</h3>
+					<a>rsmith@finixcreative.com</a><br>
+					<a>203-295-4369</a><br>
+				</div>
+				<div class="social" ng-controller="SocialController as social">
+					<h3>Follow Us:</h3>
+					<a id="{{product.name}}" href="https://{{product.link}}" target="_blank" ng-repeat="product in social.products">
+						<img src="images/icons/social/icon-{{product.name}}.png" alt="{{product.name}} icon"/>
+					</a>
+				</div>
+				<div class="copyright"><p>&copy; 2014 Finix. All rights reserved.</p></div>
+			</div>
+		</footer>
 	</main>
 </body>
 </html>
