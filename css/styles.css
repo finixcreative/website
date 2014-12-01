@@ -300,7 +300,7 @@ li.teamprofile img {
 	margin: 0;
 	float: left;
 }
-.teammember hero {text-shadow: 0 0 20px #444;}
+body.teammember hero {text-shadow: 0 0 20px #444;}
 body#rsmith {
 	background: url("http://www.istockphoto.com/image-zoom/20234953/3/380/164/zoom-20234953-3.jpg") top center no-repeat;
 	background-size: cover;
