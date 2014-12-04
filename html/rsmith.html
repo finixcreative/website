@@ -50,52 +50,48 @@
 			</div>
 		</div>
 		<div class="body">
-			<div class="constrain" ng-show="slide.isSelected(1)">
-				<section class="content">
-					<h3>Introduction</h3>
-					<p>{{ team.products[0].letter.p1 }}</p>
-					<p>{{ team.products[0].letter.p2 }}</p>
-					<p>{{ team.products[0].letter.p3 }}</p>
-					<p>{{ team.products[0].letter.p4 }}</p>
-					<p>{{ team.products[0].letter.p5 }}</p>
-				</section>
-			</div>
-			<div class="constrain" ng-show="slide.isSelected(2)">
-				<section class="content">
-					<h3>Experience</h3>
-					<ul>
-						<li ng-repeat="job in team.products[0].jobs">
-							<p>
-							{{ job.position }}<br>
-							{{ job.company }}, {{ job.location }}<br>
-							{{ job.dates }}<br>
-							{{ job.description }}
-							</p>
-						</li>
-					</ul>
-					<h3>Education</h3>
-					<ul>
-						<li ng-repeat="school in team.products[0].schools">
-							<p>
-							{{ school.name }}<br>
-							{{ school.location }} | {{ school.dates }}<br>
-							{{ school.degree }}
-							</p>
-						</li>
-					</ul>
-					<h3>References</h3>
-					<ul>
-						<li ng-repeat="reference in team.products[0].references">
-							<p>
-							{{ reference.name }}<br>
-							{{ reference.position }}, {{ reference.company }}<br>
-							{{ reference.email }} | {{ reference.phone }}
-							</p>
-						</li>
-					</ul>
-	
-				</section>
-			</div>
+			<section class="content constrain" ng-show="slide.isSelected(1)">
+				<h3>Introduction</h3>
+				<p>{{ team.products[0].letter.p1 }}</p>
+				<p>{{ team.products[0].letter.p2 }}</p>
+				<p>{{ team.products[0].letter.p3 }}</p>
+				<p>{{ team.products[0].letter.p4 }}</p>
+				<p>{{ team.products[0].letter.p5 }}</p>
+			</section>
+			<section class="content constrain" ng-show="slide.isSelected(2)">
+				<h3>Experience</h3>
+				<ul>
+					<li ng-repeat="job in team.products[0].jobs">
+						<p>
+						{{ job.position }}<br>
+						{{ job.company }}, {{ job.location }}<br>
+						{{ job.dates }}<br>
+						{{ job.description }}
+						</p>
+					</li>
+				</ul>
+				<h3>Education</h3>
+				<ul>
+					<li ng-repeat="school in team.products[0].schools">
+						<p>
+						{{ school.name }}<br>
+						{{ school.location }} | {{ school.dates }}<br>
+						{{ school.degree }}
+						</p>
+					</li>
+				</ul>
+				<h3>References</h3>
+				<ul>
+					<li ng-repeat="reference in team.products[0].references">
+						<p>
+						{{ reference.name }}<br>
+						{{ reference.position }}, {{ reference.company }}<br>
+						{{ reference.email }} | {{ reference.phone }}
+						</p>
+					</li>
+				</ul>
+
+			</section>
 			<div class="" ng-show="slide.isSelected(3)">
 				<section class="content constrain">
 					<h3>Portfolio</h3>
@@ -112,7 +108,7 @@
 					</li>
 				</ul>
 			</div>
-			<section class="content" ng-show="slide.isSelected(4)">
+			<section class="content constrain" ng-show="slide.isSelected(4)">
 				<h3>Contact</h3>
 				<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a><br>
 				<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a><br>
