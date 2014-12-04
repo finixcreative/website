@@ -50,8 +50,8 @@
 			</div>
 		</div>
 		<div class="body">
-			<div class="constrain">
-				<section class="content" ng-show="slide.isSelected(1)">
+			<div class="constrain" ng-show="slide.isSelected(1)">
+				<section class="content">
 					<h3>Introduction</h3>
 					<p>{{ team.products[0].letter.p1 }}</p>
 					<p>{{ team.products[0].letter.p2 }}</p>
@@ -59,7 +59,9 @@
 					<p>{{ team.products[0].letter.p4 }}</p>
 					<p>{{ team.products[0].letter.p5 }}</p>
 				</section>
-				<section class="content" ng-show="slide.isSelected(2)">
+			</div>
+			<div class="constrain" ng-show="slide.isSelected(2)">
+				<section class="content">
 					<h3>Experience</h3>
 					<ul>
 						<li ng-repeat="job in team.products[0].jobs">
@@ -91,29 +93,31 @@
 							</p>
 						</li>
 					</ul>
-
-				</section>
-				<section class="content" ng-show="slide.isSelected(3)">
-					<h3>Portfolio</h3>
-					<ul id="tiles">
-						<li class="teamprofile" ng-repeat="portfolio in team.products[0].portfolios">
-							<a href="{{portfolio.anchor}}">
-								<img src="{{portfolio.preview.src}}" alt="{{portfolio.preview.alt}}"/>
-								<div class="text-box">
-									<h3>{{portfolio.client}}</h3>
-									<h4>{{portfolio.design}}</h4>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</section>
-				<section class="content" ng-show="slide.isSelected(4)">
-					<h3>Contact</h3>
-					<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a><br>
-					<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a><br>
-					<a href="{{ team.product[0].linkedin }}">Linkedin</a>
+	
 				</section>
 			</div>
+			<div class="" ng-show="slide.isSelected(1)">
+				<section class="content constrain" ng-show="slide.isSelected(3)">
+					<h3>Portfolio</h3>
+				</section>
+				<ul id="tiles">
+					<li class="teamprofile" ng-repeat="portfolio in team.products[0].portfolios">
+						<a href="{{portfolio.anchor}}">
+							<img src="{{portfolio.preview.src}}" alt="{{portfolio.preview.alt}}"/>
+							<div class="text-box">
+								<h3>{{portfolio.client}}</h3>
+								<h4>{{portfolio.design}}</h4>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<section class="content" ng-show="slide.isSelected(4)">
+				<h3>Contact</h3>
+				<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a><br>
+				<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a><br>
+				<a href="{{ team.product[0].linkedin }}">Linkedin</a>
+			</section>
 		</div>
 		<footer>
 			<div class="content constrain">
