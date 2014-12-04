@@ -95,18 +95,17 @@
 				</section>
 				<section class="content" ng-show="slide.isSelected(3)">
 					<h3>Portfolio</h3>
-					<!--<ul id="tiles">
-						<li class="tile" ng-repeat="product in store.products">
-							<a href="{{product.url}}" background="{{product.src}}">
-								<img src="{{product.src}}" alt="{{product.name}}"/>
+					<ul id="tiles">
+						<li class="tile" ng-repeat="portfolio in team.products[0].portfolios">
+							<a href="{{portfolio.anchor}}">
+								<img src="{{portfolio.preview.src}}" alt="{{portfolio.preview.alt}}"/>
 								<div class="text-box">
-									<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
-									<h3>{{product.name}}</h3>
-									<p>{{product.shortdescription}}</p>
+									<h3>{{portfolio.client}}</h3>
+									<h4>{{portfolio.design}}</h4>
 								</div>
 							</a>
 						</li>
-					</ul>-->
+					</ul>
 				</section>
 				<section class="content" ng-show="slide.isSelected(4)">
 					<h3>Contact</h3>
