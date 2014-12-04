@@ -183,6 +183,16 @@
 					phone: "978-749-8221",
 				},
 			],
+			portfolio: [
+				{
+					client: "",
+					design: "",
+					preview: {
+						src: "",
+						alt: "",
+					},
+				},
+			],
 		},
 		{
 			name: "Allison Vollmar",
