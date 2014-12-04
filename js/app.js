@@ -188,7 +188,7 @@
 					client: "Google",
 					design: "Logo",
 					preview: {
-						src: "images/team/allison_vollmar.jpg",
+						src: "../images/team/allison_vollmar.jpg",
 						alt: "",
 					},
 					anchor: "http://www.google.com",
@@ -197,7 +197,7 @@
 					client: "Apple",
 					design: "Website",
 					preview: {
-						src: "images/team/penelope_smith_vollmar.jpg",
+						src: "../images/team/penelope_smith_vollmar.jpg",
 						alt: "",
 					},
 					anchor: "http://www.apple.com",
