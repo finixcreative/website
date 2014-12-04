@@ -183,7 +183,7 @@
 					phone: "978-749-8221",
 				},
 			],
-			portfolio: [
+			portfolios: [
 				{
 					client: "",
 					design: "",
