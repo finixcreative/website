@@ -50,21 +50,23 @@
 			</div>
 		</div>
 		<div class="body">
-			<section class="content constrain" ng-show="slide.isSelected(1)">
-				<article>
+			<section class="constrain" ng-show="slide.isSelected(1)">
+				<article class="content">
 					<h2>Introduction</h2>
 				</article>
-				<p>{{ team.products[0].letter.p1 }}</p>
-				<p>{{ team.products[0].letter.p2 }}</p>
-				<p>{{ team.products[0].letter.p3 }}</p>
-				<p>{{ team.products[0].letter.p4 }}</p>
-				<p>{{ team.products[0].letter.p5 }}</p>
+				<article class="content">
+					<p>{{ team.products[0].letter.p1 }}</p>
+					<p>{{ team.products[0].letter.p2 }}</p>
+					<p>{{ team.products[0].letter.p3 }}</p>
+					<p>{{ team.products[0].letter.p4 }}</p>
+					<p>{{ team.products[0].letter.p5 }}</p>
+				</article>
 			</section>
-			<section class="content constrain" ng-show="slide.isSelected(2)">
-				<article>
+			<section class="constrain" ng-show="slide.isSelected(2)">
+				<article class="content">
 					<h2>Resume</h2>
 				</article>
-				<article>
+				<article class="content">
 					<h3>Experience</h3>
 					<ul>
 						<li ng-repeat="job in team.products[0].jobs">
@@ -80,7 +82,7 @@
 						</li>
 					</ul>
 				</article>
-				<article>
+				<article class="content">
 					<h3>Education</h3>
 					<ul>
 						<li ng-repeat="school in team.products[0].schools">
@@ -92,7 +94,7 @@
 						</li>
 					</ul>
 				</article>
-				<article>
+				<article class="content">
 					<h3>References</h3>
 					<ul>
 						<li ng-repeat="reference in team.products[0].references">
@@ -106,9 +108,9 @@
 				</article>
 			</section>
 			<section ng-show="slide.isSelected(3)">
-				<article class="content constrain">
+				<div class="content constrain">
 					<h2>Portfolio</h2>
-				</article>
+				</div>
 				<ul id="tiles">
 					<li class="teamprofile" ng-repeat="portfolio in team.products[0].portfolios">
 						<a href="{{portfolio.anchor}}">
@@ -121,15 +123,17 @@
 					</li>
 				</ul>
 			</section>
-			<section class="content constrain" ng-show="slide.isSelected(4)">
-				<article>
+			<section class="constrain" ng-show="slide.isSelected(4)">
+				<article class="content">
 					<h2>Contact</h2>
 				</article>
-				<p>
-					<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a><br>
-					<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a><br>
-					<a href="{{ team.product[0].linkedin }}">Linkedin</a>
-				</p>
+				<article class="content">
+					<p>
+						<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a><br>
+						<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a><br>
+						<a href="{{ team.product[0].linkedin }}">Linkedin</a>
+					</p>
+				</article>
 			</section>
 		</div>
 		<footer>
