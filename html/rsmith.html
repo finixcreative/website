@@ -68,12 +68,15 @@
 					<h3>Experience</h3>
 					<ul>
 						<li ng-repeat="job in team.products[0].jobs">
-							<h4>{{ job.position }}</h4>
-							<p>
-							{{ job.company }}, {{ job.location }}<br>
-							{{ job.dates }}<br>
-							<em>{{ job.description }}</em>
-							</p>
+							<img src="job.logo.src" alt="job.logo.alt" class="joblogo">
+							<div class="jobtext">
+								<h4>{{ job.position }}</h4>
+								<p>
+								{{ job.company }}, {{ job.location }}<br>
+								{{ job.dates }}<br>
+								<em>{{ job.description }}</em>
+								</p>
+							</div>
 						</li>
 					</ul>
 				</article>
