@@ -105,10 +105,10 @@
 					</ul>
 				</article>
 			</section>
-			<div class="" ng-show="slide.isSelected(3)">
-				<section class="content constrain">
+			<section ng-show="slide.isSelected(3)">
+				<article class="content constrain">
 					<h2>Portfolio</h2>
-				</section>
+				</article>
 				<ul id="tiles">
 					<li class="teamprofile" ng-repeat="portfolio in team.products[0].portfolios">
 						<a href="{{portfolio.anchor}}">
@@ -120,7 +120,7 @@
 						</a>
 					</li>
 				</ul>
-			</div>
+			</section>
 			<section class="content constrain" ng-show="slide.isSelected(4)">
 				<article>
 					<h2>Contact</h2>
