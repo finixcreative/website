@@ -51,7 +51,7 @@
 		</div>
 		<div class="body">
 			<section class="content constrain" ng-show="slide.isSelected(1)">
-				<h3>Introduction</h3>
+				<h2>Introduction</h2>
 				<p>{{ team.products[0].letter.p1 }}</p>
 				<p>{{ team.products[0].letter.p2 }}</p>
 				<p>{{ team.products[0].letter.p3 }}</p>
@@ -59,32 +59,33 @@
 				<p>{{ team.products[0].letter.p5 }}</p>
 			</section>
 			<section class="content constrain" ng-show="slide.isSelected(2)">
+				<h2>Resume</h2>
 				<h3>Experience</h3>
 				<ul>
 					<li ng-repeat="job in team.products[0].jobs">
+						<h4>{{ job.position }}</h4>
 						<p>
-						{{ job.position }}<br>
 						{{ job.company }}, {{ job.location }}<br>
 						{{ job.dates }}<br>
-						{{ job.description }}
+						<em>{{ job.description }}</em>
 						</p>
 					</li>
 				</ul>
 				<h3>Education</h3>
 				<ul>
 					<li ng-repeat="school in team.products[0].schools">
+						<h4>{{ school.name }}</h4>
 						<p>
-						{{ school.name }}<br>
 						{{ school.location }} | {{ school.dates }}<br>
-						{{ school.degree }}
+						<em>{{ school.degree }}</em>
 						</p>
 					</li>
 				</ul>
 				<h3>References</h3>
 				<ul>
 					<li ng-repeat="reference in team.products[0].references">
+						<h4>{{ reference.name }}</h4>
 						<p>
-						{{ reference.name }}<br>
 						{{ reference.position }}, {{ reference.company }}<br>
 						{{ reference.email }} | {{ reference.phone }}
 						</p>
@@ -94,7 +95,7 @@
 			</section>
 			<div class="" ng-show="slide.isSelected(3)">
 				<section class="content constrain">
-					<h3>Portfolio</h3>
+					<h2>Portfolio</h2>
 				</section>
 				<ul id="tiles">
 					<li class="teamprofile" ng-repeat="portfolio in team.products[0].portfolios">
@@ -109,7 +110,7 @@
 				</ul>
 			</div>
 			<section class="content constrain" ng-show="slide.isSelected(4)">
-				<h3>Contact</h3>
+				<h2>Contact</h2>
 				<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a><br>
 				<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a><br>
 				<a href="{{ team.product[0].linkedin }}">Linkedin</a>
