@@ -72,6 +72,12 @@ a.buttonalt:hover {
 	background: #f52;
 	color: #fff;
 }
+p a {
+	color: #444;
+}
+p a:hover {
+	color: #f52;
+}
 .body {
 	background: #fff;
 	color: #444;
