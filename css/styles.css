@@ -182,6 +182,7 @@ li:hover .text-box {display: block;}
 
 main {padding-top: 55px;}
 article {border-bottom: 1px solid #ccc;}
+article:last-child {border-bottom: none;}
 
 /* FORM */
 form {
