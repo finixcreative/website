@@ -100,7 +100,7 @@ p a:hover {
 	width: 200px;
 	border: 4px solid #fff;
 	border-radius: 50%;
-	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
 }
 .slide {
 	width: 100%;
