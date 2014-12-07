@@ -70,7 +70,7 @@
 					<h3>Experience</h3>
 					<ul>
 						<li ng-repeat="job in team.products[0].jobs">
-							<img src="job.logo.src" alt="job.logo.alt" class="joblogo">
+							<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="joblogo">
 							<div class="jobtext">
 								<h4>{{ job.position }}</h4>
 								<p>
