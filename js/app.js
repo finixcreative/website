@@ -87,7 +87,7 @@
 			portraitalt: "Richard Smith",
 			bio: "Richard puts on his pants like everyone else, one leg at a time.",
 			link: "/website/html/rsmith.html",
-			altlink: "www.linkedin.com/in/richardrsmith3/",
+			linkedin: "www.linkedin.com/in/richardrsmith3/",
 			letter: {
 				p1: "I am excited to apply for Hampshire College’s new position of Chief Creative Officer. Hampshire is a beacon of progressive ideas, creativity, and intellectual freedom. The college’s incomparable opportunities attract students from all over the world, who represent a vast range of cultural norms and economic backgrounds. Building strong connections with that diverse and scattered audience poses unique marketing challenges, so Hampshire needs a dedicated and talented CCO to lead the way.",
 				p2: "I have a profound appreciation for Hampshire’s tradition of academic excellence, and I hold the motto “Non Satis Scire” close to heart. I graduated with my degree in “Graphic Design & Sign Making” in May 2009, but retained my passion for learning. Soon after, I expanded my horizons from “traditional” studio art and graphic design by adopting web code as my new paintbrush, and the internet as my new canvass. I gained valuable skills and experience at every stop in my career, excelling as a Production Artist, Marketing Consultant, Web Designer, UX Designer, Creative Director, and Co-founder of a creative collective. I have found success with companies of all sizes, across a range of industries, because great design is a universal language.",
