@@ -430,7 +430,7 @@ footer .social a {
 }
 footer .social img,
 img.saturate {
-	width: 36px;
+	width: 30px;
 	height: auto;
 	margin: 0;
 	filter: saturate(0%);
