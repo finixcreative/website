@@ -428,7 +428,8 @@ footer .social a {
 	padding: 3px;
 	float: left;
 }
-footer .social img {
+footer .social img,
+img.saturate {
 	width: 36px;
 	height: auto;
 	margin: 0;
@@ -440,7 +441,8 @@ footer .social img {
 	box-shadow: 0 0 0 1px #fff;
 }
 footer a:hover {color: #f52;}
-footer a:hover img {
+footer a:hover img,
+img.saturate:hover {
 	filter: saturate(100%);
 	-webkit-filter: saturate(100%);
 	-moz-filter: saturate(100%);
