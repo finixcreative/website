@@ -99,6 +99,10 @@
 				{
 					position: "Co-Founder",
 					company: "Finix",
+					logo: {
+						src: "",
+						alt: "",
+					},
 					location: "Boston, MA",
 					dates: "5/13 - Present",
 					description: "Launched Finix in May, 2013. Led operations, product development, marketing, training, and recruitment. Established the Finix brand, designed the company logo and website, and created the original product suite. Developed efficient processes to quickly fulfill each product package at minimal expense.",
@@ -106,6 +110,10 @@
 				{
 					position: "Creative Director",
 					company: "Associated Environmental Systems",
+					logo: {
+						src: "",
+						alt: "",
+					},
 					location: "Ayer, MA",
 					dates: "8/14 - Present",
 					description: "Led all marketing and web development initiatives. Strengthened the AES brand and advance the company's position in the market. Designed a new corporate website focused towards user experience and conversion rates. Led a team of developers to create a dashboard app to record data from AES devices, which was instrumental in landing a large hardware contract with Apple. Developed successful marketing strategies targeting high-profile clients including Apple, Boeing, DuPont, General Electric, General Motors, Gillette, Google, Hewlett Packard, Intel, Lockheed Martin, NASA, Nest, Procter & Gamble, and the U.S. Army.",
@@ -113,6 +121,10 @@
 				{
 					position: "Web Designer",
 					company: "Propel Marketing",
+					logo: {
+						src: "",
+						alt: "",
+					},
 					location: "Quincy, MA",
 					dates: "10/12 – 8/14",
 					description: "Designed websites, logos, and social media assets for client companies representing dozens of industries. Entrusted as quality assurance expert responsible for all responsive websites products built for client companies. Worked closely with the software development team as a User Interface and User Experience design specialist for both internal and client-facing product and application features.",
@@ -120,6 +132,10 @@
 				{
 					position: "Marketing Coordinator",
 					company: "Coldwell Banker",
+					logo: {
+						src: "",
+						alt: "",
+					},
 					location: "Cambridge, MA",
 					dates: "9/11 - 10/12",
 					description: "Designed and produced marketing materials, including printed flyers, brochures, window displays, newspaper and magazine advertisements, e-flyers and email marketing campaigns. Worked closely with real estate brokers to customize marketing materials to fit the needs of individual client homeowners. Provided web design and photography services beyond the defined responsibilities of the position.",
@@ -127,6 +143,10 @@
 				{
 					position: "Production Artist",
 					company: "Monitor Group",
+					logo: {
+						src: "",
+						alt: "",
+					},
 					location: "Cambridge, MA",
 					dates: "9/10 – 7/11",
 					description: "Created high-end visual graphics and logos for clients, edited internal PowerPoint presentations for consultants, and produced presentation materials. Designed and illustrated posters to advertise company events. Consistently requested to lead design projects beyond the responsibilities and scope of the Production Artist position.",
@@ -135,12 +155,20 @@
 			schools: [
 				{
 					name: "Hampshire College",
+					logo: {
+						src: "",
+						alt: "",
+					},
 					location: "Amherst, MA",
 					dates: "9/05 - 5/09",
 					degree: "Bachelor of Arts, Graphic Design & Sign Making",
 				},
 				{
 					name: "Northern Essex Community College",
+					logo: {
+						src: "",
+						alt: "",
+					},
 					location: "Haverhill, MA",
 					dates: "9/04 - 6/11",
 					degree: "Completed courses in Quark Xpress, Dreamweaver, Flash, HTML, and CSS.",
