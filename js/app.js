@@ -232,7 +232,7 @@
 				},
 				{
 					client: "Samsung",
-					design: "social media",
+					design: "Social Media",
 					preview: {
 						src: "../images/team/richard_smith.jpg",
 						alt: "",
@@ -241,13 +241,23 @@
 				},
 				{
 					client: "General Motors",
-					design: "branding",
+					design: "Branding",
 					preview: {
 						src: "../images/team/alex_cummings.jpg",
 						alt: "",
 					},
 					anchor: "http://www.apple.com",
 				},
+				{
+					client: "Exxon Mobil",
+					design: "Print Design",
+					preview: {
+						src: "../images/team/chris_baeckstrom.jpg",
+						alt: "",
+					},
+					anchor: "http://www.apple.com",
+				},
+
 			],
 		},
 		{
