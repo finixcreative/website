@@ -230,6 +230,24 @@
 					},
 					anchor: "http://www.apple.com",
 				},
+				{
+					client: "Samsung",
+					design: "social media",
+					preview: {
+						src: "../images/team/richard_smith.jpg",
+						alt: "",
+					},
+					anchor: "http://www.apple.com",
+				},
+				{
+					client: "General Motors",
+					design: "branding",
+					preview: {
+						src: "../images/team/alex_cummings.jpg",
+						alt: "",
+					},
+					anchor: "http://www.apple.com",
+				},
 			],
 		},
 		{
