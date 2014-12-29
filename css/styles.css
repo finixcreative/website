@@ -321,7 +321,12 @@ body#rsmith {
 	background-size: cover;
 	background-attachment: fixed;
 }
-.jobtext {padding-left: 20px;}
+.jobtext {
+	padding-left: 20px;
+}
+.jobtext p {
+	margin-top: 0px;
+}
 
 /* BLOG */
 #blog #searchbar {

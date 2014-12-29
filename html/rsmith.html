@@ -72,11 +72,11 @@
 						<li class="card" ng-repeat="job in team.products[0].jobs">
 							<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="joblogo sixth">
 							<div class="jobtext fivesixth">
-								<h4>{{ job.position }}</h4>
 								<p>
-								{{ job.company }}, {{ job.location }}<br>
-								{{ job.dates }}<br>
-								<em>{{ job.description }}</em>
+									<b>{{ job.position }}</b>
+									{{ job.company }}, {{ job.location }}<br>
+									{{ job.dates }}<br>
+									<em>{{ job.description }}</em>
 								</p>
 							</div>
 						</li>
@@ -87,9 +87,9 @@
 					<ul>
 						<li ng-repeat="school in team.products[0].schools">
 							<p>
-							<b>{{ school.name }}</b>
-							{{ school.location }} | {{ school.dates }}<br>
-							<em>{{ school.degree }}</em>
+								<b>{{ school.name }}</b>
+								{{ school.location }} | {{ school.dates }}<br>
+								<em>{{ school.degree }}</em>
 							</p>
 						</li>
 					</ul>
@@ -98,10 +98,10 @@
 					<h3>References</h3>
 					<ul>
 						<li ng-repeat="reference in team.products[0].references">
-							<h4>{{ reference.name }}</h4>
 							<p>
-							{{ reference.position }}, {{ reference.company }}<br>
-							{{ reference.email }} | {{ reference.phone }}
+								<b>{{ reference.name }}</b>
+								{{ reference.position }}, {{ reference.company }}<br>
+								{{ reference.email }} | {{ reference.phone }}
 							</p>
 						</li>
 					</ul>
