@@ -100,7 +100,7 @@
 					position: "Co-Founder",
 					company: "Finix",
 					logo: {
-						src: "images/logos/logo-finix",
+						src: "../images/logos/logo-finix.jpg",
 						alt: "Finix Logo",
 					},
 					location: "Boston, MA",
@@ -111,7 +111,7 @@
 					position: "Creative Director",
 					company: "Associated Environmental Systems",
 					logo: {
-						src: "images/logos/logo-aes",
+						src: "../images/logos/logo-aes.jpg",
 						alt: "AES Logo",
 					},
 					location: "Ayer, MA",
@@ -122,7 +122,7 @@
 					position: "Web Designer",
 					company: "Propel Marketing",
 					logo: {
-						src: "images/logos/logo-propel",
+						src: "../images/logos/logo-propel.jpg",
 						alt: "Propel Marketing Logo",
 					},
 					location: "Quincy, MA",
@@ -133,7 +133,7 @@
 					position: "Marketing Coordinator",
 					company: "Coldwell Banker",
 					logo: {
-						src: "images/logos/logo-coldwell",
+						src: "../images/logos/logo-coldwell.jpg",
 						alt: "Coldwell Banker Logo",
 					},
 					location: "Cambridge, MA",
@@ -144,7 +144,7 @@
 					position: "Production Artist",
 					company: "Monitor Group",
 					logo: {
-						src: "images/logos/logo-monitor",
+						src: "../images/logos/logo-monitor.jpg",
 						alt: "Monitor Group Logo",
 					},
 					location: "Cambridge, MA",
