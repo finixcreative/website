@@ -321,6 +321,7 @@ body#rsmith {
 	background-size: cover;
 	background-attachment: fixed;
 }
+.card {padding-bottom: 20px;}
 .jobtext {
 	padding-left: 20px;
 }
