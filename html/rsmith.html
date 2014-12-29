@@ -51,7 +51,7 @@
 		</div>
 		<div class="body">
 			<section class="constrain" ng-show="slide.isSelected(1)">
-				<article class="content">
+				<article class="content full">
 					<h2>Introduction</h2>
 				</article>
 				<article class="content">
@@ -63,15 +63,15 @@
 				</article>
 			</section>
 			<section class="constrain" ng-show="slide.isSelected(2)">
-				<article class="content">
+				<article class="content full">
 					<h2>Resume</h2>
 				</article>
-				<article class="content">
+				<article class="content full">
 					<h3>Experience</h3>
 					<ul>
 						<li class="card" ng-repeat="job in team.products[0].jobs">
-							<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="joblogo quarter">
-							<div class="jobtext threequarter content">
+							<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="joblogo sixth">
+							<div class="jobtext fivesixth content">
 								<h4>{{ job.position }}</h4>
 								<p>
 								{{ job.company }}, {{ job.location }}<br>
@@ -82,19 +82,19 @@
 						</li>
 					</ul>
 				</article>
-				<article class="content">
+				<article class="content full">
 					<h3>Education</h3>
 					<ul>
 						<li ng-repeat="school in team.products[0].schools">
-							<h4>{{ school.name }}</h4>
 							<p>
+							<b>{{ school.name }}</b>
 							{{ school.location }} | {{ school.dates }}<br>
 							<em>{{ school.degree }}</em>
 							</p>
 						</li>
 					</ul>
 				</article>
-				<article class="content">
+				<article class="content full">
 					<h3>References</h3>
 					<ul>
 						<li ng-repeat="reference in team.products[0].references">
@@ -111,8 +111,8 @@
 				<div class="content constrain">
 					<h2>Portfolio</h2>
 				</div>
-				<ul id="tiles">
-					<li class="teamprofile" ng-repeat="portfolio in team.products[0].portfolios">
+				<ul id="tiles" class="full">
+					<li class="teamprofile fifth" ng-repeat="portfolio in team.products[0].portfolios">
 						<a href="{{portfolio.anchor}}">
 							<img src="{{portfolio.preview.src}}" alt="{{portfolio.preview.alt}}"/>
 							<div class="text-box">
