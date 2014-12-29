@@ -321,6 +321,7 @@ body#rsmith {
 	background-size: cover;
 	background-attachment: fixed;
 }
+.jobtext {padding-left: 20px;}
 
 /* BLOG */
 #blog #searchbar {
@@ -522,4 +523,5 @@ img.saturate:hover {
 	.mobile {
 		display: block;
 	}
+	.jobtext {padding-left: 0px;}
 }
