@@ -322,11 +322,11 @@ body#rsmith {
 	background-attachment: fixed;
 }
 .card {padding-bottom: 20px;}
-.jobtext {
+.text {
 	padding-left: 20px;
 }
-.jobtext p {
-	margin-top: 0px;
+.text p {
+	margin: 0px;
 }
 
 /* BLOG */
@@ -529,5 +529,5 @@ img.saturate:hover {
 	.mobile {
 		display: block;
 	}
-	.jobtext {padding-left: 0px;}
+	.text {padding-left: 0px;}
 }

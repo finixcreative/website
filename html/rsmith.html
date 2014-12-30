@@ -54,7 +54,7 @@
 				<article class="content full">
 					<h2>Introduction</h2>
 				</article>
-				<article class="content">
+				<article class="content full">
 					<p>{{ team.products[0].letter.p1 }}</p>
 					<p>{{ team.products[0].letter.p2 }}</p>
 					<p>{{ team.products[0].letter.p3 }}</p>
@@ -70,8 +70,8 @@
 					<h3>Experience</h3>
 					<ul>
 						<li class="card full" ng-repeat="job in team.products[0].jobs">
-							<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="joblogo sixth">
-							<div class="jobtext fivesixth">
+							<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="logo sixth">
+							<div class="text fivesixth">
 								<p>
 									<b>{{ job.position }}</b><br>
 									{{ job.company }}, {{ job.location }} | {{ job.dates }}<br>
@@ -85,11 +85,14 @@
 					<h3>Education</h3>
 					<ul>
 						<li ng-repeat="school in team.products[0].schools">
-							<p>
-								<b>{{ school.name }}</b>
-								{{ school.location }} | {{ school.dates }}<br>
-								<em>{{ school.degree }}</em>
-							</p>
+							<img src="{{ school.logo.src }}" alt="{{ school.logo.alt }}" class="logo sixth">
+							<div class="text fivesixth">
+								<p>
+									<b>{{ school.name }}</b><br>
+									{{ school.location }} | {{ school.dates }}<br>
+									<em>{{ school.degree }}</em>
+								</p>
+							</div>
 						</li>
 					</ul>
 				</article>
@@ -97,11 +100,14 @@
 					<h3>References</h3>
 					<ul>
 						<li ng-repeat="reference in team.products[0].references">
-							<p>
-								<b>{{ reference.name }}</b>
-								{{ reference.position }}, {{ reference.company }}<br>
-								{{ reference.email }} | {{ reference.phone }}
-							</p>
+							<img src="{{ reference.portrait.src }}" alt="{{ reference.portrait.alt }}" class="logo sixth">
+							<div class="text fivesixth">
+								<p>
+									<b>{{ reference.name }}</b><br>
+									{{ reference.position }}, {{ reference.company }}<br>
+									<a href="mailto:{{ reference.email }}">{{ reference.email }}</a> | <a href="tel:{{ reference.phone }}">{{ reference.phone }}</a> | <a href="{{ reference.linkedin }}">Linkedin</a>
+								</p>
+							</div>
 						</li>
 					</ul>
 				</article>

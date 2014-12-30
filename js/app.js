@@ -156,8 +156,8 @@
 				{
 					name: "Hampshire College",
 					logo: {
-						src: "",
-						alt: "",
+						src: "../images/logos/logo-hampshire.jpg",
+						alt: "Hampshire College Logo",
 					},
 					location: "Amherst, MA",
 					dates: "9/05 - 5/09",
@@ -166,8 +166,8 @@
 				{
 					name: "Northern Essex Community College",
 					logo: {
-						src: "",
-						alt: "",
+						src: "../images/logos/logo-necc.jpg",
+						alt: "Northern Essex Community College Logo",
 					},
 					location: "Haverhill, MA",
 					dates: "9/04 - 6/11",
@@ -177,38 +177,51 @@
 			references: [
 				{
 					name: "Jonathan Biddle",
+					portrait: {
+						src: "../images/portraits/portrait-jon_biddle.jpg",
+						alt: "Jonathan Biddle Portrait",
+					},
 					position: "Senior Software Engineer",
 					company: "CustomMade",
-					email: "",
+					email: "biddlej@gmail.com",
 					phone: "585-414-2344",
+					linkedin: "http://www.linkedin.com/in/jonbiddle",
 				},
 				{
 					name: "Tyrel Souza",
-					position: "Ruby/Python Developer",
-					company: "Propel Marketing",
+					portrait: {
+						src: "../images/portraits/portrait-tyrel_souza.jpg",
+						alt: "Tyrel Souza Portrait",
+					},
+					position: "Senior Application Developer",
+					company: "Akamai Technologies",
 					email: "tyrel@tyrelsouza.com",
 					phone: "603-313-0388",
+					linkedin: "http://www.linkedin.com/in/tyrelsouza",
 				},
 				{
 					name: "Cynthia Andre",
+					portrait: {
+						src: "../images/portraits/portrait-cynthia_andre.jpg",
+						alt: "Cynthia Andre Portrait",
+					},
 					position: "Product Manager",
 					company: "Propel Marketing",
-					email: "candre@propelmarketing.com",
-					phone: "candre4@babson.edu",
+					email: "candre4@babson.edu",
+					phone: "617-433-7246",
+					linkedin: "http://www.linkedin.com/in/cynthiaandre",
 				},
 				{
 					name: "Schae Koteles",
-					position: "Head of Marketing",
+					portrait: {
+						src: "../images/portraits/portrait-schae_koteles.jpg",
+						alt: "Schae Koteles Portrait",
+					},
+					position: "Marketing Associate",
 					company: "Coldwell Banker",
-					email: "",
+					email: "koteles@gmail.com",
 					phone: "617-864-8566",
-				},
-				{
-					name: "Doug Richardson",
-					position: "Vice President & CIO",
-					company: "Vicor",
-					email: "",
-					phone: "978-749-8221",
+					linkedin: "http://www.linkedin.com/in/paisleyschae",
 				},
 			],
 			portfolios: [
