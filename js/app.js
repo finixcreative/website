@@ -226,51 +226,176 @@
 			],
 			portfolios: [
 				{
-					client: "Google",
+					client: "Associated Environmental Systems",
 					design: "Logo",
 					preview: {
-						src: "../images/team/allison_vollmar.jpg",
-						alt: "",
+						src: "../images/portfolio/logo-aes.png",
+						alt: "AES Logo",
 					},
-					anchor: "http://www.google.com",
+					anchor: "http://git-aes.github.io/WebsiteUpdate/",
 				},
 				{
-					client: "Apple",
+					client: "Associated Environmental Systems",
 					design: "Website",
 					preview: {
-						src: "../images/team/penelope_smith_vollmar.jpg",
-						alt: "",
+						src: "../images/portfolio/web-aes_website.png",
+						alt: "AES Website",
 					},
-					anchor: "http://www.apple.com",
+					anchor: "http://git-aes.github.io/WebsiteUpdate/",
 				},
 				{
-					client: "Samsung",
-					design: "Social Media",
+					client: "Associated Environmental Systems",
+					design: "Dashboard App",
 					preview: {
-						src: "../images/team/richard_smith.jpg",
-						alt: "",
+						src: "../images/portfolio/web-aes_dashboard.png",
+						alt: "AES Dashboard",
 					},
-					anchor: "http://www.apple.com",
+					anchor: "http://git-aes.github.io/XChange-Dash/",
 				},
 				{
-					client: "General Motors",
-					design: "Branding",
+					client: "Americana Leather",
+					design: "Logo",
 					preview: {
-						src: "../images/team/alex_cummings.jpg",
-						alt: "",
+						src: "../images/portfolio/logo-americana.png",
+						alt: "Americana Logo",
 					},
-					anchor: "http://www.apple.com",
+					anchor: "#",
 				},
 				{
-					client: "Exxon Mobil",
-					design: "Print Design",
+					client: "Efficient Energy Solutions",
+					design: "Logo",
 					preview: {
-						src: "../images/team/chris_baeckstrom.jpg",
-						alt: "",
+						src: "../images/portfolio/logo-efficient_energy_solutions.png",
+						alt: "Efficient Energy Solutions Logo",
 					},
-					anchor: "http://www.apple.com",
+					anchor: "#",
 				},
-
+				{
+					client: "Far Cry",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-far_cry.png",
+						alt: "Far Cry Logo",
+					},
+					anchor: "http://www.facebook.com/farcrybeers",
+				},
+				{
+					client: "Finix",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-finix.png",
+						alt: "Finix Logo",
+					},
+					anchor: "http://finixcreative.github.io/website/",
+				},
+				{
+					client: "Inner Edge Fitness",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-inner_edge_fitness.png",
+						alt: "Inner Edge Fitness Logo",
+					},
+					anchor: "#",
+				},
+				{
+					client: "Jim Cornelison",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-jim_cornelison.png",
+						alt: "Jim Cornelison Logo",
+					},
+					anchor: "#",
+				},
+				{
+					client: "LadyBag",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-ladybag.png",
+						alt: "LadyBag Logo",
+					},
+					anchor: "#",
+				},
+				{
+					client: "Magic Hat",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-magic_hat.png",
+						alt: "Magic Hat Logo",
+					},
+					anchor: "#",
+				},
+				{
+					client: "Rise & Grind",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-rise_and_grind.png",
+						alt: "Rise & Grind Logo",
+					},
+					anchor: "#",
+				},
+				{
+					client: "Synth",
+					design: "Logo",
+					preview: {
+						src: "../images/portfolio/logo-synth.png",
+						alt: "Synth Logo",
+					},
+					anchor: "#",
+				},
+				{
+					client: "County Tree Service",
+					design: "Website",
+					preview: {
+						src: "../images/portfolio/web-cts_tree.png",
+						alt: "County Tree Service Website",
+					},
+					anchor: "http://www.countytree.com",
+				},
+				{
+					client: "Finix",
+					design: "Website",
+					preview: {
+						src: "../images/portfolio/web-finix_website.png",
+						alt: "Finix Website",
+					},
+					anchor: "http://finixcreative.github.io/website/",
+				},
+				{
+					client: "Propel",
+					design: "Blog",
+					preview: {
+						src: "../images/portfolio/web-propel_blog.png",
+						alt: "Propel Blog",
+					},
+					anchor: "http://propelmarketing.com/blog/",
+				},
+				{
+					client: "Propel",
+					design: "List App",
+					preview: {
+						src: "../images/portfolio/web-propel_list.png",
+						alt: "Propel List App",
+					},
+					anchor: "#",
+				},
+				{
+					client: "Propel",
+					design: "Social App",
+					preview: {
+						src: "../images/portfolio/web-propel_social.png",
+						alt: "Propel Social App",
+					},
+					anchor: "#",
+				},
+				{
+					client: "TV News Sales",
+					design: "Order Portal",
+					preview: {
+						src: "../images/portfolio/web-tvnewssales.png",
+						alt: "TV News Sales Order Portal",
+					},
+					anchor: "http://www.finixcreative.com/tvnewssales/",
+				},
 			],
 		},
 		{
