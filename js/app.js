@@ -233,6 +233,7 @@
 						alt: "AES Logo",
 					},
 					anchor: "http://git-aes.github.io/WebsiteUpdate/",
+					size: "sixth",
 				},
 				{
 					client: "Associated Environmental Systems",
@@ -242,6 +243,7 @@
 						alt: "AES Website",
 					},
 					anchor: "http://git-aes.github.io/WebsiteUpdate/",
+					size: "half",
 				},
 				{
 					client: "Associated Environmental Systems",
@@ -251,6 +253,7 @@
 						alt: "AES Dashboard",
 					},
 					anchor: "http://git-aes.github.io/XChange-Dash/",
+					size: "half",
 				},
 				{
 					client: "Americana Leather",
@@ -260,6 +263,7 @@
 						alt: "Americana Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "Efficient Energy Solutions",
@@ -269,6 +273,7 @@
 						alt: "Efficient Energy Solutions Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "Far Cry",
@@ -278,6 +283,7 @@
 						alt: "Far Cry Logo",
 					},
 					anchor: "http://www.facebook.com/farcrybeers",
+					size: "sixth",
 				},
 				{
 					client: "Finix",
@@ -287,6 +293,7 @@
 						alt: "Finix Logo",
 					},
 					anchor: "http://finixcreative.github.io/website/",
+					size: "sixth",
 				},
 				{
 					client: "Inner Edge Fitness",
@@ -296,6 +303,7 @@
 						alt: "Inner Edge Fitness Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "Jim Cornelison",
@@ -305,6 +313,7 @@
 						alt: "Jim Cornelison Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "LadyBag",
@@ -314,6 +323,7 @@
 						alt: "LadyBag Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "Magic Hat",
@@ -323,6 +333,7 @@
 						alt: "Magic Hat Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "Rise & Grind",
@@ -332,6 +343,7 @@
 						alt: "Rise & Grind Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "Synth",
@@ -341,6 +353,7 @@
 						alt: "Synth Logo",
 					},
 					anchor: "#",
+					size: "sixth",
 				},
 				{
 					client: "County Tree Service",
@@ -350,6 +363,7 @@
 						alt: "County Tree Service Website",
 					},
 					anchor: "http://www.countytree.com",
+					size: "half",
 				},
 				{
 					client: "Finix",
@@ -359,6 +373,7 @@
 						alt: "Finix Website",
 					},
 					anchor: "http://finixcreative.github.io/website/",
+					size: "half",
 				},
 				{
 					client: "Propel",
@@ -368,6 +383,7 @@
 						alt: "Propel Blog",
 					},
 					anchor: "http://propelmarketing.com/blog/",
+					size: "half",
 				},
 				{
 					client: "Propel",
@@ -377,6 +393,7 @@
 						alt: "Propel List App",
 					},
 					anchor: "#",
+					size: "half",
 				},
 				{
 					client: "Propel",
@@ -386,6 +403,7 @@
 						alt: "Propel Social App",
 					},
 					anchor: "#",
+					size: "half",
 				},
 				{
 					client: "TV News Sales",
@@ -395,6 +413,7 @@
 						alt: "TV News Sales Order Portal",
 					},
 					anchor: "http://www.finixcreative.com/tvnewssales/",
+					size: "half",
 				},
 			],
 		},
