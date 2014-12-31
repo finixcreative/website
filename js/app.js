@@ -243,7 +243,7 @@
 						alt: "AES Website",
 					},
 					anchor: "http://git-aes.github.io/WebsiteUpdate/",
-					size: "half",
+					size: "quarter",
 				},
 				{
 					client: "Associated Environmental Systems",
@@ -253,7 +253,7 @@
 						alt: "AES Dashboard",
 					},
 					anchor: "http://git-aes.github.io/XChange-Dash/",
-					size: "half",
+					size: "quarter",
 				},
 				{
 					client: "Americana Leather",
@@ -363,7 +363,7 @@
 						alt: "County Tree Service Website",
 					},
 					anchor: "http://www.countytree.com",
-					size: "half",
+					size: "quarter",
 				},
 				{
 					client: "Finix",
@@ -373,7 +373,7 @@
 						alt: "Finix Website",
 					},
 					anchor: "http://finixcreative.github.io/website/",
-					size: "half",
+					size: "quarter",
 				},
 				{
 					client: "Propel",
@@ -383,7 +383,7 @@
 						alt: "Propel Blog",
 					},
 					anchor: "http://propelmarketing.com/blog/",
-					size: "half",
+					size: "quarter",
 				},
 				{
 					client: "Propel",
@@ -393,7 +393,7 @@
 						alt: "Propel List App",
 					},
 					anchor: "#",
-					size: "half",
+					size: "quarter",
 				},
 				{
 					client: "Propel",
@@ -403,7 +403,7 @@
 						alt: "Propel Social App",
 					},
 					anchor: "#",
-					size: "half",
+					size: "quarter",
 				},
 				{
 					client: "TV News Sales",
@@ -413,7 +413,7 @@
 						alt: "TV News Sales Order Portal",
 					},
 					anchor: "http://www.finixcreative.com/tvnewssales/",
-					size: "half",
+					size: "quarter",
 				},
 			],
 		},
