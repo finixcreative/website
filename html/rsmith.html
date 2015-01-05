@@ -117,7 +117,7 @@
 					<h2>Portfolio</h2>
 				</div>
 				<ul id="tiles" class="full">
-					<li class="teamprofile {{ portfolio.size }}" ng-repeat="portfolio in team.products[0].portfolios">
+					<li class="teamprofile {{ portfolio.size }}" ng-repeat="portfolio in team.products[0].portfolios | orderBy: 'size'">
 						<a href="{{ portfolio.anchor }}">
 							<img src="{{ portfolio.preview.src }}" alt="{{ portfolio.preview.alt }}"/>
 							<div class="text-box">
