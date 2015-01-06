@@ -190,7 +190,6 @@ li .text-box {
 	width: 100%;
 	height: 100%;
 	padding: 20px;
-	border: 1px solid #fff;
 	position: absolute;
 	top: 0;
 	z-index: 888;
@@ -271,6 +270,7 @@ label {}
 #products ul li {
 	width: calc(100% / 5);
 	height: 100%;
+	border: 1px solid #fff;
 	position: relative;
 	bottom: 0;
 	display: inline-block;
