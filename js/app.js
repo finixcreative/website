@@ -8,27 +8,31 @@ var app = angular.module('website', [
 ]);
 app.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
+		.when('/home', {
+			templateUrl: 'html/home.html',
+			controller: 'SlideController',
+		})
 		.when('/products', {
-			templateUrl: 'html/chambers.html',
-			controller: 'ChambersController',
+			templateUrl: 'html/products.html',
+			controller: 'StoreController',
 		})
 		.when('/products/:product', {
 			templateUrl: 'html/type.html',
-			controller: 'ChambersController',
+			controller: 'StoreController',
 		})
 		.when('/blog', {
-			templateUrl: 'html/series.html',
-			controller: 'ChambersController',
+			templateUrl: 'html/blog.html',
+			controller: 'ArticlesController',
 		})
 		.when('/about', {
-			templateUrl: 'html/temperature.html',
-			controller: 'ChambersController',
+			templateUrl: 'html/about.html',
+			controller: '',
 		})
 		.when('/contact', {
-			templateUrl: 'html/humidity.html',
-			controller: 'ChambersController',
+			templateUrl: 'html/contact.html',
+			controller: '',
 		})
 		.otherwise({
-			redirectTo: 'index.html',
+			redirectTo: '#/home',
 		});
 }]);

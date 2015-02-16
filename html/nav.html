@@ -1,19 +1,19 @@
 <ul>
-	<li ng-class="{ active:slide.isSelected(1) }">
-		<a href ng-click="slide.selectTab(1)">
+	<li ng-class="{ active: isActive('/') }">
+		<a href="#/">
 			<img src="images/logo-finix-2014.png" alt="Finix Logo"/>
 		</a>
 	</li>
-	<li ng-class="{ active:slide.isSelected(2) }">
-		<a href ng-click="slide.selectTab(2)">Products</a>
+	<li ng-class="{ active: isActive('/products') }">
+		<a href="#/products">Products</a>
 	</li>
-	<li ng-class="{ active:slide.isSelected(3) }">
-		<a href ng-click="slide.selectTab(3)">About</a>
+	<li ng-class="{ active: isActive('/blog') }">
+		<a href="#/blog">Blog</a>
 	</li>
-	<li ng-class="{ active:slide.isSelected(4) }">
-		<a href ng-click="slide.selectTab(4)">Blog</a>
+	<li ng-class="{ active: isActive('/about') }">
+		<a href="#/about">About</a>
 	</li>
-	<li ng-class="{ active:slide.isSelected(5) }">
-		<a href ng-click="slide.selectTab(5)">Contact</a>
+	<li ng-class="{ active: isActive('/contact') }">
+		<a href="#/contact">Contact</a>
 	</li>
 </ul>
