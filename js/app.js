@@ -3,7 +3,7 @@
 var app = angular.module('website', [
 	'ngAnimate',
 	'ngRoute',
-	'websiteControllers'
+	'websiteControllers',
 	'websiteServices'
 ]);
 app.config(['$routeProvider', function($routeProvider) {
