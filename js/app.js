@@ -8,7 +8,7 @@ var app = angular.module('website', [
 ]);
 app.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
-		.when('/home', {
+		.when('/', {
 			templateUrl: 'html/home.html',
 			controller: 'SlideController',
 		})
