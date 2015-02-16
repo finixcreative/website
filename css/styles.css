@@ -20,13 +20,13 @@ Secondary Fill   | #33CFFF
 	transition: all .3s ease-in;
 	-webkit-transition: all .3s ease-in;
 }
-html, body, main {
+html, body, .main {
 	height: 100%;
 }
 body {
 	background: -webkit-linear-gradient(#f52, #f93);
-	background: -o-linear-gradient(#f52, #f93);
 	background: -moz-linear-gradient(#f52, #f93);
+	background: -o-linear-gradient(#f52, #f93);
 	background: linear-gradient(#f52, #f93);
 	background-attachment: fixed;
 	color: #fff;
@@ -52,7 +52,9 @@ ul {
 	padding: 0;
 	list-style-type: none;
 }
-a {text-decoration: none;}
+a {
+	text-decoration: none;
+}
 a.button {
 	color: #fff;
 	width: 160px;
