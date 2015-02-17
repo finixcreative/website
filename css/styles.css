@@ -241,12 +241,67 @@ button {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.slide {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 100%;
+}
+.animate-enter, 
+.animate-leave
+{
+	-webkit-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+	-moz-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+	-ms-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+	-o-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+	transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+}
+.animate-enter {
+	left: 100%;
+}
+.animate-enter.animate-enter-active,
+.animate-leave {
+	left: 0;
+}
+button.slidenav {
+	background: none;
+	color: rgba(0,0,0,0.2);
+	margin: 0;
+	padding: 20px;
+	border: none;
+	position: fixed;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 100px;
+	line-height: 100px;
+	z-index: 998;
+}
+button.slidenav:hover {
+	color: #fff;
+	cursor: pointer;
+}
+button.slidenav:focus {
+	outline: none;
+}
 button:hover {
 	background: #f93;
 }
 button:focus {
 	outline: none;
 }
+button#prev,
+button#next {
+	height: 100%;
+	top: 0;
+}
+button#prev {
+	left: 0;
+}
+button#next {
+	right: 0;
+}
+
 
 label {}
 
