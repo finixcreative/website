@@ -15,12 +15,12 @@ Secondary Fill   | #33CFFF
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 * {
 	text-decoration: none;
-	box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	transition: all .3s ease-in;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
 }
 html, body, .main {
 	height: 100%;
@@ -61,7 +61,7 @@ a.button {
 	color: #fff;
 	width: 160px;
 	padding: 15px 20px;
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	display: block;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -70,14 +70,13 @@ a.button {
 a.button:hover {
 	background: #fff;
 	color: #444;
-	box-shadow: 0 5px 0 0 rgba(0,0,0,0.1);
 }
 a.buttonalt {
 	color: #444;
 	width: 200px;
 	padding: 15px 20px;
 	margin: 20px auto;
-	border: 2px solid #f52;
+	border: 1px solid #f52;
 	display: block;
 	text-transform: uppercase;
 	text-align: center;
@@ -114,7 +113,6 @@ p a:hover {
 	width: 200px;
 	border: 1px solid #fff;
 	border-radius: 50%;
-	box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
 }
 .slider {height: 100%;}
 .slide {
@@ -165,7 +163,7 @@ header {
 	position: fixed;
 	top: 0;
 	z-index: 999;
-	box-shadow: 0 5px 0 0 rgba(0,0,0,0.1);
+	border: 1px solid #fff;
 }
 nav {}
 nav ul {}
@@ -207,8 +205,12 @@ li:hover .text-box {
 }
 
 .main {padding-top: 55px;}
-article {border-bottom: 1px solid #ccc;}
-article:last-child {border-bottom: none;}
+article {
+	border-bottom: 1px solid #ccc;
+}
+article:last-child {
+	border-bottom: none;
+}
 
 /* FORM */
 form {
@@ -426,7 +428,7 @@ body#rsmith {
 	padding: 20px 20px 20px 50px;
 	margin: 0 auto;
 	border: none;
-	border-bottom: 2px solid #f52;
+	border-bottom: 1px solid #f52;
 	font-size: 20px;
 	display: block;
 }
@@ -503,7 +505,7 @@ body#rsmith {
 footer {
 	background: #444;
 	width: 100%;
-	border-top: 2px solid #fff;
+	border-top: 1px solid #fff;
 	float: left;
 }
 footer .contact, footer .social {
@@ -527,7 +529,6 @@ img.saturate {
 	-moz-filter: saturate(0%);
 	-o-filter: saturate(0%);
 	-ms-filter: saturate(0%);
-	box-shadow: 0 0 0 1px #fff;
 }
 footer a:hover {color: #f52;}
 footer a:hover img,
