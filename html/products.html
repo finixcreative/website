@@ -2,7 +2,7 @@
 	<h3>What does your business need?</h3>
 </div>
 <ul id="tiles">
-	<li class="tile" ng-repeat="product in store.products">
+	<li class="tile" ng-repeat="product in productController.products">
 		<a href="{{product.url}}" background="{{product.src}}">
 			<img src="{{product.src}}" alt="{{product.name}}"/>
 			<div class="text-box">
