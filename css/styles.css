@@ -23,7 +23,7 @@ Secondary Fill   | #33CFFF
 	-webkit-transition: all .3s ease-in;
 }
 html, body, .main {
-	height: 100%;
+	min-height: 100%;
 }
 body {
 	background: -webkit-linear-gradient(#f52, #f93);
