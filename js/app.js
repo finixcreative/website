@@ -1,37 +1,38 @@
 /* App Module */
 
-var app = angular.module('website', [
+var websiteApp = angular.module('websiteApp', [
 	'ngAnimate',
 	'ngRoute',
-	'websiteControllers'
+	'websiteControllers',
+	'websiteServices'
 ]);
-app.config(['$routeProvider', function($routeProvider) {
+websiteApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 		.when('/', {
 			templateUrl: 'html/home.html',
-			controller: 'SlideController',
+			controller: '',
 		})
 		.when('/products', {
 			templateUrl: 'html/products.html',
-			controller: 'StoreController',
+			controller: 'productController',
 		})
 		.when('/products/:product', {
-			templateUrl: 'html/type.html',
-			controller: 'StoreController',
+			templateUrl: 'html/product.html',
+			controller: 'productController',
 		})
 		.when('/blog', {
 			templateUrl: 'html/blog.html',
-			controller: 'ArticlesController',
+			controller: 'articlesController',
 		})
 		.when('/about', {
 			templateUrl: 'html/about.html',
-			controller: '',
+			controller: 'teamController',
 		})
 		.when('/contact', {
 			templateUrl: 'html/contact.html',
 			controller: '',
 		})
 		.otherwise({
-			redirectTo: '#/home',
+			redirectTo: '/',
 		});
 }]);
