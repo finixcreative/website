@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html ng-app="controllers">
-<head>
-	<title>Digital Marketing and Web Design Solutions for Small Businesses | Finix</title>
-	<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
-	<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
-	<meta name="author" content="Richard Smith">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<link rel="icon" href="images/icons/social/icon-finix.png"/>
-	<link type="text/css" rel="stylesheet" href="css/styles.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-	<script type="text/javascript" src="js/buy.js"></script>
-	<script type="text/javascript">// <![CDATA[
-		Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
-	// ]]></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-</head>
-<body>
-	<header data-ng-include data-src="'html/header.html'"></header>
-	<div class="main" ng-view></div>
-	<footer data-ng-include data-src="'html/footer.html'"></footer>
-</body>
+<html ng-app="website">
+	<head>
+		<title>Digital Marketing and Web Design Solutions for Small Businesses | Finix</title>
+		<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
+		<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
+		<meta name="author" content="Richard Smith">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="images/icons/social/icon-finix.png"/>
+		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+		<script type="text/javascript" src="js/buy.js"></script>
+		<script type="text/javascript">// <![CDATA[
+			Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
+		// ]]></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</head>
+	<body>
+		<header data-ng-include data-src="'html/header.html'"></header>
+		<div class="main" ng-view></div>
+		<footer data-ng-include data-src="'html/footer.html'"></footer>
+	</body>
 </html>
