@@ -55,9 +55,10 @@ websiteControllers.directive('slider', function ($timeout) {
 	return {
 		restrict: 'AE',
 		replace: true,
-		scope:{
+		scope: {
 			images: '='
 		},
+		templateUrl:'html/slider.html',
 		link: function (scope, elem, attrs) {
 			scope.currentIndex = 0;
 			scope.next = function(){
@@ -81,9 +82,8 @@ websiteControllers.directive('slider', function ($timeout) {
 			};
 			sliderFunc();
 			scope.$on('$destroy', function() {
-			  $timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
+				$timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
 			});
 		},
-		templateUrl:'html/slider.html'
 	};
 });
