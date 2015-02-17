@@ -17,9 +17,6 @@ websiteControllers.controller('teamController', ['$scope', '$routeParams', '$htt
 websiteControllers.controller('articlesController', function(){
 	this.products = articles;
 });
-websiteControllers.controller('socialController', function(){
-	this.products = social;
-});
 websiteControllers.controller('SlideController', function(){
 	this.tab = 1;
 	this.selectTab = function(setTab){
