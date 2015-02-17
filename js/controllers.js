@@ -17,15 +17,6 @@ websiteControllers.controller('teamController', ['$scope', '$routeParams', '$htt
 websiteControllers.controller('articlesController', function(){
 	this.products = articles;
 });
-websiteControllers.controller('SlideController', function(){
-	this.tab = 1;
-	this.selectTab = function(setTab){
-		this.tab = setTab;
-	};
-	this.isSelected = function(checkTab){
-		return this.tab === checkTab;
-	};
-});
 websiteControllers.controller('slidesController', function($scope) {
 	$scope.images = [
 		{
