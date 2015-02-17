@@ -1,5 +1,5 @@
 <section
-	class="slide content constrain"
+	class="slide"
 	ng-repeat="image in images"
 	ng-show="image.visible"
 	ng-animate=" 'animate' "
@@ -8,15 +8,13 @@
 		'background-position': '{{image.position}}',
 	}"
 	>
-	<section>
-		<div class="full">
-			<img class="logo" src="images/logo-finix-2014.png" alt="Finix Logo"/>
-			<h1>{{ image.headline }}</h1>
-			<h2>{{ image.subheadline }}</h2>
-			<p>{{ image.text }}</p>
-			<div ng-repeat="link in image.links">
-				<a class="cta" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
-			</div>
+	<section class="content constrain">
+		<img class="logo" src="images/logo-finix-2014.png" alt="Finix Logo"/>
+		<h1>{{ image.headline }}</h1>
+		<h2>{{ image.subheadline }}</h2>
+		<p>{{ image.text }}</p>
+		<div ng-repeat="link in image.links">
+			<a class="cta" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
 		</div>
 	</section>
 </section>
