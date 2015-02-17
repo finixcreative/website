@@ -29,7 +29,7 @@ websiteControllers.controller('SlideController', function(){
 		return this.tab === checkTab;
 	};
 });
-app.controller('slidesController', function($scope) {
+websiteControllers.controller('slidesController', function($scope) {
 	$scope.images = [
 		{
 			img: 'images/background-boston_skyline.png',
@@ -63,7 +63,7 @@ app.controller('slidesController', function($scope) {
 		},
 	]; 
 });
-app.directive('slider', function ($timeout) {
+websiteControllers.directive('slider', function ($timeout) {
 	return {
 		restrict: 'AE',
 		replace: true,
