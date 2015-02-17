@@ -2,7 +2,7 @@
 
 var websiteServices = angular.module('websiteServices', [
 	'ngResource'
-);
+]);
 websiteServices.factory('Website', ['$resource', function($resource){
 	return $resource('products/:productId.json', {}, {
 		query: {
