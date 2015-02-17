@@ -1,0 +1,10 @@
+{
+	"name": "Web Design",
+	"src": "images/products/web.jpg",
+	"url": "html/product-web.html",
+	"link": "slide.selectTab(6)",
+	"icon": "images/icons/icon-web.png",
+	"icontag": "Icon - Web",
+	"shortdescription": "In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.",
+	"longdescription": "In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.",
+}

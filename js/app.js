@@ -10,7 +10,7 @@ websiteApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 		.when('/', {
 			templateUrl: 'html/home.html',
-			controller: '',
+			controller: 'slidesController',
 		})
 		.when('/products', {
 			templateUrl: 'html/products.html',

@@ -1,0 +1,26 @@
+<div class="slider">
+	<section
+		class="content constrain"
+		ng-repeat="image in images"
+		ng-show="image.visible"
+		ng-animate=" 'animate' "
+		ng-style="{
+			'background-image': 'url({{image.img}})',
+			'background-position': '{{image.position}}',
+		}"
+		>
+		<section>
+			<div class="full">
+				<img class="logo" src="images/logo-finix-2014.png" alt="Finix Logo"/>
+				<h1>{{ image.headline }}</h1>
+				<h2>{{ image.subheadline }}</h2>
+				<p>{{ image.text }}</p>
+				<div ng-repeat="link in image.links">
+					<a class="cta" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
+				</div>
+			</div>
+		</section>
+	</section>
+	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow-left"></span></button>
+	<button id="next" class="slidenav" ng-click="next()"><span class="icon-arrow-right"></span></button>
+</div>
