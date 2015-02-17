@@ -22,7 +22,7 @@ websiteControllers.controller('slidesController', function($scope) {
 		{
 			img: 'images/background-boston_skyline.png',
 			alt: 'images/bg1',
-			position: 'center right',
+			position: 'top center',
 			id: 'slide1',
 			headline: 'Digital Marketing & Web Design',
 			subheadline: 'Solutions for Small Businesses',
@@ -35,9 +35,9 @@ websiteControllers.controller('slidesController', function($scope) {
 			],
 		},
 		{
-			img: 'images/background-boston_skyline.png',
+			img: 'images/iStock_000013899547Large.jpg',
 			alt: 'images/bg1',
-			position: 'center right',
+			position: 'center',
 			id: 'slide2',
 			headline: 'Title',
 			subheadline: 'Subtitle',
