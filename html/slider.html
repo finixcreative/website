@@ -14,7 +14,7 @@
 		<h2>{{ image.subheadline }}</h2>
 		<p>{{ image.text }}</p>
 		<div ng-repeat="link in image.links">
-			<a class="cta" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
+			<a class="cta button" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
 		</div>
 	</section>
 	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow-left"></span></button>
