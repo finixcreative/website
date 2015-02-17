@@ -116,6 +116,7 @@ p a:hover {
 	border-radius: 50%;
 	box-shadow: 0 0 0 5px rgba(0,0,0,0.2);
 }
+.slider {height: 100%;}
 .slide {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
