@@ -32,11 +32,13 @@ websiteControllers.controller('teamController', ['$scope', '$routeParams', '$htt
 websiteControllers.controller('articlesController', function(){
 	this.products = articles;
 });
-websiteControllers.controller('slidesController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-	$http.get('json/slides/' + $routeParams.slide + '.json').success(function(data) {
-		$scope.images = data;
-	});
-});
+websiteControllers.controller('slidesController', [
+	'$scope',
+	'Slides',
+	function($scope, Slides) {
+		$scope.images = Slides.query();
+	}
+]);
 websiteControllers.directive('slider', function ($timeout) {
 	return {
 		restrict: 'AE',

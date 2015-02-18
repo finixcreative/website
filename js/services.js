@@ -3,14 +3,14 @@
 var websiteServices = angular.module('websiteServices', [
 	'ngResource'
 ]);
-websiteServices.factory('Slider', [
+websiteServices.factory('Slides', [
 	'$resource',
 	function($resource){
 		return $resource('slides/:slide.json', {}, {
 			query: {
 				method:'GET',
 				params: {
-					slider:'slides'
+					slides:'slides'
 				},
 				isArray: true
 			}
