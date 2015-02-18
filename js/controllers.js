@@ -4,11 +4,26 @@ var websiteControllers = angular.module('websiteControllers', [
 	'ngAnimate',
 	'ngRoute'
 ]);
-websiteControllers.controller('productController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-	$http.get('json/products/' + $routeParams.productName + '.json').success(function(data) {
-		$scope.products = data;
-	});
-}]);
+websiteControllers.controller('productsController', [
+	'$scope',
+	'Products',
+	function($scope, Products) {
+		$scope.products = Products.query();
+	}
+]);
+websiteControllers.controller('productController', [
+	'$scope',
+	'$routeParams',
+	'Products',
+	function($scope, $routeParams, Products) {
+		$scope.product = Products.get({product: $routeParams.product}, function(product) {
+			$scope.icon = product.icon;
+		});
+		$scope.setIcon = function(icon) {
+			$scope.icon = icon;
+		}
+	}
+]);
 websiteControllers.controller('teamController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
 	$http.get('json/team.js').success(function(data) {
 		$scope.products = data;
