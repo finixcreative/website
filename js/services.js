@@ -3,6 +3,20 @@
 var websiteServices = angular.module('websiteServices', [
 	'ngResource'
 ]);
+websiteServices.factory('Slider', [
+	'$resource',
+	function($resource){
+		return $resource('slides/:slide.json', {}, {
+			query: {
+				method:'GET',
+				params: {
+					slider:'slides'
+				},
+				isArray: true
+			}
+		});
+	}
+]);
 websiteServices.factory('Products', [
 	'$resource',
 	function($resource){
