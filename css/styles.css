@@ -233,7 +233,9 @@ textarea:focus {
 	border: 1px solid #f93;
 	outline: none;
 }
-textarea {height: 200px;}
+textarea {
+	height: 200px;
+}
 button {
 	background: #f52;	
 	color: #fff;
@@ -252,8 +254,7 @@ button {
 	height: 100%;
 }
 .animate-enter, 
-.animate-leave
-{
+.animate-leave {
 	-webkit-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
 	-moz-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
 	-ms-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
@@ -266,6 +267,23 @@ button {
 .animate-enter.animate-enter-active,
 .animate-leave {
 	left: 0;
+}
+button:hover {
+	background: #f93;
+}
+button:focus {
+	outline: none;
+}
+button#prev,
+button#next {
+	height: 100%;
+	top: 0;
+}
+button#prev {
+	left: 0;
+}
+button#next {
+	right: 0;
 }
 button.slidenav {
 	background: none;
@@ -288,25 +306,6 @@ button.slidenav:hover {
 button.slidenav:focus {
 	outline: none;
 }
-button:hover {
-	background: #f93;
-}
-button:focus {
-	outline: none;
-}
-button#prev,
-button#next {
-	height: 100%;
-	top: 0;
-}
-button#prev {
-	left: 0;
-}
-button#next {
-	right: 0;
-}
-
-
 label {}
 
 /* HOME */
@@ -322,7 +321,8 @@ label {}
 	background: #fff;
 	color: #444;
 }
-#products ul, #blog .contentfeed {
+#products ul,
+#blog .contentfeed {
 	height: calc(100% - 100px);
 	height: -o-calc(100% - 100px);
 	height: -moz-calc(100% - 100px);
@@ -358,15 +358,15 @@ label {}
 	width: auto;
 	height: 100%;
 }
+#products p {
+	font-size: 16px;
+	line-height: 24px;
+}
 #products .icon {
 	width: 50px;
 	height: auto;
 	margin: 0 auto;
 	display: block;
-}
-#products p {
-	font-size: 16px;
-	line-height: 24px;
 }
 
 /* ABOUT */

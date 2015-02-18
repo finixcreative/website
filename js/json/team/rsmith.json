@@ -1,0 +1,340 @@
+{
+	"name": "Richard Smith",
+	"title": "Co-founder",
+	"email": "rsmith@finixcreative.com",
+	"phone": "203-295-4369",
+	"linkedin": "https://www.linkedin.com/in/richardrsmith3",
+	"portrait": "images/team/richard_smith.jpg",
+	"portraitalt": "Richard Smith",
+	"bio": "Richard puts on his pants like everyone else, one leg at a time.",
+	"link": "/website/html/rsmith.html",
+	"linkedin": "https://www.linkedin.com/in/richardrsmith3/",
+	"letter": {
+		"p1": "I am excited to apply for Hampshire College’s new position of Chief Creative Officer. Hampshire is a beacon of progressive ideas, creativity, and intellectual freedom. The college’s incomparable opportunities attract students from all over the world, who represent a vast range of cultural norms and economic backgrounds. Building strong connections with that diverse and scattered audience poses unique marketing challenges, so Hampshire needs a dedicated and talented CCO to lead the way.",
+		"p2": "I have a profound appreciation for Hampshire’s tradition of academic excellence, and I hold the motto “Non Satis Scire” close to heart. I graduated with my degree in “Graphic Design & Sign Making” in May 2009, but retained my passion for learning. Soon after, I expanded my horizons from “traditional” studio art and graphic design by adopting web code as my new paintbrush, and the internet as my new canvass. I gained valuable skills and experience at every stop in my career, excelling as a Production Artist, Marketing Consultant, Web Designer, UX Designer, Creative Director, and Co-founder of a creative collective. I have found success with companies of all sizes, across a range of industries, because great design is a universal language.",
+		"p3": "I held several positions with Propel Marketing. I was one of the company’s early hires, starting out as a junior web designer within months of the company’s launch. I soon became a senior web designer as Propel quickly expanded into a bustling 200-employee marketing firm, and I worked as a UX designer alongside the software development team to create proprietary apps for internal use. I also led a cross-department effort to redesign key pieces of the corporate website. I was a leader among my peers, stepping up to provide quality assurance, and establishing training courses to educate Propel’s designers about new tools and best-practices.",
+		"p4": "I am now the Creative Director of Associated Environmental Systems (AES), where I lead all marketing and web development efforts. When I joined AES, I inherited a small and undeveloped marketing operation. I set out to strengthen the AES brand and get ahead of our competitors in the market, and my efforts have led to revelatory advancements. I designed a completely new corporate website with a focus towards providing a seamless user experience and bolstering conversion rates. I led a team of developers to create a dashboard app that records data from AES devices - the first of it’s kind in the industry. The app was instrumental in landing a large hardware contract with Apple. I also led successful marketing campaigns targeting high-profile clients including Apple, Boeing, DuPont, General Electric, General Motors, Gillette, Google, Hewlett Packard, Intel, Lockheed Martin, NASA, Nest, Procter & Gamble, and the U.S. Army, among others.",
+		"p5": "I have a bright vision for Hampshire’s future, and as Chief Creative Officer I would work tirelessly to turn that vision into reality. I want to build up the college’s reputation, develop a strong brand, leverage technology to share our message with new audiences around the world, and usher in a vibrant new class of students. I am eager to support the educational community that empowered me to explore my creativity and learn “outside the box”. I would be honored to help the next generation of activists, artists, inventors, farmers, filmmakers, performers, scientists, and writers to find opportunities that match their passions, and guide their first steps on a lifelong journey.",
+	},
+	"jobs": [
+		{
+			"position": "Co-Founder",
+			"company": "Finix",
+			"logo": {
+				"src": "../images/logos/logo-finix.jpg",
+				"alt": "Finix Logo",
+			},
+			"location": "Boston, MA",
+			"dates": "5/13 - Present",
+			"description": "Launched Finix in May, 2013. Led operations, product development, marketing, training, and recruitment. Established the Finix brand, designed the company logo and website, and created the original product suite. Developed efficient processes to quickly fulfill each product package at minimal expense.",
+		},
+		{
+			"position": "Creative Director",
+			"company": "Associated Environmental Systems",
+			"logo": {
+				"src": "../images/logos/logo-aes.jpg",
+				"alt": "AES Logo",
+			},
+			"location": "Ayer, MA",
+			"dates": "8/14 - Present",
+			"description": "Led all marketing and web development initiatives. Strengthened the AES brand and advance the company's position in the market. Designed a new corporate website focused towards user experience and conversion rates. Led a team of developers to create a dashboard app to record data from AES devices, which was instrumental in landing a large hardware contract with Apple. Developed successful marketing strategies targeting high-profile clients including Apple, Boeing, DuPont, General Electric, General Motors, Gillette, Google, Hewlett Packard, Intel, Lockheed Martin, NASA, Nest, Procter & Gamble, and the U.S. Army.",
+		},
+		{
+			"position": "Web Designer",
+			"company": "Propel Marketing",
+			"logo": {
+				"src": "../images/logos/logo-propel.jpg",
+				"alt": "Propel Marketing Logo",
+			},
+			"location": "Quincy, MA",
+			"dates": "10/12 – 8/14",
+			"description": "Designed websites, logos, and social media assets for client companies representing dozens of industries. Entrusted as quality assurance expert responsible for all responsive websites products built for client companies. Worked closely with the software development team as a User Interface and User Experience design specialist for both internal and client-facing product and application features.",
+		},
+		{
+			"position": "Marketing Coordinator",
+			"company": "Coldwell Banker",
+			"logo": {
+				"src": "../images/logos/logo-coldwell.jpg",
+				"alt": "Coldwell Banker Logo",
+			},
+			"location": "Cambridge, MA",
+			"dates": "9/11 - 10/12",
+			"description": "Designed and produced marketing materials, including printed flyers, brochures, window displays, newspaper and magazine advertisements, e-flyers and email marketing campaigns. Worked closely with real estate brokers to customize marketing materials to fit the needs of individual client homeowners. Provided web design and photography services beyond the defined responsibilities of the position.",
+		},
+		{
+			"position": "Production Artist",
+			"company": "Monitor Group",
+			"logo": {
+				"src": "../images/logos/logo-monitor.jpg",
+				"alt": "Monitor Group Logo",
+			},
+			"location": "Cambridge, MA",
+			"dates": "9/10 – 7/11",
+			"description": "Created high-end visual graphics and logos for clients, edited internal PowerPoint presentations for consultants, and produced presentation materials. Designed and illustrated posters to advertise company events. Consistently requested to lead design projects beyond the responsibilities and scope of the Production Artist position.",
+		},
+	],
+	"schools": [
+		{
+			"name": "Hampshire College",
+			"logo": {
+				"src": "../images/logos/logo-hampshire.jpg",
+				"alt": "Hampshire College Logo",
+			},
+			"location": "Amherst, MA",
+			"dates": "9/05 - 5/09",
+			"degree": "Bachelor of Arts, Graphic Design & Sign Making",
+		},
+		{
+			"name": "Northern Essex Community College",
+			"logo": {
+				"src": "../images/logos/logo-necc.jpg",
+				"alt": "Northern Essex Community College Logo",
+			},
+			"location": "Haverhill, MA",
+			"dates": "9/04 - 6/11",
+			"degree": "Completed courses in Quark Xpress, Dreamweaver, Flash, HTML, and CSS.",
+		},
+	],
+	"references": [
+		{
+			"name": "Jonathan Biddle",
+			"portrait": {
+				"src": "../images/portraits/portrait-jon_biddle.jpg",
+				"alt": "Jonathan Biddle Portrait",
+			},
+			"position": "Senior Software Engineer",
+			"company": "CustomMade",
+			"email": "biddlej@gmail.com",
+			"phone": "585-414-2344",
+			"linkedin": "http://www.linkedin.com/in/jonbiddle",
+		},
+		{
+			"name": "Tyrel Souza",
+			"portrait": {
+				"src": "../images/portraits/portrait-tyrel_souza.jpg",
+				"alt": "Tyrel Souza Portrait",
+			},
+			"position": "Senior Application Developer",
+			"company": "Akamai Technologies",
+			"email": "tyrel@tyrelsouza.com",
+			"phone": "603-313-0388",
+			"linkedin": "http://www.linkedin.com/in/tyrelsouza",
+		},
+		{
+			"name": "Cynthia Andre",
+			"portrait": {
+				"src": "../images/portraits/portrait-cynthia_andre.jpg",
+				"alt": "Cynthia Andre Portrait",
+			},
+			"position": "Product Manager",
+			"company": "Propel Marketing",
+			"email": "candre4@babson.edu",
+			"phone": "617-433-7246",
+			"linkedin": "http://www.linkedin.com/in/cynthiaandre",
+		},
+		{
+			"name": "Schae Koteles",
+			"portrait": {
+				"src": "../images/portraits/portrait-schae_koteles.jpg",
+				"alt": "Schae Koteles Portrait",
+			},
+			"position": "Marketing Associate",
+			"company": "Coldwell Banker",
+			"email": "koteles@gmail.com",
+			"phone": "617-864-8566",
+			"linkedin": "http://www.linkedin.com/in/paisleyschae",
+		},
+	],
+	"portfolios": [
+		{
+			"client": "Associated Environmental Systems",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-aes.png",
+				"alt": "AES Logo",
+			},
+			"anchor": "http://git-aes.github.io/WebsiteUpdate/",
+			"size": "sixth",
+		},
+		{
+			"client": "Associated Environmental Systems",
+			"design": "Website",
+			"preview": {
+				"src": "../images/portfolio/web-aes_website.png",
+				"alt": "AES Website",
+			},
+			"anchor": "http://git-aes.github.io/WebsiteUpdate/",
+			"size": "quarter",
+		},
+		{
+			"client": "Associated Environmental Systems",
+			"design": "Dashboard App",
+			"preview": {
+				"src": "../images/portfolio/web-aes_dashboard.png",
+				"alt": "AES Dashboard",
+			},
+			"anchor": "http://git-aes.github.io/XChange-Dash/",
+			"size": "quarter",
+		},
+		{
+			"client": "Americana Leather",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-americana.png",
+				"alt": "Americana Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "Efficient Energy Solutions",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-efficient_energy_solutions.png",
+				"alt": "Efficient Energy Solutions Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "Far Cry",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-far_cry.png",
+				"alt": "Far Cry Logo",
+			},
+			"anchor": "http://www.facebook.com/farcrybeers",
+			"size": "sixth",
+		},
+		{
+			"client": "Finix",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-finix.png",
+				"alt": "Finix Logo",
+			},
+			"anchor": "http://finixcreative.github.io/website/",
+			"size": "sixth",
+		},
+		{
+			"client": "Inner Edge Fitness",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-inner_edge_fitness.png",
+				"alt": "Inner Edge Fitness Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "Jim Cornelison",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-jim_cornelison.png",
+				"alt": "Jim Cornelison Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "LadyBag",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-ladybag.png",
+				"alt": "LadyBag Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "Magic Hat",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-magic_hat.png",
+				"alt": "Magic Hat Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "Rise & Grind",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-rise_and_grind.png",
+				"alt": "Rise & Grind Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "Synth",
+			"design": "Logo",
+			"preview": {
+				"src": "../images/portfolio/logo-synth.png",
+				"alt": "Synth Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "County Tree Service",
+			"design": "Website",
+			"preview": {
+				"src": "../images/portfolio/web-cts_tree.png",
+				"alt": "County Tree Service Website",
+			},
+			"anchor": "http://www.countytree.com",
+			"size": "quarter",
+		},
+		{
+			"client": "Finix",
+			"design": "Website",
+			"preview": {
+				"src": "../images/portfolio/web-finix_website.png",
+				"alt": "Finix Website",
+			},
+			"anchor": "http://finixcreative.github.io/website/",
+			"size": "quarter",
+		},
+		{
+			"client": "Propel",
+			"design": "Blog",
+			"preview": {
+				"src": "../images/portfolio/web-propel_blog.png",
+				"alt": "Propel Blog",
+			},
+			"anchor": "http://propelmarketing.com/blog/",
+			"size": "quarter",
+		},
+		{
+			"client": "Propel",
+			"design": "List App",
+			"preview": {
+				"src": "../images/portfolio/web-propel_list.png",
+				"alt": "Propel List App",
+			},
+			"anchor": "#",
+			"size": "quarter",
+		},
+		{
+			"client": "Propel",
+			"design": "Social App",
+			"preview": {
+				"src": "../images/portfolio/web-propel_social.png",
+				"alt": "Propel Social App",
+			},
+			"anchor": "#",
+			"size": "quarter",
+		},
+		{
+			"client": "TV News Sales",
+			"design": "Order Portal",
+			"preview": {
+				"src": "../images/portfolio/web-tvnewssales.png",
+				"alt": "TV News Sales Order Portal",
+			},
+			"anchor": "http://www.finixcreative.com/tvnewssales/",
+			"size": "quarter",
+		},
+	],
+}

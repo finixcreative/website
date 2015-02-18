@@ -32,6 +32,10 @@ websiteApp.config(['$routeProvider', function($routeProvider) {
 			templateUrl: 'html/contact.html',
 			controller: '',
 		})
+		.when('/about/:profile', {
+			templateUrl: 'html/profile.html',
+			controller: 'teamController',
+		})
 		.otherwise({
 			redirectTo: '/',
 		});
