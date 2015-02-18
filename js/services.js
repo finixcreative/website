@@ -3,12 +3,45 @@
 var websiteServices = angular.module('websiteServices', [
 	'ngResource'
 ]);
-websiteServices.factory('Website', ['$resource', function($resource){
-	return $resource('products/:productId.json', {}, {
-		query: {
-			method:'GET',
-			params:{productId:'products'},
-			isArray:true
-		}
-	});
-}]);
+websiteServices.factory('Products', [
+	'$resource',
+	function($resource){
+		return $resource('products/:product.json', {}, {
+			query: {
+				method:'GET',
+				params: {
+					product:'products'
+				},
+				isArray: true
+			}
+		});
+	}
+]);
+websiteServices.factory('Blog', [
+	'$resource',
+	function($resource){
+		return $resource('blog/:article.json', {}, {
+			query: {
+				method:'GET',
+				params: {
+					blog:'articles'
+				},
+				isArray: true
+			}
+		});
+	}
+]);
+websiteServices.factory('Team', [
+	'$resource',
+	function($resource){
+		return $resource('team/:profile.json', {}, {
+			query: {
+				method:'GET',
+				params: {
+					team:'profiles'
+				},
+				isArray: true
+			}
+		});
+	}
+]);
