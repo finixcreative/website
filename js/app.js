@@ -28,13 +28,13 @@ websiteApp.config(['$routeProvider', function($routeProvider) {
 			templateUrl: 'html/about.html',
 			controller: 'teamController',
 		})
-		.when('/contact', {
-			templateUrl: 'html/contact.html',
-			controller: '',
-		})
 		.when('/about/:profile', {
 			templateUrl: 'html/profile.html',
 			controller: 'teamController',
+		})
+		.when('/contact', {
+			templateUrl: 'html/contact.html',
+			controller: '',
 		})
 		.otherwise({
 			redirectTo: '/',
