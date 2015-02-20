@@ -24,8 +24,8 @@ websiteApp.config(['$routeProvider', function($routeProvider) {
 			templateUrl: 'html/support.html',
 			controller: '',
 		})
-		.when('/blog', {
-			templateUrl: 'html/blog.html',
+		.when('/articles', {
+			templateUrl: 'html/articles.html',
 			controller: 'articlesController',
 		})
 		.when('/about', {
