@@ -1,20 +1,20 @@
 <div class="body">
-	<div id="searchbar" class="constrain">
-		<input type="search" name="search" placeholder="Search" ng-model="search">
-	</div>
-	<div id="blogfeed" class="constrain">
-		<article class="content" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
-			<img src="{{ product.image }}" alt="{{ product.caption }}"/>
-			<div class="articletext">
-				<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
-				<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
-				<p>{{product.content}}</p>
-			</div>
-			<a id="readmore" class="buttonalt" href="#">Read More!</a>
-		</article>
-	</div>
-	<div class="constrain content" ng-show="!articles.length">
-		<h3>Womp womp...</h3>
-		<p>Sorry, we couldn't find any articles containing "{{search}}".</p>
+	<div class="constrain">
+		<input id="searchbar" type="search" name="search" placeholder="Search" ng-model="search">
+		<div id="blogfeed" class="constrain">
+			<article class="content" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
+				<img src="{{ product.image }}" alt="{{ product.caption }}"/>
+				<div class="articletext">
+					<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
+					<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
+					<p>{{product.content}}</p>
+				</div>
+				<a id="readmore" class="buttonalt" href="#">Read More!</a>
+			</article>
+		</div>
+		<div class="constrain content" ng-show="!articles.length">
+			<h3>Womp womp...</h3>
+			<p>Sorry, we couldn't find any articles containing "{{search}}".</p>
+		</div>
 	</div>
 </div>
