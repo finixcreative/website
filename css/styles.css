@@ -220,7 +220,7 @@ form {
 	padding: 20px;
 	border: 1px solid #f52;
 }
-input, textarea {
+input, select, textarea {
 	width: 100%;
 	padding: 15px 20px;
 	margin: 0;
