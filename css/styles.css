@@ -222,7 +222,7 @@ form {
 }
 input, select, textarea {
 	width: 100%;
-	padding: 15px 20px;
+	padding: 10px;
 	margin: 0;
 	border: 1px solid #f52;
 }
@@ -241,7 +241,7 @@ textarea {
 button {
 	background: #f52;	
 	color: #fff;
-	padding: 15px 20px;
+	padding: 10px;
 	margin: 15px 0 0 0;
 	border: none;
 	display: block;
