@@ -232,7 +232,7 @@ input, select, textarea {
 	padding: 10px;
 	margin: 0;
 	border: 1px solid #f52;
-	font-size: 16px;
+	font-size: 15px;
 }
 input:hover,
 input:focus,
@@ -426,7 +426,7 @@ body#rsmith {
 /* BLOG */
 input[type=search] {
     background: url("../images/search.png") no-repeat;
-    background-size: 16px;
+    background-size: 15px;
     background-position: 10px 50%;
 	padding: 10px 10px 10px 40px;
 	margin: 0 auto;
