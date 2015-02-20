@@ -222,9 +222,13 @@ form {
 	padding: 20px;
 	border: 1px solid #f52;
 }
+form input,
+form select,
+form textarea {
+	width: 100%
+}
 input, select, textarea {
 	color: #f52;
-	width: 100%;
 	padding: 10px;
 	margin: 0;
 	border: 1px solid #f52;
