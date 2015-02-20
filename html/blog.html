@@ -2,7 +2,7 @@
 	<div class="constrain">
 		<div class="content full">
 			<h1 class="half">Blog</h1>
-			<input id="searchbar" class="content half" type="search" name="search" placeholder="Search articles" ng-model="search">
+			<input class="half" type="search" name="search" placeholder="Search articles" ng-model="search">
 		</div>
 		<div id="blogfeed" class="full">
 			<article class="content full" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
