@@ -1,15 +1,22 @@
-<div class="content constrain">
-	<h3>What does your business need?</h3>
+<div class="body full">
+	<div class="constrain">
+		<div class="content">
+			<h1>Products</h1>
+		</div>
+		<div class="content">
+			<h3>What does your business need?</h3>
+		</div>
+	</div>
+	<ul id="tiles">
+		<li class="tile" ng-repeat="product in productController.products">
+			<a href="{{product.url}}" background="{{product.src}}">
+				<img src="{{product.src}}" alt="{{product.name}}"/>
+				<div class="text-box">
+					<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
+					<h3>{{product.name}}</h3>
+					<p>{{product.shortdescription}}</p>
+				</div>
+			</a>
+		</li>
+	</ul>
 </div>
-<ul id="tiles">
-	<li class="tile" ng-repeat="product in productController.products">
-		<a href="{{product.url}}" background="{{product.src}}">
-			<img src="{{product.src}}" alt="{{product.name}}"/>
-			<div class="text-box">
-				<img class="icon" src="{{product.icon}}" alt="{{product.icontag}}"/>
-				<h3>{{product.name}}</h3>
-				<p>{{product.shortdescription}}</p>
-			</div>
-		</a>
-	</li>
-</ul>
