@@ -1,4 +1,4 @@
-<ul>
+<ul ng-controller="tabController">
 	<li ng-class="{ active: isActive('/') }">
 		<a href="#/">
 			<img src="images/logo-finix-2014.png" alt="Finix Logo"/>
@@ -6,6 +6,9 @@
 	</li>
 	<li ng-class="{ active: isActive('/products') }">
 		<a href="#/products">Products</a>
+	</li>
+	<li ng-class="{ active: isActive('/support') }">
+		<a href="#/support">Support</a>
 	</li>
 	<li ng-class="{ active: isActive('/blog') }">
 		<a href="#/blog">Blog</a>

@@ -20,6 +20,10 @@ websiteApp.config(['$routeProvider', function($routeProvider) {
 			templateUrl: 'html/product.html',
 			controller: 'productController',
 		})
+		.when('/support', {
+			templateUrl: 'html/support.html',
+			controller: '',
+		})
 		.when('/blog', {
 			templateUrl: 'html/blog.html',
 			controller: 'articlesController',

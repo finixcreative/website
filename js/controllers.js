@@ -4,6 +4,15 @@ var websiteControllers = angular.module('websiteControllers', [
 	'ngAnimate',
 	'ngRoute'
 ]);
+websiteControllers.controller('tabController', function(){
+	this.tab = 1;
+	this.selectTab = function(setTab){
+		this.tab = setTab;
+	};
+	this.isSelected = function(checkTab){
+		return this.tab === checkTab;
+	};
+});
 websiteControllers.controller('productsController', [
 	'$scope',
 	'Products',
