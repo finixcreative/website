@@ -1,7 +1,9 @@
 <div class="body">
 	<div class="constrain">
-		<input id="searchbar" type="search" name="search" placeholder="Search" ng-model="search">
-		<div id="blogfeed" class="constrain">
+		<div class="content">
+			<input id="searchbar" class="content" type="search" name="search" placeholder="Search" ng-model="search">
+		</div>
+		<div id="blogfeed">
 			<article class="content" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
 				<img src="{{ product.image }}" alt="{{ product.caption }}"/>
 				<div class="articletext">
