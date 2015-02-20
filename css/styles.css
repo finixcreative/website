@@ -236,7 +236,7 @@ textarea:focus {
 	outline: none;
 }
 textarea {
-	height: 200px;
+	height: 100px;
 }
 button {
 	background: #f52;	
