@@ -232,6 +232,7 @@ input, select, textarea {
 	padding: 10px;
 	margin: 0;
 	border: 1px solid #f52;
+	font-size: 16px;
 }
 input:hover,
 input:focus,
@@ -424,15 +425,11 @@ body#rsmith {
 
 /* BLOG */
 input[type=search] {
-    background: url("images/search.png") no-repeat;
+    background: url("../images/search.png") no-repeat;
     background-size: 20px;
     background-position: 20px 50%;
-	width: 100%;
-	max-width: 960px;
 	padding: 20px 20px 20px 50px;
 	margin: 0 auto;
-	border: none;
-	font-size: 20px;
 	display: block;
 }
 ::-webkit-input-placeholder {color: #f52; font-weight: 100;}
