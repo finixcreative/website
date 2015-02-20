@@ -1,11 +1,11 @@
-<div class="body">
-	<div class="constrain">
-		<div class="content">
+<div class="body full">
+	<div class="constrain full">
+		<div class="content full">
 			<h1 class="half">Blog</h1>
 			<input id="searchbar" class="content half" type="search" name="search" placeholder="Search" ng-model="search">
 		</div>
 		<div id="blogfeed">
-			<article class="content" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
+			<article class="content full" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
 				<img src="{{ product.image }}" alt="{{ product.caption }}"/>
 				<div class="articletext">
 					<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
