@@ -4,7 +4,8 @@ var websiteApp = angular.module('websiteApp', [
 	'ngAnimate',
 	'ngRoute',
 	'websiteControllers',
-	'websiteServices'
+	'websiteServices',
+	'websiteDirectives'
 ]);
 websiteApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
