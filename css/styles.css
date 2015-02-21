@@ -22,6 +22,9 @@ Secondary Fill   | #33CFFF
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
+html, html a {
+	-webkit-font-smoothing: antialiased !important;
+}
 html, body, .main {
 	height: 100%;
 }
