@@ -132,14 +132,6 @@ p a:hover {
 	margin: 20px auto 0;
 	display: block;
 }
-.description {
-	width: 50%;
-	float: left;
-}
-.form {
-	width: 50%;
-	float: left;
-}
 a.navlogo {
 	height: 55px;
 	padding: 15px 20px;
@@ -220,7 +212,7 @@ form {
 	color: #f52;
 	height: auto;
 	padding: 20px;
-	border: 1px solid #f52;
+	border: 1px solid #444;
 }
 form input,
 form select,
