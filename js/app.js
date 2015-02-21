@@ -19,7 +19,7 @@ websiteApp.config(['$routeProvider', function($routeProvider) {
 			templateUrl: 'pages/products/products.html',
 			controller: 'productController',
 		})
-		.when('/products/:product', {
+		.when('/products/:productId', {
 			templateUrl: 'pages/products/product.html',
 			controller: 'productController',
 		})
