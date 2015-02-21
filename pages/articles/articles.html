@@ -1,8 +1,10 @@
 <div class="body full">
 	<div class="constrain">
-		<div class="content full">
-			<h1 class="half">Articles</h1>
-			<input class="half" type="search" name="search" placeholder="Search articles" ng-model="search">
+		<div class="content half">
+			<h1>Articles</h1>
+		</div>
+		<div class="content half">
+			<input class="full" type="search" name="search" placeholder="Search articles" ng-model="search">
 		</div>
 		<div class="full">
 			<article class="content full" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
