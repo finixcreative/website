@@ -1,3 +1,5 @@
+'use strict';
+
 /* Controllers */
 
 var websiteControllers = angular.module('websiteControllers', [

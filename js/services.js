@@ -1,3 +1,5 @@
+'use strict';
+
 /* Services */
 
 var websiteServices = angular.module('websiteServices', [

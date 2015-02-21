@@ -1,3 +1,5 @@
+'use strict';
+
 /* Directives */
 
 var websiteDirectives = angular.module('websiteDirectives', []);
