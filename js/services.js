@@ -6,11 +6,11 @@ var websiteServices = angular.module('websiteServices', [
 websiteServices.factory('Slides', [
 	'$resource',
 	function($resource){
-		return $resource('slides/:slide.json', {}, {
+		return $resource('widgets/slides/:slideId.json', {}, {
 			query: {
 				method:'GET',
 				params: {
-					slides:'slides'
+					slideId:'slides'
 				},
 				isArray: true
 			}
@@ -20,11 +20,11 @@ websiteServices.factory('Slides', [
 websiteServices.factory('Products', [
 	'$resource',
 	function($resource){
-		return $resource('pages/products/products/:product.json', {}, {
+		return $resource('pages/products/products/:productId.json', {}, {
 			query: {
 				method:'GET',
 				params: {
-					products:'products'
+					productId:'products'
 				},
 				isArray: true
 			}
@@ -34,11 +34,11 @@ websiteServices.factory('Products', [
 websiteServices.factory('Articles', [
 	'$resource',
 	function($resource){
-		return $resource('pages/articles/articles/:article.json', {}, {
+		return $resource('pages/articles/articles/:articleId.json', {}, {
 			query: {
 				method:'GET',
 				params: {
-					articles:'articles'
+					articleId:'articles'
 				},
 				isArray: true
 			}
@@ -48,11 +48,11 @@ websiteServices.factory('Articles', [
 websiteServices.factory('Team', [
 	'$resource',
 	function($resource){
-		return $resource('pages/about/team/:profile.json', {}, {
+		return $resource('pages/about/team/:profileId.json', {}, {
 			query: {
 				method:'GET',
 				params: {
-					profiles:'profiles'
+					profileId:'profiles'
 				},
 				isArray: true
 			}

@@ -1,7 +1,7 @@
 /* Directives */
 
-var websiteDirective = angular.module('websiteDirective', []);
-websiteDirective.directive('slider', function ($timeout) {
+var websiteDirectives = angular.module('websiteDirectives', []);
+websiteDirectives.directive('slider', function ($timeout) {
 	return {
 		restrict: 'AE',
 		replace: true,
