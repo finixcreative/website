@@ -13,31 +13,31 @@ websiteApp.config(['$routeProvider', function($routeProvider) {
 			controller: 'slidesController',
 		})
 		.when('/products', {
-			templateUrl: 'products/products.html',
+			templateUrl: 'pages/products/products.html',
 			controller: 'productController',
 		})
 		.when('/products/:product', {
-			templateUrl: 'products/product.html',
+			templateUrl: 'pages/products/product.html',
 			controller: 'productController',
 		})
 		.when('/support', {
-			templateUrl: 'support/support.html',
+			templateUrl: 'pages/support/support.html',
 			controller: '',
 		})
 		.when('/articles', {
-			templateUrl: 'articles/articles.html',
+			templateUrl: 'pages/articles/articles.html',
 			controller: 'articlesController',
 		})
 		.when('/about', {
-			templateUrl: 'about/about.html',
+			templateUrl: 'pages/about/about.html',
 			controller: 'teamController',
 		})
 		.when('/about/:profile', {
-			templateUrl: 'about/profile.html',
+			templateUrl: 'pages/about/profile.html',
 			controller: 'teamController',
 		})
 		.when('/contact', {
-			templateUrl: 'contact/contact.html',
+			templateUrl: 'pages/contact/contact.html',
 			controller: '',
 		})
 		.otherwise({
