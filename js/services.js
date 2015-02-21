@@ -10,7 +10,7 @@ websiteServices.factory('Slides', [
 			query: {
 				method:'GET',
 				params: {
-					slides:'slides'
+					slide:'slides'
 				},
 				isArray: true
 			}
@@ -20,7 +20,7 @@ websiteServices.factory('Slides', [
 websiteServices.factory('Products', [
 	'$resource',
 	function($resource){
-		return $resource('products/:product.json', {}, {
+		return $resource('products/products/:product.json', {}, {
 			query: {
 				method:'GET',
 				params: {
@@ -31,14 +31,14 @@ websiteServices.factory('Products', [
 		});
 	}
 ]);
-websiteServices.factory('Blog', [
+websiteServices.factory('Articles', [
 	'$resource',
 	function($resource){
-		return $resource('blog/:article.json', {}, {
+		return $resource('articles/articles/:article.json', {}, {
 			query: {
 				method:'GET',
 				params: {
-					blog:'articles'
+					article:'articles'
 				},
 				isArray: true
 			}
@@ -48,11 +48,11 @@ websiteServices.factory('Blog', [
 websiteServices.factory('Team', [
 	'$resource',
 	function($resource){
-		return $resource('team/:profile.json', {}, {
+		return $resource('about/team/:profile.json', {}, {
 			query: {
 				method:'GET',
 				params: {
-					team:'profiles'
+					profile:'profiles'
 				},
 				isArray: true
 			}
