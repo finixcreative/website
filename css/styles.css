@@ -308,7 +308,10 @@ button.slidenav:hover {
 button.slidenav:focus {
 	outline: none;
 }
-label {}
+label {
+	font-size: 12px;
+	line-height: 2em;
+}
 
 /* HOME */
 #home {
