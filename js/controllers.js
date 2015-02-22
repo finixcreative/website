@@ -40,9 +40,13 @@ websiteControllers.controller('teamController', ['$scope', '$routeParams', '$htt
 		$scope.products = data;
 	});
 }]);
-websiteControllers.controller('articlesController', function(){
-	this.products = articles;
-});
+websiteControllers.controller('articlesController', [
+	'$scope',
+	'Articles',
+	function($scope, Articles) {
+		$scope.articles = Articles.query();
+	}
+]);
 websiteControllers.controller('slidesController', [
 	'$scope',
 	'Slides',
