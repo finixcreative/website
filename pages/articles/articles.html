@@ -4,11 +4,11 @@
 			<h1>Articles</h1>
 		</div>
 		<div class="content half">
-			<input class="full" type="search" name="search" placeholder="Search articles" ng-model="search">
+			<input class="full" type="search" name="search" placeholder="Search articles" ng-model="searchtext">
 		</div>
 		<div class="full">
-			<article class="content full" ng-repeat="product in articles.products | orderBy: 'date' | filter: search">
-				<img src="{{ product.image }}" alt="{{ product.caption }}"/>
+			<article class="content full" ng-repeat="article in articles | orderBy: 'date' | filter: searchtext">
+				<img src="{{ article.image }}" alt="{{ article.caption }}"/>
 				<div class="articletext">
 					<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
 					<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
