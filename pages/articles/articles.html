@@ -6,17 +6,15 @@
 		<div class="content half">
 			<input class="full" type="search" name="search" placeholder="Search articles" ng-model="searchtext">
 		</div>
-		<div class="full">
-			<article class="content full" ng-repeat="article in articles | orderBy: 'date' | filter: searchtext">
-				<img src="{{ article.image }}" alt="{{ article.caption }}"/>
-				<div class="articletext">
-					<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
-					<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
-					<p>{{product.content}}</p>
-				</div>
-				<a id="readmore" class="buttonalt" href="#">Read More!</a>
-			</article>
-		</div>
+		<article class="content full" ng-repeat="article in articles | orderBy: 'date' | filter: searchtext">
+			<img src="{{ article.image }}" alt="{{ article.caption }}"/>
+			<div class="articletext">
+				<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
+				<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
+				<p>{{product.content}}</p>
+			</div>
+			<a id="readmore" class="buttonalt" href="#">Read More!</a>
+		</article>
 		<div class="content full" ng-show="!articles.length">
 			<h3>Womp womp...</h3>
 			<p>Sorry, we couldn't find any articles containing "{{searchtext}}".</p>
