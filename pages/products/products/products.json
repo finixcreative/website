@@ -1,0 +1,25 @@
+{
+	"id": "web",
+	"name": "Web",
+	"background": "images/products/web.jpg",
+},
+{
+	"id": "brand",
+	"name": "Brand",
+	"background": "images/products/brand.jpg",
+},
+{
+	"id": "email",
+	"name": "Email",
+	"background": "images/products/email.jpg",
+},
+{
+	"id": "print",
+	"name": "Print",
+	"background": "images/products/print.jpg",
+},
+{
+	"id": "social",
+	"name": "Social",
+	"background": "images/products/social.jpg",
+},
