@@ -27,7 +27,7 @@ websiteControllers.controller('productController', [
 	'$routeParams',
 	'Products',
 	function($scope, $routeParams, Products) {
-		$scope.product = Products.get({product: $routeParams.product}, function(product) {
+		$scope.products = Products.get({products: $routeParams.productId}, function(product) {
 			$scope.icon = product.icon;
 		});
 		$scope.setIcon = function(icon) {
