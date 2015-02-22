@@ -9,7 +9,7 @@
 	</div>
 	<ul id="tiles">
 		<li class="tile" ng-repeat="product in products">
-			<a href="{{product.url}}" background="{{product.src}}">
+			<a href="#/products/{{product.id}}" background="{{product.background}}">
 				<img src="{{product.src}}" alt="{{product.name}}"/>
 				<div class="text-box">
 					<img class="icon" src="{{product.icon}}" alt="{{product.icontag}} Icon"/>
