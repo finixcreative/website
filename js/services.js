@@ -22,12 +22,12 @@ websiteServices.factory('Slides', [
 websiteServices.factory('Products', [
 	'$resource',
 	function($resource){
-		return $resource('pages/products/products/:productId.json', {}, {
-			query: {
+		return $resource('pages/products/products/:productId', {}, {
+			'update': {
+				method: 'PUT'
+			},
+			'query': {
 				method:'GET',
-				params: {
-					productId:'products'
-				},
 				isArray: true
 			}
 		});
