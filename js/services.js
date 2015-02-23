@@ -20,9 +20,9 @@ websiteServices.factory('Slides', [
 	}
 ]);
 websiteServices.factory('Products', function($resource){
-	return $resource('pages/products/products/:productId', {}, {
+	return $resource('pages/products/products/:productId', {productId: '@id'}, {
 		'update': {method: 'PUT'},
-		'query': {method:'GET', productId: '@id', isArray: true}
+		'query': {method:'GET', isArray: true}
 	});
 });
 websiteServices.factory('Articles', [
