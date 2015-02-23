@@ -22,7 +22,7 @@ websiteServices.factory('Slides', [
 websiteServices.factory('Products', [
 	'$resource',
 	function($resource){
-		return $resource('pages/products/products/:productId', {}, {
+		return $resource('pages/products/products/:productId.json', {}, {
 			'update': {
 				method: 'PUT'
 			},
