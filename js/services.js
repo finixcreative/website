@@ -22,10 +22,9 @@ websiteServices.factory('Slides', [
 websiteServices.factory('Products', [
 	'$resource',
 	function($resource) {
-		return $resource('pages/products/products/:productId.json', {}, {
+		return $resource('pages/products/products/products.json', {}, {
 			query: {
 				method:'GET',
-				params: {productId:'products'},
 				isArray: true
 			}
 		});
