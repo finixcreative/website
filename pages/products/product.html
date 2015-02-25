@@ -1,14 +1,12 @@
 <div class="body full">
 	<div class="constrain">
 		<div class="content full">
-			<img class="logo" src="{{ product.src }}" alt=""/>
+			<img class="logo" src="{{ product.icon }}" alt=""/>
 			<h1>{{ product.name }}</h1>
 		</div>
 		<div class="content half">
 			<h3>Make a strong first impression!</h3>
-			<p>
-				Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you professional, eye-catching designs for all of your needs. This package covers one round of design (with three sketches based on information provided), and one round of turning one sketch into a finished design. This also includes one round of color and font selections.
-			</p>
+			<p>{{ product.shortdescription }}</p>
 			<ul id="details">
 				<li ng-repeat="spec in products.specs">
 					{{product.spec}}
