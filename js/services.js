@@ -19,12 +19,18 @@ websiteServices.factory('Slides', [
 		});
 	}
 ]);
-websiteServices.factory('Products', function($resource){
-	return $resource('pages/products/products/:productId', {productId: '@id'}, {
-		'update': {method: 'PUT'},
-		'query': {method:'GET', isArray: true}
-	});
-});
+websiteServices.factory('Products', [
+	'$resource',
+	function($resource) {
+		return $resource('pages/products/products/:productId.json', {}, {
+			query: {
+				method:'GET',
+				params: {productId:'products'},
+				isArray: true
+			}
+		});
+	}
+]);
 websiteServices.factory('Articles', [
 	'$resource',
 	function($resource){

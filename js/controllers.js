@@ -22,17 +22,12 @@ websiteControllers.controller('productsController', [
 		$scope.products = Products.query();
 	}
 ]);
-websiteControllers.controller('productController', [
+websiteControllers.controller('productDetailController', [
 	'$scope',
 	'$routeParams',
 	'Products',
 	function($scope, $routeParams, Products) {
-		$scope.products = Products.get({products: $routeParams.productId}, function(product) {
-			$scope.icon = product.icon;
-		});
-		$scope.setIcon = function(icon) {
-			$scope.icon = icon;
-		}
+		$scope.products = Products.get({productId: $routeParams.productId}, function(products) {});
 	}
 ]);
 websiteControllers.controller('teamController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
