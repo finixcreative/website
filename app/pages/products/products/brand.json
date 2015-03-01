@@ -1,10 +1,10 @@
 {
 	"id": "brand",
 	"name": "Branding",
-	"src": "images/products/brand.jpg",
-	"url": "html/product-brand.html",
+	"src": "assets/images/products/brand.jpg",
+	"url": "app/pages/products/product-brand.html",
 	"link": "slide.selectTab(7)",
-	"icon": "images/icons/icon-brand.png",
+	"icon": "assets/images/icons/icon-brand.png",
 	"icontag": "Icon - Brand",
 	"shortdescription": "The first step for any new company! Logo creation and brand identity development give your fledgeling business a professional look.",
 }

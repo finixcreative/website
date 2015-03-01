@@ -1,10 +1,10 @@
 {
 	"id": "social",
 	"name": "Social Media",
-	"src": "images/products/social.jpg",
-	"url": "html/product-social.html",
+	"src": "assets/images/products/social.jpg",
+	"url": "app/pages/products/product-social.html",
 	"link": "slide.selectTab(10)",
-	"icon": "images/icons/icon-social.png",
+	"icon": "assets/images/icons/icon-social.png",
 	"icontag": "Icon - Social",
 	"shortdescription": "Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between their number of social media "likes" and the value of each stock. Every business has something to gain from building a social media presence!",
 }

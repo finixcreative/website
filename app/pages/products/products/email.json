@@ -1,10 +1,10 @@
 {
 	"id": "email",
 	"name": "Email Marketing",
-	"src": "images/products/email.jpg",
-	"url": "html/product-email.html",
+	"src": "assets/images/products/email.jpg",
+	"url": "app/pages/products/product-email.html",
 	"link": "slide.selectTab(8)",
-	"icon": "images/icons/icon-email.png",
+	"icon": "assets/images/icons/icon-email.png",
 	"icontag": "Icon - Email",
 	"shortdescription": "The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign, or "email blast". If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.",
 }
