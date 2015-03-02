@@ -38,8 +38,8 @@
 		<script type='text/javascript' src='app/widgets/slides/slides-srv.js'></script>
 	</head>
 	<body>
-		<appheader></appheader>
+		<header data-ng-include data-src="'app/widget/header/header.html'"></header>
 		<div class='main' ng-view></div>
-		<appfooter></appfooter>
+		<footer data-ng-include data-src="'app/widget/footer/footer.html'"></footer>
 	</body>
 </html>
