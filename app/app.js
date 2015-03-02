@@ -2,34 +2,34 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider
 			.when('/', {
-				templateUrl: 'html/home.html',
+				templateUrl: 'app/pages/home/home.html',
 				controller: 'slidesController'
 			})
 			.when('/products', {
-				templateUrl: 'pages/products/products.html',
+				templateUrl: 'app/pages/products/products.html',
 				controller: 'productsController'
 			})
 			.when('/products/:productId', {
-				templateUrl: 'pages/products/product.html',
+				templateUrl: 'app/pages/products/product.html',
 				controller: 'productDetailController'
 			})
 			.when('/support', {
-				templateUrl: 'pages/support/support.html',
+				templateUrl: 'app/pages/support/support.html',
 			})
 			.when('/articles', {
-				templateUrl: 'pages/articles/articles.html',
+				templateUrl: 'app/pages/articles/articles.html',
 				controller: 'articlesController'
 			})
 			.when('/about', {
-				templateUrl: 'pages/about/about.html',
+				templateUrl: 'app/pages/about/about.html',
 				controller: 'teamController'
 			})
 			.when('/about/:profile', {
-				templateUrl: 'pages/about/profile.html',
+				templateUrl: 'app/pages/about/profile.html',
 				controller: 'teamController'
 			})
 			.when('/contact', {
-				templateUrl: 'pages/contact/contact.html',
+				templateUrl: 'app/pages/contact/contact.html',
 			})
 			.otherwise({
 				redirectTo: '/',
