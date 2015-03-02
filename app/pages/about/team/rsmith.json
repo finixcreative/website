@@ -21,7 +21,7 @@
 			"position": "Co-Founder",
 			"company": "Finix",
 			"logo": {
-				"src": "../images/logos/logo-finix.jpg",
+				"src": "assets/images/logos/logo-finix.jpg",
 				"alt": "Finix Logo",
 			},
 			"location": "Boston, MA",
@@ -32,7 +32,7 @@
 			"position": "Creative Director",
 			"company": "Associated Environmental Systems",
 			"logo": {
-				"src": "../images/logos/logo-aes.jpg",
+				"src": "assets/images/logos/logo-aes.jpg",
 				"alt": "AES Logo",
 			},
 			"location": "Ayer, MA",
@@ -43,7 +43,7 @@
 			"position": "Web Designer",
 			"company": "Propel Marketing",
 			"logo": {
-				"src": "../images/logos/logo-propel.jpg",
+				"src": "assets/images/logos/logo-propel.jpg",
 				"alt": "Propel Marketing Logo",
 			},
 			"location": "Quincy, MA",
@@ -54,7 +54,7 @@
 			"position": "Marketing Coordinator",
 			"company": "Coldwell Banker",
 			"logo": {
-				"src": "../images/logos/logo-coldwell.jpg",
+				"src": "assets/images/logos/logo-coldwell.jpg",
 				"alt": "Coldwell Banker Logo",
 			},
 			"location": "Cambridge, MA",
@@ -65,7 +65,7 @@
 			"position": "Production Artist",
 			"company": "Monitor Group",
 			"logo": {
-				"src": "../images/logos/logo-monitor.jpg",
+				"src": "assets/images/logos/logo-monitor.jpg",
 				"alt": "Monitor Group Logo",
 			},
 			"location": "Cambridge, MA",
@@ -77,7 +77,7 @@
 		{
 			"name": "Hampshire College",
 			"logo": {
-				"src": "../images/logos/logo-hampshire.jpg",
+				"src": "assets/images/logos/logo-hampshire.jpg",
 				"alt": "Hampshire College Logo",
 			},
 			"location": "Amherst, MA",
@@ -87,7 +87,7 @@
 		{
 			"name": "Northern Essex Community College",
 			"logo": {
-				"src": "../images/logos/logo-necc.jpg",
+				"src": "assets/images/logos/logo-necc.jpg",
 				"alt": "Northern Essex Community College Logo",
 			},
 			"location": "Haverhill, MA",
@@ -99,7 +99,7 @@
 		{
 			"name": "Jonathan Biddle",
 			"portrait": {
-				"src": "../images/portraits/portrait-jon_biddle.jpg",
+				"src": "assets/images/portraits/portrait-jon_biddle.jpg",
 				"alt": "Jonathan Biddle Portrait",
 			},
 			"position": "Senior Software Engineer",
@@ -111,7 +111,7 @@
 		{
 			"name": "Tyrel Souza",
 			"portrait": {
-				"src": "../images/portraits/portrait-tyrel_souza.jpg",
+				"src": "assets/images/portraits/portrait-tyrel_souza.jpg",
 				"alt": "Tyrel Souza Portrait",
 			},
 			"position": "Senior Application Developer",
@@ -123,7 +123,7 @@
 		{
 			"name": "Cynthia Andre",
 			"portrait": {
-				"src": "../images/portraits/portrait-cynthia_andre.jpg",
+				"src": "assets/images/portraits/portrait-cynthia_andre.jpg",
 				"alt": "Cynthia Andre Portrait",
 			},
 			"position": "Product Manager",
@@ -135,7 +135,7 @@
 		{
 			"name": "Schae Koteles",
 			"portrait": {
-				"src": "../images/portraits/portrait-schae_koteles.jpg",
+				"src": "assets/images/portraits/portrait-schae_koteles.jpg",
 				"alt": "Schae Koteles Portrait",
 			},
 			"position": "Marketing Associate",
@@ -150,7 +150,7 @@
 			"client": "Associated Environmental Systems",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-aes.png",
+				"src": "assets/images/portfolio/logo-aes.png",
 				"alt": "AES Logo",
 			},
 			"anchor": "http://git-aes.github.io/WebsiteUpdate/",
@@ -160,7 +160,7 @@
 			"client": "Associated Environmental Systems",
 			"design": "Website",
 			"preview": {
-				"src": "../images/portfolio/web-aes_website.png",
+				"src": "assets/images/portfolio/web-aes_website.png",
 				"alt": "AES Website",
 			},
 			"anchor": "http://git-aes.github.io/WebsiteUpdate/",
@@ -170,7 +170,7 @@
 			"client": "Associated Environmental Systems",
 			"design": "Dashboard App",
 			"preview": {
-				"src": "../images/portfolio/web-aes_dashboard.png",
+				"src": "assets/images/portfolio/web-aes_dashboard.png",
 				"alt": "AES Dashboard",
 			},
 			"anchor": "http://git-aes.github.io/XChange-Dash/",
@@ -180,7 +180,7 @@
 			"client": "Americana Leather",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-americana.png",
+				"src": "assets/images/portfolio/logo-americana.png",
 				"alt": "Americana Logo",
 			},
 			"anchor": "#",
@@ -190,7 +190,7 @@
 			"client": "Efficient Energy Solutions",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-efficient_energy_solutions.png",
+				"src": "assets/images/portfolio/logo-efficient_energy_solutions.png",
 				"alt": "Efficient Energy Solutions Logo",
 			},
 			"anchor": "#",
@@ -200,7 +200,7 @@
 			"client": "Far Cry",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-far_cry.png",
+				"src": "assets/images/portfolio/logo-far_cry.png",
 				"alt": "Far Cry Logo",
 			},
 			"anchor": "http://www.facebook.com/farcrybeers",
@@ -210,7 +210,7 @@
 			"client": "Finix",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-finix.png",
+				"src": "assets/images/portfolio/logo-finix.png",
 				"alt": "Finix Logo",
 			},
 			"anchor": "http://finixcreative.github.io/website/",
@@ -220,7 +220,7 @@
 			"client": "Inner Edge Fitness",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-inner_edge_fitness.png",
+				"src": "assets/images/portfolio/logo-inner_edge_fitness.png",
 				"alt": "Inner Edge Fitness Logo",
 			},
 			"anchor": "#",
@@ -230,7 +230,7 @@
 			"client": "Jim Cornelison",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-jim_cornelison.png",
+				"src": "assets/images/portfolio/logo-jim_cornelison.png",
 				"alt": "Jim Cornelison Logo",
 			},
 			"anchor": "#",
@@ -240,7 +240,7 @@
 			"client": "LadyBag",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-ladybag.png",
+				"src": "assets/images/portfolio/logo-ladybag.png",
 				"alt": "LadyBag Logo",
 			},
 			"anchor": "#",
@@ -250,7 +250,7 @@
 			"client": "Magic Hat",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-magic_hat.png",
+				"src": "assets/images/portfolio/logo-magic_hat.png",
 				"alt": "Magic Hat Logo",
 			},
 			"anchor": "#",
@@ -260,7 +260,7 @@
 			"client": "Rise & Grind",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-rise_and_grind.png",
+				"src": "assets/images/portfolio/logo-rise_and_grind.png",
 				"alt": "Rise & Grind Logo",
 			},
 			"anchor": "#",
@@ -270,7 +270,7 @@
 			"client": "Synth",
 			"design": "Logo",
 			"preview": {
-				"src": "../images/portfolio/logo-synth.png",
+				"src": "assets/images/portfolio/logo-synth.png",
 				"alt": "Synth Logo",
 			},
 			"anchor": "#",
@@ -280,7 +280,7 @@
 			"client": "County Tree Service",
 			"design": "Website",
 			"preview": {
-				"src": "../images/portfolio/web-cts_tree.png",
+				"src": "assets/images/portfolio/web-cts_tree.png",
 				"alt": "County Tree Service Website",
 			},
 			"anchor": "http://www.countytree.com",
@@ -290,7 +290,7 @@
 			"client": "Finix",
 			"design": "Website",
 			"preview": {
-				"src": "../images/portfolio/web-finix_website.png",
+				"src": "assets/images/portfolio/web-finix_website.png",
 				"alt": "Finix Website",
 			},
 			"anchor": "http://finixcreative.github.io/website/",
@@ -300,7 +300,7 @@
 			"client": "Propel",
 			"design": "Blog",
 			"preview": {
-				"src": "../images/portfolio/web-propel_blog.png",
+				"src": "assets/images/portfolio/web-propel_blog.png",
 				"alt": "Propel Blog",
 			},
 			"anchor": "http://propelmarketing.com/blog/",
@@ -310,7 +310,7 @@
 			"client": "Propel",
 			"design": "List App",
 			"preview": {
-				"src": "../images/portfolio/web-propel_list.png",
+				"src": "assets/images/portfolio/web-propel_list.png",
 				"alt": "Propel List App",
 			},
 			"anchor": "#",
@@ -320,7 +320,7 @@
 			"client": "Propel",
 			"design": "Social App",
 			"preview": {
-				"src": "../images/portfolio/web-propel_social.png",
+				"src": "assets/images/portfolio/web-propel_social.png",
 				"alt": "Propel Social App",
 			},
 			"anchor": "#",
@@ -330,7 +330,7 @@
 			"client": "TV News Sales",
 			"design": "Order Portal",
 			"preview": {
-				"src": "../images/portfolio/web-tvnewssales.png",
+				"src": "assets/images/portfolio/web-tvnewssales.png",
 				"alt": "TV News Sales Order Portal",
 			},
 			"anchor": "http://www.finixcreative.com/tvnewssales/",
