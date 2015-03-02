@@ -3,7 +3,6 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 		$routeProvider
 			.when('/', {
 				templateUrl: 'app/pages/home/home.html',
-				controller: 'slidesController'
 			})
 			.when('/products', {
 				templateUrl: 'app/pages/products/products.html',
