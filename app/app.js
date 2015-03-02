@@ -10,7 +10,7 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 				controller: 'productsController'
 			})
 			.when('/products/:productId', {
-				templateUrl: 'app/pages/products/product.html',
+				templateUrl: 'app/pages/products/views/product.html',
 				controller: 'productDetailController'
 			})
 			.when('/support', {
