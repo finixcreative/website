@@ -23,7 +23,7 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 				templateUrl: 'app/pages/about/about.html',
 				controller: 'teamController'
 			})
-			.when('/about/:profile', {
+			.when('/about/:profileId', {
 				templateUrl: 'app/pages/about/profile.html',
 				controller: 'teamController'
 			})

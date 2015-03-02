@@ -1,6 +1,4 @@
-angular.module('websiteControllers', ['ngAnimate', 'ngRoute'])
-	.controller('teamController', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-		$http.get('json/team.js').success(function(data) {
-			$scope.products = data;
-		});
+angular.module('websiteControllers')
+	.controller('teamController', ['$scope', 'Profiles', function($scope, Profiles) {
+		$scope.profiles = Profiles.query();
 	}]);
