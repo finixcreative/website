@@ -1,6 +1,6 @@
 {
-	"img": "images/iStock_000013899547Large.jpg",
-	"alt": "images/bg1",
+	"img": "assets/images/iStock_000013899547Large.jpg",
+	"alt": "assets/images/bg1",
 	"position": "center",
 	"id": "slide2",
 	"headline": "Title",
