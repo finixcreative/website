@@ -1,7 +1,7 @@
-angular.module('websiteDirectives')
+angular.module('websiteDirectives', ['websiteControllers'])
 	.directive('navigation', function(){
 		return {
 			restrict: 'E',
-			template: 'widgets/nav/nav.html'
+			template: 'app/widgets/nav/nav.html'
 		};
 	});

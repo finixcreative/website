@@ -1,7 +1,7 @@
-angular.module('websiteDirectives')
+angular.module('websiteDirectives', ['websiteControllers'])
 	.directive('appheader', function(){
 		return {
 			restrict: 'E',
-			template: 'widgets/header/header.html'
+			template: 'app/widgets/header/header.html'
 		};
 	});
