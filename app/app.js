@@ -1,7 +1,7 @@
 angular.module('FinixWeb', [
 	'ngRoute',
 	'ngAnimate',
-	'websiteControllers',
-	'websiteServices',
-	'websiteDirectives'
+	'Products',
+	'Articles'
+	'Team',
 ])
