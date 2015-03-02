@@ -19,17 +19,17 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 			})
 			.when('/articles', {
 				templateUrl: 'app/pages/articles/articles.html',
-				controller: 'ArticlesController'
+				controller: 'ArticlesController',
 				controllerAs: 'articles'
 			})
 			.when('/about', {
 				templateUrl: 'app/pages/about/about.html',
-				controller: 'TeamController'
+				controller: 'TeamController',
 				controllerAs: 'profiles'
 			})
 			.when('/about/:profileId', {
 				templateUrl: 'app/pages/about/profile.html',
-				controller: 'TeamController'
+				controller: 'TeamController',
 				controllerAs: 'profiledetails'
 			})
 			.when('/contact', {
