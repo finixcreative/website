@@ -2,6 +2,6 @@ angular.module('FinixWeb', [
 	'ngRoute',
 	'ngAnimate',
 	'Products',
-	'Articles'
-	'Team',
+	'Articles',
+	'Team'
 ])
