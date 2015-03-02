@@ -11,7 +11,7 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 			})
 			.when('/products/:productId', {
 				templateUrl: 'app/pages/products/views/product.html',
-				controller: 'ProductDetailController'
+				controller: 'ProductDetailController',
 				controllerAs: 'productdetails'
 			})
 			.when('/support', {
