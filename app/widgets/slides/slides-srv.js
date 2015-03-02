@@ -4,6 +4,6 @@ angular.module('websiteServices', ['ngResource'])
 			query: {
 				method: 'GET',
 				isArray: true
-			};
+			}
 		});
 	}]);
