@@ -1,4 +1,4 @@
-angular.module('websiteDirective')
+angular.module('websiteDirectives')
 	.directive('navigation', function(){
 		return {
 			restrict: 'E',
