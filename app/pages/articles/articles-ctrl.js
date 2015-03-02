@@ -1,4 +1,4 @@
 angular.module('websiteControllers', ['websiteServices'])
-	.controller('articlesController', ['$scope', 'Articles', function($scope, Articles) {
+	.controller('ArticlesController', ['$scope', 'Articles', function($scope, Articles) {
 		$scope.articles = Articles.query();
 	}]);

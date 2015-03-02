@@ -6,12 +6,12 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 			})
 			.when('/products', {
 				templateUrl: 'app/pages/products/products.html',
-				controller: 'productsController',
+				controller: 'ProductsController',
 				controllerAs: 'products'
 			})
 			.when('/products/:productId', {
 				templateUrl: 'app/pages/products/views/product.html',
-				controller: 'productDetailController'
+				controller: 'ProductDetailController'
 				controllerAs: 'productdetails'
 			})
 			.when('/support', {
@@ -19,17 +19,17 @@ angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'web
 			})
 			.when('/articles', {
 				templateUrl: 'app/pages/articles/articles.html',
-				controller: 'articlesController'
+				controller: 'ArticlesController'
 				controllerAs: 'articles'
 			})
 			.when('/about', {
 				templateUrl: 'app/pages/about/about.html',
-				controller: 'teamController'
+				controller: 'TeamController'
 				controllerAs: 'profiles'
 			})
 			.when('/about/:profileId', {
 				templateUrl: 'app/pages/about/profile.html',
-				controller: 'teamController'
+				controller: 'TeamController'
 				controllerAs: 'profiledetails'
 			})
 			.when('/contact', {
