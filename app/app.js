@@ -1,4 +1,4 @@
-angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'websiteServices', 'websiteDirectives'])
+angular.module('websiteApp', ['ngRoute', 'ngAnimate', 'websiteControllers', 'websiteServices'])
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider
 			.when('/', {
