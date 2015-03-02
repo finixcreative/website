@@ -2,7 +2,7 @@
 	"id": "web",
 	"name": "Web Design",
 	"src": "assets/images/products/web.jpg",
-	"url": "app/pages/products/product-web.html",
+	"url": "app/pages/products/views/product-web.html",
 	"link": "slide.selectTab(6)",
 	"icon": "assets/images/icons/icon-web.png",
 	"icontag": "Icon - Web",

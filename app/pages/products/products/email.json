@@ -2,7 +2,7 @@
 	"id": "email",
 	"name": "Email Marketing",
 	"src": "assets/images/products/email.jpg",
-	"url": "app/pages/products/product-email.html",
+	"url": "app/pages/products/views/product-email.html",
 	"link": "slide.selectTab(8)",
 	"icon": "assets/images/icons/icon-email.png",
 	"icontag": "Icon - Email",

@@ -2,7 +2,7 @@
 	"id": "social",
 	"name": "Social Media",
 	"src": "assets/images/products/social.jpg",
-	"url": "app/pages/products/product-social.html",
+	"url": "app/pages/products/views/product-social.html",
 	"link": "slide.selectTab(10)",
 	"icon": "assets/images/icons/icon-social.png",
 	"icontag": "Icon - Social",

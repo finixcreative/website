@@ -2,7 +2,7 @@
 	"id": "print",
 	"name": "Print Design",
 	"src": "assets/images/products/print.jpg",
-	"url": "app/pages/products/product-print.html",
+	"url": "app/pages/products/views/product-print.html",
 	"link": "slide.selectTab(9)",
 	"icon": "assets/images/icons/icon-print.png",
 	"icontag": "Icon - Print",
