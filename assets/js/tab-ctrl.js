@@ -1,5 +1,5 @@
 angular.module('websiteControllers', ['ngAnimate', 'ngRoute'])
-	.controller('tabController', function() {
+	.controller('TabController', function() {
 		this.tab = "/";
 		this.selectTab = function(setTab){
 			this.tab = setTab;
