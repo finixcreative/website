@@ -1,4 +1,4 @@
-angular.module('websiteDirectives', ['websiteControllers'])
+angular.module('header')
 	.directive('appheader', function(){
 		return {
 			restrict: 'E',

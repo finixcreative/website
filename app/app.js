@@ -5,5 +5,8 @@ angular.module('finixApp', [
 	'articles',
 	'team',
 	'slides',
+	'header',
+	'nav',
+	'footer',
 	'tabs'
 ])

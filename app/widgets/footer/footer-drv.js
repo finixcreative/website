@@ -1,4 +1,4 @@
-angular.module('websiteDirectives', ['websiteControllers'])
+angular.module('footer')
 	.directive('appfooter', function(){
 		return {
 			restrict: 'E',
