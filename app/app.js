@@ -1,7 +1,9 @@
 angular.module('finixApp', [
 	'ngRoute',
 	'ngAnimate',
-	'Products',
-	'Articles',
-	'Team'
+	'products',
+	'articles',
+	'team',
+	'slides',
+	'tabs'
 ])

@@ -1,4 +1,4 @@
-angular.module('websiteControllers', ['ngAnimate', 'ngRoute'])
+angular.module('tabs', ['ngAnimate', 'ngRoute'])
 	.controller('TabController', function() {
 		this.tab = "/";
 		this.selectTab = function(setTab){
