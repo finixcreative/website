@@ -1,4 +1,4 @@
-angular.module('nav')
+angular.module('nav', [])
 	.directive('navigation', function(){
 		return {
 			restrict: 'E',

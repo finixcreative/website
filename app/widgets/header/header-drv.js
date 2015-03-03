@@ -1,4 +1,4 @@
-angular.module('header')
+angular.module('header', [])
 	.directive('appheader', function(){
 		return {
 			restrict: 'E',
