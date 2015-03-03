@@ -1,4 +1,4 @@
-angular.module('finixWeb', [
+angular.module('finixApp', [
 	'ngRoute',
 	'ngAnimate',
 	'Products',
