@@ -1,4 +1,4 @@
-angular.module('FinixWeb')
+angular.module('finixApp')
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider
 			.when('/', {
