@@ -1,4 +1,4 @@
-angular.module('websiteDirectives', ['websiteControllers'])
+angular.module('Slides')
 	.directive('slides', function ($timeout) {
 		return {
 			restrict: 'E',
