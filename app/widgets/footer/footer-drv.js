@@ -1,4 +1,4 @@
-angular.module('footer', [])
+angular.module('footerMod', [])
 	.directive('appfooter', function(){
 		return {
 			restrict: 'E',

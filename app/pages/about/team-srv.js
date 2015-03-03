@@ -1,4 +1,4 @@
-angular.module('team', ['ngResource'])
+angular.module('teamMod', ['ngResource'])
 	.factory('Profiles', ['$resource', function ProfilesFactory($resource){
 		return $resource('app/pages/about/profiles/:profileId.json', {}, {
 			query: {

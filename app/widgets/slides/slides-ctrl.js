@@ -1,4 +1,4 @@
-angular.module('slides')
+angular.module('slidesMod')
 	.controller('SlidesController', ['$scope', 'Slides', function($scope, Slides) {
 		$scope.images = [
 			{

@@ -1,4 +1,4 @@
-angular.module('products', ['ngResource'])
+angular.module('productsMod', ['ngResource'])
 	.factory('Products', ['$resource', function ProductsFactory($resource){
 		return $resource('app/pages/products/products/:productId.json', {}, {
 			query: {

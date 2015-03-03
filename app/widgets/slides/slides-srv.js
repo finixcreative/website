@@ -1,4 +1,4 @@
-angular.module('slides', ['ngResource'])
+angular.module('slidesMod', ['ngResource'])
 	.factory('Slides', ['$resource', function SlidesFactory($resource){
 		return $resource('app/widgets/slides/slides/', {}, {
 			query: {
