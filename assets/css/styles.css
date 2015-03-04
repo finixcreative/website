@@ -495,22 +495,17 @@ input[type=search] {
 /* FOOTER */
 footer {
 	background: #444;
-	width: 100%;
 	border-top: 1px solid #fff;
-	float: left;
 }
-footer .contact, footer .social {
-	float: left;
-	width: 50%;
-}
-footer .social a {
+footer a {
 	color: #fff;
 	width: auto;
 	display: block;
 	padding: 3px;
 	float: left;
 }
-footer .social img,
+footer a:hover {color: #f52;}
+footer img,
 img.saturate {
 	width: 30px;
 	height: auto;
@@ -521,7 +516,6 @@ img.saturate {
 	-o-filter: saturate(0%);
 	-ms-filter: saturate(0%);
 }
-footer a:hover {color: #f52;}
 footer a:hover img,
 img.saturate:hover {
 	filter: saturate(100%);
@@ -531,8 +525,7 @@ img.saturate:hover {
 	-ms-filter: saturate(100%);
 }
 .copyright {
-	clear: both;
-	font-size: 0.75em;
+	font-size: 0.5em;
 }
 
 /* RESPONSIVE */
