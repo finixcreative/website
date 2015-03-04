@@ -499,10 +499,7 @@ footer {
 }
 footer a {
 	color: #fff;
-	width: auto;
 	display: block;
-	padding: 3px;
-	float: left;
 }
 footer a:hover {color: #f52;}
 footer img,
@@ -524,8 +521,8 @@ img.saturate:hover {
 	-o-filter: saturate(100%);
 	-ms-filter: saturate(100%);
 }
-.copyright {
-	font-size: 0.5em;
+.copyright p {
+	font-size: 0.8em;
 }
 
 /* RESPONSIVE */
