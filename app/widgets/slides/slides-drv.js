@@ -4,7 +4,7 @@ angular.module('slidesMod')
 			restrict: 'E',
 			replace: true,
 			scope: {images: '='},
-			templateUrl: 'website/app/widgets/slides/slides.html',
+			templateUrl: '/website/app/widgets/slides/slides.html',
 			link: function (scope, elem, attrs) {
 				scope.currentIndex = 0;
 				scope.next = function(){
