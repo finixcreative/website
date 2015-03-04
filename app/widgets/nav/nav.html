@@ -1,24 +1,22 @@
-<nav>
-	<ul ng-controller="tabController">
-		<li ng-class="{ active: isActive('/') }">
-			<a href="#/">
-				<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
-			</a>
-		</li>
-		<li ng-class="{ active: isActive('/products') }">
-			<a href="#/products">Products</a>
-		</li>
-		<li ng-class="{ active: isActive('/support') }">
-			<a href="#/support">Support</a>
-		</li>
-		<li ng-class="{ active: isActive('/articles') }">
-			<a href="#/articles">Articles</a>
-		</li>
-		<li ng-class="{ active: isActive('/about') }">
-			<a href="#/about">About</a>
-		</li>
-		<li ng-class="{ active: isActive('/contact') }">
-			<a href="#/contact">Contact</a>
-		</li>
-	</ul>
-</nav>
+<ul ng-controller="tabController">
+	<li ng-class="{ active: isActive('/') }">
+		<a href="#/">
+			<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
+		</a>
+	</li>
+	<li ng-class="{ active: isActive('/products') }">
+		<a href="#/products">Products</a>
+	</li>
+	<li ng-class="{ active: isActive('/support') }">
+		<a href="#/support">Support</a>
+	</li>
+	<li ng-class="{ active: isActive('/articles') }">
+		<a href="#/articles">Articles</a>
+	</li>
+	<li ng-class="{ active: isActive('/about') }">
+		<a href="#/about">About</a>
+	</li>
+	<li ng-class="{ active: isActive('/contact') }">
+		<a href="#/contact">Contact</a>
+	</li>
+</ul>

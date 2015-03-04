@@ -40,8 +40,8 @@
 		<script type='text/javascript' src='app/widgets/slides/slides-drv.js'></script>
 	</head>
 	<body>
-		<appheader></appheader>
+		<header data-ng-include data-src="'app/widgets/header/header.html'"></header>
 		<div class='main' ng-view></div>
-		<appfooter></appfooter>
+		<footer data-ng-include data-src="'app/widgets/footer/footer.html'"></footer>
 	</body>
 </html>
