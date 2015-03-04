@@ -1,6 +1,6 @@
 angular.module('teamMod', ['ngResource'])
 	.factory('Profiles', ['$resource', function ProfilesFactory($resource){
-		return $resource('app/pages/about/profiles/:profileId.json', {}, {
+		return $resource('/website/app/pages/about/profiles/:profileId.json', {}, {
 			query: {
 				method: 'GET',
 				params: {profileId: 'profiles'},
