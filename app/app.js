@@ -7,5 +7,6 @@ angular.module('finixApp', [
 	'slidesMod',
 	'headerMod',
 	'navMod',
-	'footerMod'
+	'footerMod',
+	'tabsMod'
 ]);
