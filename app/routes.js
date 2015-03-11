@@ -24,12 +24,12 @@ angular.module('finixApp')
 			})
 			.when('/about', {
 				templateUrl: 'app/pages/about/about.html',
-				controller: 'TeamController',
+				controller: 'ProfilesController',
 				controllerAs: 'profiles'
 			})
 			.when('/about/:profileId', {
 				templateUrl: 'app/pages/about/profile.html',
-				controller: 'TeamController',
+				controller: 'ProfilesController',
 				controllerAs: 'profiledetails'
 			})
 			.when('/contact', {
