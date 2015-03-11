@@ -6,7 +6,7 @@ angular.module('profilesMod')
 	.controller('ProfilesController', [ '$http', function($http){
 		var about = this;
 		about.profiles = [];
-		$http.get('app/pages/products/products/products.json').success(function(data){
+		$http.get('app/pages/about/profiles/rsmith.json').success(function(data){
 			about.profiles = data;
 		});
 	}]);
