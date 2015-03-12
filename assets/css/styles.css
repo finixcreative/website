@@ -209,10 +209,10 @@ li:hover .text-box {
 }
 
 .main {padding-top: 55px;}
-article {
+.article {
 	border-bottom: 1px solid #ccc;
 }
-article:last-child {
+.article:last-child {
 	border-bottom: none;
 }
 
