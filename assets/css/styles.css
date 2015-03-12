@@ -200,6 +200,9 @@ li .text-box {
 	z-index: 888;
 	display: none;
 }
+li .text-box h3 {
+	text-transform: capitalize;
+}
 li:hover .text-box {
 	display: block;
 }
