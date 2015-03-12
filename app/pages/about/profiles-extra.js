@@ -71,4 +71,14 @@
 		"bio": "Mike wrote a song for you.",
 		"link": "",
 	},
+	{
+		"name": "Work with us!",
+		"title": "Many positions available",
+		"portrait": {
+			"src": "images/team/portrait-batsignal.png",
+			"alt": "Open Positions",
+		},
+		"bio": "We're looking for talented, creative individuals to join our growing team.",
+		"link": "http://www.linkedin.com/company/finix",
+	},
 ];

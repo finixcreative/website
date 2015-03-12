@@ -10,7 +10,7 @@ var profiles = [
 		"phone": "203-295-4369",
 		"linkedin": "https://www.linkedin.com/in/richardrsmith3",
 		"bio": "Richard puts on his pants like everyone else, one leg at a time.",
-		"link": "/website/html/rsmith.html",
+		"link": "#/about/rsmith.html",
 		"linkedin": "https://www.linkedin.com/in/richardrsmith3/",
 		"letter": {
 			"p1": "I am excited to apply for Hampshire College’s new position of Chief Creative Officer. Hampshire is a beacon of progressive ideas, creativity, and intellectual freedom. The college’s incomparable opportunities attract students from all over the world, who represent a vast range of cultural norms and economic backgrounds. Building strong connections with that diverse and scattered audience poses unique marketing challenges, so Hampshire needs a dedicated and talented CCO to lead the way.",
@@ -380,15 +380,5 @@ var profiles = [
 		},
 		"bio": "Alex makes it rain.",
 		"link": "",
-	},
-	{
-		"name": "Work with us!",
-		"title": "Many positions available",
-		"portrait": {
-			"src": "images/team/portrait-batsignal.png",
-			"alt": "Open Positions",
-		},
-		"bio": "We're looking for talented, creative individuals to join our growing team.",
-		"link": "http://www.linkedin.com/company/finix",
 	},
 ];
