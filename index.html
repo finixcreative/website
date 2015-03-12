@@ -23,9 +23,14 @@
 		<script type='text/javascript' src='assets/js/tab-ctrl.js'></script>
 		<!-- Page Scripts -->
 		<script type='text/javascript' src='app/pages/products/products.js'></script>
+		<script type='text/javascript' src='app/pages/products/products-srv.js'></script>
+		<script type='text/javascript' src='app/pages/products/products-ctrl.js'></script>
 		<script type='text/javascript' src='app/pages/products/views/productdetail-ctrl.js'></script>
-		<script type='text/javascript' src='app/pages/articles/articles.js'></script>
+		<script type='text/javascript' src='app/pages/articles/articles-srv.js'></script>
+		<script type='text/javascript' src='app/pages/articles/articles-ctrl.js'></script>
 		<script type='text/javascript' src='app/pages/about/profiles.js'></script>
+		<script type='text/javascript' src='app/pages/about/profiles-srv.js'></script>
+		<script type='text/javascript' src='app/pages/about/profiles-ctrl.js'></script>
 		<!-- Widget Scripts -->
 		<script type='text/javascript' src='app/widgets/footer/footer-drv.js'></script>
 		<script type='text/javascript' src='app/widgets/header/header-drv.js'></script>
@@ -33,11 +38,10 @@
 		<script type='text/javascript' src='app/widgets/slides/slides-srv.js'></script>
 		<script type='text/javascript' src='app/widgets/slides/slides-ctrl.js'></script>
 		<script type='text/javascript' src='app/widgets/slides/slides-drv.js'></script>
-		<script type='text/javascript' src='app/widgets/tiles/tiles-ctrl.js'></script>
 	</head>
 	<body>
 		<appheader class='full'></appheader>
-		<div ng-view class='main full'></div>
+		<div class='main full' ng-view></div>
 		<appfooter class='full'></appfooter>
 	</body>
 </html>
