@@ -1,7 +1,20 @@
 <footer class="full">
-	<div class="constrain content">
-		<contact class="half"></contact>
-		<social class="half"></social>
-		<copyright class="full"></copyright>
+	<div class="constrain">
+		<div class="content full">
+			<div class="half">
+				<h3>Contact us:</h3>
+				<a href="mailto:rsmith@finixcreative.com">rsmith@finixcreative.com</a><br>
+				<a href="tel:1-617-417-2179">(617) 417-2179</a>
+			</div>
+			<div class="half">
+				<h3>Connect with us:</h3>
+				<a id="{{social.name}}" href="https://{{social.link}}" target="_blank" ng-repeat="social in social.socials">
+					<img src="images/icons/social/icon-{{social.name}}.png" alt="{{social.name}} icon"/>
+				</a>
+			</div>
+			<div class="copyright full">
+				<p>&copy; 2015 Finix. All rights reserved.</p>
+			</div>
+		</div>
 	</div>
 </footer>
