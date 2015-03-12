@@ -200,7 +200,8 @@ li .text-box {
 	z-index: 888;
 	display: none;
 }
-li .text-box h3 {
+li .text-box h3, 
+li .text-box h4 {
 	text-align: center;
 	text-transform: capitalize;
 }
