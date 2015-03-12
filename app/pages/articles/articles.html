@@ -9,9 +9,9 @@
 		<article class="content full" ng-repeat="article in articles.articles | orderBy: 'date' | filter: searchtext">
 			<img src="{{ article.image }}" alt="{{ article.caption }}"/>
 			<div class="articletext">
-				<h3>{{ product.headline }}: {{ product.subheadline }}</h3>
-				<h4>By <a href="{{ product.profile }}">{{ product.author }}</a></h4>
-				<p>{{product.content}}</p>
+				<h3>{{ article.headline }}: {{ article.subheadline }}</h3>
+				<h4>By <a href="{{ article.author.link }}" target="_blank">{{ article.author.name }}</a></h4>
+				<p>{{article.content}}</p>
 			</div>
 			<a id="readmore" class="buttonalt" href="#">Read More!</a>
 		</article>
