@@ -201,6 +201,7 @@ li .text-box {
 	display: none;
 }
 li .text-box h3 {
+	text-align: center;
 	text-transform: capitalize;
 }
 li:hover .text-box {
