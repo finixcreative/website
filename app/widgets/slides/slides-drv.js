@@ -1,11 +1,11 @@
 angular.module('slidesMod')
-	.directive('slides', function ($timeout) {
+	.directive('slides', function ($timeout){
 		return {
 			restrict: 'E',
 			replace: true,
 			scope: {images: '='},
 			templateUrl: '/website/app/widgets/slides/slides.html',
-			link: function (scope, elem, attrs) {
+			link: function (scope, elem, attrs){
 				scope.currentIndex = 0;
 				scope.next = function(){
 					scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
@@ -30,6 +30,6 @@ angular.module('slidesMod')
 				scope.$on('$destroy', function() {
 					$timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
 				});
-			}
+			},
 		};
 	});
