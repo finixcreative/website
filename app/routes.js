@@ -11,8 +11,8 @@ angular.module('finixApp')
 			})
 			.when('/products/:productId', {
 				templateUrl: 'app/pages/products/views/product.html',
-				controller: 'TilesController',
-				controllerAs: 'tiles'
+				controller: 'ProductDetailController',
+				controllerAs: 'productdetails'
 			})
 			.when('/support', {
 				templateUrl: 'app/pages/support/support.html',
@@ -29,8 +29,8 @@ angular.module('finixApp')
 			})
 			.when('/about/:profileId', {
 				templateUrl: 'app/pages/about/profile.html',
-				controller: 'TilesController',
-				controllerAs: 'tiles'
+				controller: 'ProfilesController',
+				controllerAs: 'profiledetails'
 			})
 			.when('/contact', {
 				templateUrl: 'app/pages/contact/contact.html',
