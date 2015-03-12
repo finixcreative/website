@@ -1,8 +1,16 @@
 var products = [
 	{
-		"id": "web",
-		"name": "Web",
-		"background": "assets/images/products/web.jpg",
+		"name": "web",
+		"icon": {
+			"src": "assets/images/icons/icon-web.png",
+			"alt": "Web Product icon"
+		},
+		"background": {
+			"src": "assets/images/products/web.jpg",
+			"alt": "Web Product background",
+		},
+		"url": "#/products/web",
+		"shortdescription": "In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.",
 	},
 	{
 		"id": "brand",
