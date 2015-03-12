@@ -1,4 +1,4 @@
-var social = [
+var socials = [
 	{
 		name: "facebook",
 		link: "www.facebook.com/finixcreative",

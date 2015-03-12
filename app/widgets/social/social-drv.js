@@ -3,5 +3,7 @@ angular.module('socialMod', [])
 		return {
 			restrict: 'E',
 			templateUrl: '/website/app/widgets/social/social.html'
+			controller: 'SocialController',
+			controllerAs: 'social',
 		};
 	});
