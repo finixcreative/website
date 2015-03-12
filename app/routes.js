@@ -6,8 +6,8 @@ angular.module('finixApp')
 			})
 			.when('/products', {
 				templateUrl: 'app/pages/products/products.html',
-				controller: 'ProductsController',
-				controllerAs: 'products'
+				controller: 'TilesController',
+				controllerAs: 'tiles'
 			})
 			.when('/products/:productId', {
 				templateUrl: 'app/pages/products/views/product.html',
@@ -19,13 +19,13 @@ angular.module('finixApp')
 			})
 			.when('/articles', {
 				templateUrl: 'app/pages/articles/articles.html',
-				controller: 'ArticlesController',
-				controllerAs: 'articles'
+				controller: 'TilesController',
+				controllerAs: 'tiles'
 			})
 			.when('/about', {
 				templateUrl: 'app/pages/about/about.html',
-				controller: 'ProfilesController',
-				controllerAs: 'profiles'
+				controller: 'TilesController',
+				controllerAs: 'tiles'
 			})
 			.when('/about/:profileId', {
 				templateUrl: 'app/pages/about/profile.html',
