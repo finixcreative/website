@@ -1,4 +1,4 @@
-angular.module('socialMod', [])
+angular.module('socialMod')
 	.directive('social', function(){
 		return {
 			restrict: 'E',
