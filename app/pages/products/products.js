@@ -3,7 +3,7 @@ var products = [
 		"name": "web",
 		"icon": {
 			"src": "assets/images/icons/icon-web.png",
-			"alt": "Web Product icon"
+			"alt": "Web Product icon",
 		},
 		"background": {
 			"src": "assets/images/products/web.jpg",
@@ -33,7 +33,7 @@ var products = [
 			"src": "assets/images/products/email.jpg",
 			"alt": "Email Product icon",
 		},
-		"shortdescription": "The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign, or "email blast". If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.",
+		"shortdescription": "The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign. If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.",
 	},
 	{
 		"name": "print",
