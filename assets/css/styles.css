@@ -186,7 +186,7 @@ nav ul li a img {
 	margin: -5px 0;
 	padding: 0;
 }
-li .tile {
+li.tile {
 	position: relative;
 }
 li .text-box {
@@ -373,7 +373,7 @@ label {
 	line-height: 24px;
 }
 .icon {
-	width: 40px;
+	width: 5f0px;
 	height: auto;
 	margin: 0 auto;
 	display: block;
