@@ -17,11 +17,11 @@ angular.module('finixApp')
 			.when('/support', {
 				templateUrl: 'app/pages/support/support.html',
 			})
-			.when('/articles', {
-				templateUrl: 'app/pages/articles/articles.html',
-				controller: 'ArticlesController',
-				controllerAs: 'articles'
-			})
+//			.when('/articles', {
+//				templateUrl: 'app/pages/articles/articles.html',
+//				controller: 'ArticlesController',
+//				controllerAs: 'articles'
+//			})
 			.when('/about', {
 				templateUrl: 'app/pages/about/about.html',
 				controller: 'ProfilesController',
