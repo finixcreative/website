@@ -18,7 +18,7 @@ var images = [
 		],
 	},
 	{
-		"background": "assets/images/iStock_000013899547Large.jpg",
+		"background": "assets/images/background-boston_skyline.png",
 		"position": "center",
 		"icon": {
 			"src": "assets/images/icons/icon-web.png",
