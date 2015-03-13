@@ -510,6 +510,10 @@ footer a {
 	float: left;
 }
 footer a:hover {color: #f52;}
+footer a img {
+	float: left;
+	border: 1px solid #fff;
+}
 footer img,
 img.saturate {
 	width: 30px;
