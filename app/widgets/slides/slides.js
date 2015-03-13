@@ -1,7 +1,10 @@
 var images = [
 	{
-		"background": "assets/images/background-boston_skyline.png",
-		"position": "top center",
+		"background": {
+			"img": "assets/images/background-boston_skyline.png",
+			"color": "#f52",
+			"position": "top center",
+		},
 		"icon": {
 			"src": "assets/images/logo-finix-2014.png",
 			"alt": "Finix logo",
@@ -18,8 +21,11 @@ var images = [
 		],
 	},
 	{
-		"background": "assets/images/background-boston_skyline.png",
-		"position": "center",
+		"background": {
+			"img": "assets/images/background-boston_skyline.png",
+			"color": "#f52",
+			"position": "top center",
+		},
 		"icon": {
 			"src": "assets/images/icons/icon-web.png",
 			"alt": "Web icon",
@@ -36,8 +42,11 @@ var images = [
 		],
 	},
 	{
-		"background": "assets/images/background-boston_skyline.png",
-		"position": "center",
+		"background": {
+			"img": "assets/images/background-boston_skyline.png",
+			"color": "#f52",
+			"position": "top center",
+		},
 		"icon": {
 			"src": "assets/images/icons/icon-brand.png",
 			"alt": "Brand icon",
@@ -54,8 +63,11 @@ var images = [
 		],
 	},
 	{
-		"background": "assets/images/iStock_000013899547Large.jpg",
-		"position": "center",
+		"background": {
+			"img": "assets/images/background-boston_skyline.png",
+			"color": "#f52",
+			"position": "top center",
+		},
 		"icon": {
 			"src": "assets/images/icons/icon-email.png",
 			"alt": "Email icon",
@@ -72,8 +84,11 @@ var images = [
 		],
 	},
 	{
-		"background": "assets/images/iStock_000013899547Large.jpg",
-		"position": "center",
+		"background": {
+			"img": "assets/images/background-boston_skyline.png",
+			"color": "#f52",
+			"position": "top center",
+		},
 		"icon": {
 			"src": "assets/images/icons/icon-print.png",
 			"alt": "Print icon",
@@ -90,8 +105,11 @@ var images = [
 		],
 	},
 	{
-		"background": "assets/images/background-boston_skyline.png",
-		"position": "center",
+		"background": {
+			"img": "assets/images/background-boston_skyline.png",
+			"color": "#f52",
+			"position": "top center",
+		},
 		"icon": {
 			"src": "assets/images/icons/icon-social.png",
 			"alt": "Social icon",
