@@ -22,8 +22,8 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "assets/images/background-boston_skyline.png",
-			"color": "#f52",
+			"img": "",
+			"color": "#099",
 			"position": "top center",
 		},
 		"icon": {
@@ -43,8 +43,8 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "assets/images/background-boston_skyline.png",
-			"color": "#f52",
+			"img": "",
+			"color": "#39B54A",
 			"position": "top center",
 		},
 		"icon": {
@@ -64,8 +64,8 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "assets/images/background-boston_skyline.png",
-			"color": "#f52",
+			"img": "",
+			"color": "#06a",
 			"position": "top center",
 		},
 		"icon": {
@@ -85,8 +85,8 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "assets/images/background-boston_skyline.png",
-			"color": "#f52",
+			"img": "",
+			"color": "#439",
 			"position": "top center",
 		},
 		"icon": {
@@ -106,8 +106,8 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "assets/images/background-boston_skyline.png",
-			"color": "#f52",
+			"img": "",
+			"color": "#F7931E",
 			"position": "top center",
 		},
 		"icon": {
