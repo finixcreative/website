@@ -1,11 +1,8 @@
 <section
-	class="slide"
+	class="slide full"
 	ng-repeat="image in images"
 	ng-show="image.visible"
-	ng-style="{
-		'background-image': 'url({{image.background}})',
-		'background-position': '{{image.position}}',
-	}"
+	ng-style="{'background-image': 'url({{image.background}})', 'background-position': '{{image.position}}',}"
 	>
 	<div class="constrain">
 		<section class="content third">
