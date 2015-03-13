@@ -29,10 +29,13 @@ html, body {
 	height: 100%;
 }
 body {
+	background: #444;
+/*	
 	background: -webkit-linear-gradient(#f52, #f93);
 	background: -moz-linear-gradient(#f52, #f93);
 	background: -o-linear-gradient(#f52, #f93);
 	background: linear-gradient(#f52, #f93);
+*/	
 	background-attachment: fixed;
 	color: #fff;
 	margin: 0;
