@@ -7,15 +7,19 @@
 		'background-position': '{{image.position}}',
 	}"
 	>
-	<section class="content constrain">
-		<img class="logo" src="{{image.icon.src}}" alt="{{image.icon.src}}"/>
-		<h1>{{ image.headline }}</h1>
-		<h2>{{ image.subheadline }}</h2>
-		<p>{{ image.text }}</p>
-		<div ng-repeat="link in image.links">
-			<a class="cta button" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
-		</div>
-	</section>
-	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow-left"></span></button>
-	<button id="next" class="slidenav" ng-click="next()"><span class="icon-arrow-right"></span></button>
+	<div class="constrain">
+		<section class="content half">
+			<img class="logo full" src="{{image.icon.src}}" alt="{{image.icon.src}}"/>
+		</section>
+		<section class="content half">
+			<h1>{{ image.headline }}</h1>
+			<h2>{{ image.subheadline }}</h2>
+			<p>{{ image.text }}</p>
+			<div ng-repeat="link in image.links">
+				<a class="cta button" href="{{ link.url }}" target="{{ link.target }}"><span class="{{ link.icon }}"></span>{{ link.text }}</a>
+			</div>
+		</section>
+	</div>
+	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow-left" content="<"></span></button>
+	<button id="next" class="slidenav" ng-click="next()"><span class="icon-arrow-right" content=">"></span></button>
 </section>
