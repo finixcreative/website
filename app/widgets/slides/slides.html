@@ -3,12 +3,12 @@
 	ng-repeat="image in images"
 	ng-show="image.visible"
 	ng-style="{
-		'background-image': 'url({{image.img}})',
+		'background-image': 'url({{image.background}})',
 		'background-position': '{{image.position}}',
 	}"
 	>
 	<section class="content constrain">
-		<img class="logo" src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
+		<img class="logo" src="{{image.icon.src}}" alt="{{image.icon.src}}"/>
 		<h1>{{ image.headline }}</h1>
 		<h2>{{ image.subheadline }}</h2>
 		<p>{{ image.text }}</p>

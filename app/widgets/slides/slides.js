@@ -1,8 +1,11 @@
 var images = [
 	{
-		"img": "assets/images/background-boston_skyline.png",
-		"alt": "assets/images/bg1",
+		"background": "assets/images/background-boston_skyline.png",
 		"position": "top center",
+		"icon": {
+			"src": "assets/images/logo-finix-2014.png",
+			"alt": "Finix logo",
+		},
 		"id": "slide1",
 		"headline": "Digital Marketing & Web Design",
 		"subheadline": "Solutions for Small Businesses",
@@ -15,9 +18,12 @@ var images = [
 		],
 	},
 	{
-		"img": "assets/images/iStock_000013899547Large.jpg",
-		"alt": "assets/images/bg1",
+		"background": "assets/images/iStock_000013899547Large.jpg",
 		"position": "center",
+		"icon": {
+			"src": "assets/images/icons/icon-web.png",
+			"alt": "Web icon",
+		},
 		"id": "slide2",
 		"headline": "Title",
 		"subheadline": "Subtitle",
