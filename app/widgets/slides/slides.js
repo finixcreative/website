@@ -31,8 +31,8 @@ var images = [
 			"alt": "Web icon",
 		},
 		"id": "slide2",
-		"headline": "Title",
-		"subheadline": "Subtitle",
+		"headline": "Web Design",
+		"subheadline": "Open your online storefront",
 		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
 		"links": [
 			{
@@ -52,8 +52,8 @@ var images = [
 			"alt": "Brand icon",
 		},
 		"id": "slide2",
-		"headline": "Title",
-		"subheadline": "Subtitle",
+		"headline": "Branding",
+		"subheadline": "Stand out from your competition",
 		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
 		"links": [
 			{
@@ -73,8 +73,8 @@ var images = [
 			"alt": "Email icon",
 		},
 		"id": "slide2",
-		"headline": "Title",
-		"subheadline": "Subtitle",
+		"headline": "Email Marketing",
+		"subheadline": "Promote special deals & events",
 		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
 		"links": [
 			{
@@ -94,8 +94,8 @@ var images = [
 			"alt": "Print icon",
 		},
 		"id": "slide2",
-		"headline": "Title",
-		"subheadline": "Subtitle",
+		"headline": "Printed Products",
+		"subheadline": "Take your branding offline",
 		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
 		"links": [
 			{
@@ -115,8 +115,8 @@ var images = [
 			"alt": "Social icon",
 		},
 		"id": "slide2",
-		"headline": "Title",
-		"subheadline": "Subtitle",
+		"headline": "Social Media Marketing",
+		"subheadline": "Engage your customers to build brand loyalty",
 		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
 		"links": [
 			{
