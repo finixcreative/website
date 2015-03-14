@@ -85,7 +85,7 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "",
+			"img": "assets/images/products/print-background.png",
 			"color": "#439",
 			"position": "top center",
 		},
