@@ -22,7 +22,7 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "",
+			"img": "assets/images/products/web-background.png",
 			"color": "#099",
 			"position": "top center",
 		},
@@ -43,7 +43,7 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "",
+			"img": "assets/images/products/brand-background.png",
 			"color": "#39B54A",
 			"position": "top center",
 		},
@@ -64,7 +64,7 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "",
+			"img": "assets/images/products/email-background.png",
 			"color": "#06a",
 			"position": "top center",
 		},
