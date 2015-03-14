@@ -66,7 +66,7 @@ var images = [
 		"background": {
 			"img": "assets/images/products/email-background.png",
 			"color": "#06a",
-			"position": "center",
+			"position": "top center",
 		},
 		"icon": {
 			"src": "assets/images/icons/icon-email.png",
