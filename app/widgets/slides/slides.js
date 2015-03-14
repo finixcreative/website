@@ -3,7 +3,7 @@ var images = [
 		"background": {
 			"img": "assets/images/background-boston_skyline.png",
 			"color": "#f52",
-			"position": "top center",
+			"position": "center top",
 		},
 		"icon": {
 			"src": "assets/images/logo-finix-2014.png",
@@ -24,7 +24,7 @@ var images = [
 		"background": {
 			"img": "assets/images/products/web-background.png",
 			"color": "#099",
-			"position": "bottom center",
+			"position": "center bottom",
 		},
 		"icon": {
 			"src": "assets/images/icons/icon-web.png",
@@ -45,7 +45,7 @@ var images = [
 		"background": {
 			"img": "assets/images/products/brand-background.png",
 			"color": "#39B54A",
-			"position": "center",
+			"position": "center bottom",
 		},
 		"icon": {
 			"src": "assets/images/icons/icon-brand.png",
