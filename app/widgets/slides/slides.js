@@ -106,7 +106,7 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "",
+			"img": "assets/images/products/social-background.png",
 			"color": "#06a",
 			"position": "top center",
 		},
