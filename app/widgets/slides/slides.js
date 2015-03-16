@@ -116,7 +116,7 @@ var images = [
 		},
 		"id": "slide2",
 		"headline": "Social Media Marketing",
-		"subheadline": "Engage your customers to build brand loyalty",
+		"subheadline": "Engage your customers",
 		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
 		"links": [
 			{
