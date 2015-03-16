@@ -6,7 +6,7 @@ var products = [
 			"alt": "Web Product icon",
 		},
 		"background": {
-			"src": "assets/images/products/web.jpg",
+			"src": "assets/images/products/web-thumbnail.jpg",
 			"alt": "Web Product background",
 		},
 		"shortdescription": "In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.",
@@ -18,7 +18,7 @@ var products = [
 			"alt": "Brand Product icon",
 		},
 		"background": {
-			"src": "assets/images/products/brand.jpg",			
+			"src": "assets/images/products/brand-thumbnail.jpg",			
 			"alt": "Brand Product background",
 		},
 		"shortdescription": "The first step for any new company! Logo creation and brand identity development give your fledgeling business a professional look.",
@@ -30,7 +30,7 @@ var products = [
 			"alt": "Email Product icon",
 		},
 		"background": {
-			"src": "assets/images/products/email.jpg",
+			"src": "assets/images/products/email-thumbnail.jpg",
 			"alt": "Email Product icon",
 		},
 		"shortdescription": "The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign. If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.",
@@ -42,7 +42,7 @@ var products = [
 			"alt": "Print Product icon",
 		},
 		"background": {
-			"src": "assets/images/products/print.jpg",
+			"src": "assets/images/products/print-thumbnail.jpg",
 			"alt": "Print Product background",
 		},
 		"shortdescription": "Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you with professional, eye-catching designs for all of your needs.",
@@ -54,7 +54,7 @@ var products = [
 			"alt": "Social Product icon",
 		},
 		"background": {
-			"src": "assets/images/products/social.jpg",
+			"src": "assets/images/products/social-thumbnail.jpg",
 			"alt": "Social Product background",
 		},
 		"shortdescription": "Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between their number of social media followers and the value of each stock. Every business has something to gain from building a social media presence!",
