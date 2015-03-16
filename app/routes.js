@@ -9,9 +9,29 @@ angular.module('finixApp')
 				controller: 'ProductsController',
 				controllerAs: 'products'
 			})
-			.when('/products/:productId', {
+			.when('/products/web', {
 				templateUrl: 'app/pages/products/views/product.html',
-				controller: 'ProductDetailController',
+				controller: 'WebController',
+				controllerAs: 'productdetails'
+			})
+			.when('/products/brand', {
+				templateUrl: 'app/pages/products/views/product.html',
+				controller: 'BrandController',
+				controllerAs: 'productdetails'
+			})
+			.when('/products/email', {
+				templateUrl: 'app/pages/products/views/product.html',
+				controller: 'EmailController',
+				controllerAs: 'productdetails'
+			})
+			.when('/products/print', {
+				templateUrl: 'app/pages/products/views/product.html',
+				controller: 'PrintController',
+				controllerAs: 'productdetails'
+			})
+			.when('/products/social', {
+				templateUrl: 'app/pages/products/views/product.html',
+				controller: 'SocialController',
 				controllerAs: 'productdetails'
 			})
 			.when('/support', {
