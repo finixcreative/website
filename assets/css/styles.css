@@ -191,6 +191,7 @@ nav ul li a img {
 }
 li.tile {
 	position: relative;
+	border: 1px solid #fff;
 }
 li .text-box {
 	background: rgba(68,68,68,0.8);
@@ -203,13 +204,13 @@ li .text-box {
 	z-index: 888;
 	display: none;
 }
+li:hover .text-box {
+	display: block;
+}
 li .text-box h3, 
 li .text-box h4 {
 	text-align: center;
 	text-transform: capitalize;
-}
-li:hover .text-box {
-	display: block;
 }
 
 .main {padding-top: 55px;}
@@ -396,23 +397,6 @@ label {
 	float: left;
 }
 #about ul {
-	float: left;
-}
-li.teamprofile {
-	height: auto;
-	margin: 0;
-	border: 1px solid #fff;
-	display: inline-block;
-	position: relative;
-	bottom: 0;
-}
-li.teamprofile a {
-	display: block;
-}
-li.teamprofile img {
-	width: 100%;
-	height: auto;	
-	margin: 0;
 	float: left;
 }
 body.teammember .hero {
