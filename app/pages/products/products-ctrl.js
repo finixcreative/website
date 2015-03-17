@@ -16,4 +16,4 @@ angular.module('productsMod')
 	})
 	.controller('SocialController', function(){
 		this.products = social;
-	});
+	})
