@@ -4,7 +4,7 @@ var brand = {
 		"alt": "Brand Product icon",
 	},
 	"background": {
-		"src": "assets/images/products/brand-background.png",			
+		"img": "assets/images/products/brand-background.png",			
 		"color": "#F7931E",
 		"position": "center bottom",
 	},

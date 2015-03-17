@@ -4,7 +4,7 @@ var social = {
 		"alt": "Social Product icon",
 	},
 	"background": {
-		"src": "assets/images/products/social-background.png",
+		"img": "assets/images/products/social-background.png",
 		"color": "#06a",
 		"position": "top center",
 	},
