@@ -4,7 +4,7 @@ var web = {
 		"alt": "Web Product icon",
 	},
 	"background": {
-		"src": "assets/images/products/web.png",
+		"src": "assets/images/products/web-background.png",
 		"color": "#099",
 		"position": "center bottom",
 	},

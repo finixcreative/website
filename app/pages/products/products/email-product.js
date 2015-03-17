@@ -4,7 +4,7 @@ var email =	{
 		"alt": "Email Product icon",
 	},
 	"background": {
-		"src": "assets/images/products/email.png",
+		"src": "assets/images/products/email-background.png",
 		"color": "#439",
 		"position": "top center",
 	},

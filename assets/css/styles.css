@@ -135,9 +135,9 @@ p a:hover {
 }
 .slide:active {}
 .logo {
-	width: 15%;
+	width: 140px;
 	height: auto;
-	margin: 20px auto 0;
+	margin: 0 auto;
 	display: block;
 }
 a.navlogo {

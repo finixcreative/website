@@ -4,7 +4,7 @@ var print = {
 		"alt": "Print Product icon",
 	},
 	"background": {
-		"src": "assets/images/products/print.png",
+		"src": "assets/images/products/print-background.png",
 		"color": "#39B54A",
 		"position": "top center",
 	},
