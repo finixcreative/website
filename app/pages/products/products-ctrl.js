@@ -1,19 +1,19 @@
-angular.module('productsMod')
-	.controller('ProductsController', function(){
+var app = angular.module('productsMod');
+	app.controller('ProductsController', function(){
 		this.products = products;
-	})
-	.controller('WebController', function(){
+	});
+	app.controller('WebController', function(){
 		this.products = web;
-	})
-	.controller('BrandController', function(){
+	});
+	app.controller('BrandController', function(){
 		this.products = brand;
-	})
-	.controller('EmailController', function(){
+	});
+	app.controller('EmailController', function(){
 		this.products = email;
-	})
-	.controller('PrintController', function(){
+	});
+	app.controller('PrintController', function(){
 		this.products = print;
-	})
-	.controller('SocialController', function(){
+	});
+	app.controller('SocialController', function(){
 		this.products = social;
 	});
