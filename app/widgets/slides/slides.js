@@ -95,7 +95,7 @@ var images = [
 		},
 		"id": "slide2",
 		"headline": "Printed Products",
-		"subheadline": "Take your branding offline",
+		"subheadline": "Take your marketing offline",
 		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
 		"links": [
 			{
