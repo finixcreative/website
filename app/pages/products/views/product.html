@@ -1,12 +1,12 @@
 <div class="body full">
 	<div class="constrain">
 		<div class="content full">
-			<img class="logo" src="{{ product.icon.src }}" alt="{{ product.icon.alt }}"/>
-			<h1>{{ product.name }}</h1>
+			<img class="logo" src="{{ productdetails.products.icon.src }}" alt="{{ productdetails.products.icon.alt }}"/>
+			<h1>{{ productdetails.products.name }}</h1>
 		</div>
 		<div class="content half">
-			<h3>{{ product.text.headline }}</h3>
-			<p>{{ product.text.description }}</p>
+			<h3>{{ productdetails.products.text.headline }}</h3>
+			<p>{{ productdetails.products.text.description }}</p>
 		</div>
 		<div class="content half">
 			<form class="full" ng-model>
