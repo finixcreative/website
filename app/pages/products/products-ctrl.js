@@ -11,9 +11,9 @@ angular.module('productsMod')
 	.controller('EmailController', function(){
 		this.products = email;
 	})
-	.controller('PrintController', function(){
-		this.products = print;
-	})
 	.controller('SocialController', function(){
 		this.products = social;
+	})
+	.controller('PrintController', function(){
+		this.products = print;
 	});
