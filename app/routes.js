@@ -7,32 +7,32 @@ angular.module('finixApp')
 			.when('/products', {
 				templateUrl: 'app/pages/products/products.html',
 				controller: 'ProductsController',
-				controllerAs: 'products'
+				controllerAs: 'products',
 			})
 			.when('/products/web', {
 				templateUrl: 'app/pages/products/views/product.html',
 				controller: 'WebController',
-				controllerAs: 'productdetails'
+				controllerAs: 'productdetails',
 			})
 			.when('/products/brand', {
 				templateUrl: 'app/pages/products/views/product.html',
 				controller: 'BrandController',
-				controllerAs: 'productdetails'
+				controllerAs: 'productdetails',
 			})
 			.when('/products/email', {
 				templateUrl: 'app/pages/products/views/product.html',
 				controller: 'EmailController',
-				controllerAs: 'productdetails'
+				controllerAs: 'productdetails',
 			})
 			.when('/products/print', {
 				templateUrl: 'app/pages/products/views/product.html',
 				controller: 'PrintController',
-				controllerAs: 'productdetails'
+				controllerAs: 'productdetails',
 			})
 			.when('/products/social', {
 				templateUrl: 'app/pages/products/views/product.html',
 				controller: 'SocialController',
-				controllerAs: 'productdetails'
+				controllerAs: 'productdetails',
 			})
 			.when('/support', {
 				templateUrl: 'app/pages/support/support.html',
@@ -45,13 +45,13 @@ angular.module('finixApp')
 			.when('/about', {
 				templateUrl: 'app/pages/about/about.html',
 				controller: 'ProfilesController',
-				controllerAs: 'profiles'
+				controllerAs: 'profiles',
 			})
-			.when('/about/:profileId', {
-				templateUrl: 'app/pages/about/profile.html',
-				controller: 'ProfilesController',
-				controllerAs: 'profiledetails'
-			})
+//			.when('/about/:profileId', {
+//				templateUrl: 'app/pages/about/profile.html',
+//				controller: 'ProfilesController',
+//				controllerAs: 'profiledetails',
+//			})
 			.when('/contact', {
 				templateUrl: 'app/pages/contact/contact.html',
 			})
