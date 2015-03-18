@@ -6,7 +6,7 @@ var brand = {
 	"background": {
 		"img": "assets/images/products/brand-background.png",			
 		"color": "#F7931E",
-		"position": "center bottom",
+		"position": "center 70%",
 	},
 	"text": {
 		"name": "brand",

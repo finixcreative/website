@@ -6,7 +6,7 @@ var social = {
 	"background": {
 		"img": "assets/images/products/social-background.png",
 		"color": "#06a",
-		"position": "top center",
+		"position": "center 10%",
 	},
 	"text": {
 		"name": "social",

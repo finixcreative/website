@@ -6,7 +6,7 @@ var email =	{
 	"background": {
 		"img": "assets/images/products/email-background.png",
 		"color": "#439",
-		"position": "top center",
+		"position": "center",
 	},
 	"text": {
 		"name": "email",

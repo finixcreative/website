@@ -6,7 +6,7 @@ var web = {
 	"background": {
 		"img": "assets/images/products/web-background.png",
 		"color": "#099",
-		"position": "center bottom",
+		"position": "center 75%",
 	},
 	"text": {
 		"name": "web",

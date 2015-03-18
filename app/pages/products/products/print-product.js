@@ -6,7 +6,7 @@ var print = {
 	"background": {
 		"img": "assets/images/products/print-background.png",
 		"color": "#39B54A",
-		"position": "top center",
+		"position": "center",
 	},
 	"text": {
 		"name": "print",
