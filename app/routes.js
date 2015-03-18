@@ -29,11 +29,6 @@ angular.module('finixApp')
 				controller: 'PrintController',
 				controllerAs: 'productdetails',
 			})
-			.when('/products/stuff', {
-				templateUrl: 'app/pages/products/views/product.html',
-				controller: 'WebController',
-				controllerAs: 'productdetails',
-			})
 			.when('/products/social', {
 				templateUrl: 'app/pages/products/views/product.html',
 				controller: 'SocialController',
