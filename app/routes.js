@@ -31,7 +31,7 @@ angular.module('finixApp')
 			})
 			.when('/products/stuff', {
 				templateUrl: 'app/pages/products/views/product.html',
-				controller: 'SocialController',
+				controller: 'WebController',
 				controllerAs: 'productdetails',
 			})
 			.when('/products/social', {
