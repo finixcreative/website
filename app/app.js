@@ -3,7 +3,7 @@ angular.module('finixApp', [
 	'ngAnimate',
 	'productsMod',
 //	'articlesMod',
-//	'profilesMod',
+	'profilesMod',
 	'slidesMod',
 	'headerMod',
 	'navMod',
