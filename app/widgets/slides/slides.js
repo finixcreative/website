@@ -33,7 +33,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Web Design",
 		"subheadline": "Open your online storefront",
-		"text": "In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.",
+		"text": "Your business needs a great website to succeed. We design beautiful custom responsive websites, to help you attract new customers and establish a stronger online presence.",
 		"links": [
 			{
 				"text": "Get a website >",
@@ -54,7 +54,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Branding",
 		"subheadline": "Stand out from your competition",
-		"text": "The first step for any new company! Logo creation and brand identity development give your fledgeling business a professional look.",
+		"text": "Your brand is more than just a logo, it's the soul of your business. We design brands from the ground up, starting with a strategic foundation, to give your business the perfect visual identity.",
 		"links": [
 			{
 				"text": "Get a logo >",
@@ -75,7 +75,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Email Marketing",
 		"subheadline": "Promote special deals & events",
-		"text": "The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign. If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.",
+		"text": "Email marketing is a great way to build customer loyalty. We design email campaigns to spread your message, showcase products or services, promote special offers, and keep your customers coming back.",
 		"links": [
 			{
 				"text": "Start an email campaign >",
@@ -94,12 +94,12 @@ var images = [
 			"alt": "Print icon",
 		},
 		"id": "slide2",
-		"headline": "Printed Products",
+		"headline": "Print Media",
 		"subheadline": "Take your marketing offline",
-		"text": "Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you with professional, eye-catching designs for all of your needs.",
+		"text": "Printed materials are still the best way to grow your brand locally. We make eye-catching designs for everything from business cards to billboards, so you'll always make a great impression.",
 		"links": [
 			{
-				"text": "Get printed items >",
+				"text": "Make a great impression >",
 				"url": "#/products/print",
 			},
 		],
@@ -117,10 +117,10 @@ var images = [
 		"id": "slide2",
 		"headline": "Social Media Marketing",
 		"subheadline": "Engage your customers",
-		"text": "Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between their number of social media followers and the value of each stock. Every business has something to gain from building a social media presence!",
+		"text": "Social Media is the fastest way to connect with new customers and build loyalty for your brand. We design custom branded social media pages, setup with automated posting to make your job easy.",
 		"links": [
 			{
-				"text": "Connect with your customers >",
+				"text": "Connect with new customers >",
 				"url": "#/products/social",
 			},
 		],
