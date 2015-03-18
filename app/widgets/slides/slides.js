@@ -33,7 +33,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Web Design",
 		"subheadline": "Open your online storefront",
-		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
+		"text": "In the internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business.",
 		"links": [
 			{
 				"text": "Get a website >",
@@ -54,7 +54,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Branding",
 		"subheadline": "Stand out from your competition",
-		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
+		"text": "The first step for any new company! Logo creation and brand identity development give your fledgeling business a professional look.",
 		"links": [
 			{
 				"text": "Get a logo >",
@@ -75,7 +75,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Email Marketing",
 		"subheadline": "Promote special deals & events",
-		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
+		"text": "The quickest way to connect with new customers and drive traffic to your website is with a targeted email marketing campaign. If you are promoting a special deal, a new product or service, or just trying to build up a customer base, we give you the tools you need to reach your goals.",
 		"links": [
 			{
 				"text": "Start an email campaign >",
@@ -96,7 +96,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Printed Products",
 		"subheadline": "Take your marketing offline",
-		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
+		"text": "Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you with professional, eye-catching designs for all of your needs.",
 		"links": [
 			{
 				"text": "Get printed items >",
@@ -117,7 +117,7 @@ var images = [
 		"id": "slide2",
 		"headline": "Social Media Marketing",
 		"subheadline": "Engage your customers",
-		"text": "Lorem ipsum dolor sit amet, wisi ac hymenaeos elementum, est etiam vitae quam proin, eleifend donec arcu ut dolor, volutpat platea metus dictum elementum at eu, lacus etiam bibendum placerat conubia consectetuer.",
+		"text": "Social Media is a great way to connect with customers and promote your business. A study of several Wall Street businesses found a 99% correlation between their number of social media followers and the value of each stock. Every business has something to gain from building a social media presence!",
 		"links": [
 			{
 				"text": "Connect with your customers >",
