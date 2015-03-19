@@ -7,7 +7,7 @@ var rsmith = {
 	},
 	"background": {
 		"img": "assets/images/background-grand_canyon.jpg",
-		"color": "#f52",
+		"color": "#444",
 		"position": "center 18.6%",
 	},
 	"email": "rsmith@finixcreative.com",
