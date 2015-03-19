@@ -498,6 +498,9 @@ img.saturate:hover {
 	.text {
 		padding-left: 0px;
 	}
+	.slide h1 {
+		margin-top: 0;
+	}
 	.logo {
 		max-width: 100px;
 		margin: 0 auto;
