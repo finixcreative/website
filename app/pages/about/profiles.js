@@ -6,7 +6,18 @@ var profiles = [
 			"src": "assets/images/team/richard_smith.jpg",
 			"alt": "Richard Smith",
 		},
-		"link": "https://www.linkedin.com/in/richardrsmith3/",
+		"link": [
+			{
+				"text": "Portfolio",
+				"href": "#/about/rsmith",
+				"target": "",
+			},
+			{
+				"text": "Linkedin",
+				"href": "https://www.linkedin.com/in/richardrsmith3/",
+				"target": "_blank",
+			},
+		],
 	},
 	{
 		"name": "Allison Vollmar",
@@ -15,7 +26,13 @@ var profiles = [
 			"src": "assets/images/team/allison_vollmar.jpg",
 			"alt": "Allison Vollmar",
 		},
-		"link": "http://www.linkedin.com/pub/allison-vollmar/8/ab2/610",
+		"link": [
+			{
+				"text": "Linkedin",
+				"href": "http://www.linkedin.com/pub/allison-vollmar/8/ab2/610",
+				"target": "_blank",
+			},
+		],
 	},
 	{
 		"name": "Penelope the Puppy",
@@ -24,7 +41,7 @@ var profiles = [
 			"src": "assets/images/team/penelope_smith_vollmar.jpg",
 			"alt": "Penelope Smith-Vollmar",
 		},
-		"link": "#",
+		"link": [],
 	},
 	{
 		"name": "Chris Baeckstrom",
@@ -33,7 +50,13 @@ var profiles = [
 			"src": "assets/images/team/chris_baeckstrom.jpg",
 			"alt": "Chris Baeckstrom",
 		},
-		"link": "http://www.linkedin.com/pub/christopher-baeckstrom/74/b7a/548",
+		"link": [
+			{
+				"text": "Linkedin",
+				"href": "http://www.linkedin.com/pub/christopher-baeckstrom/74/b7a/548",
+				"target": "_blank",
+			},
+		],
 	},
 	{
 		"name": "Alex Cummings",
@@ -42,6 +65,6 @@ var profiles = [
 			"src": "assets/images/team/alex_cummings.jpg",
 			"alt": "Alex Cummings",
 		},
-		"link": "#",
-	},
+		"link": [],
+0	},
 ];

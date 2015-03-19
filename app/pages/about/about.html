@@ -11,13 +11,16 @@
 	</div>
 	<ul class="full">
 		<li class="tile fifth" ng-repeat="profile in profiles.profiles">
-			<a href="{{profile.link}}" target="_blank">
-				<img class="full" src="{{profile.portrait.src}}" alt="{{profile.portrait.alt}}"/>
-				<div class="text-box">
-					<h3>{{profile.name}}</h3>
-					<h4>{{profile.title}}</h4>
-				</div>
-			</a>
+			<img class="full" src="{{profile.portrait.src}}" alt="{{profile.portrait.alt}}"/>
+			<div class="text-box">
+				<h3>{{profile.name}}</h3>
+				<h4>{{profile.title}}</h4>
+				<ul>
+					<li ng-repeat="link in profile.links">
+						<a href="{{link.href}}" target="{{link.target}}">{{link.text}}</a>
+					</li>
+				</ul>
+			</div>
 		</li>
 	</ul>
 </div>
