@@ -131,6 +131,7 @@ p a:hover {
 }
 .slide:active {}
 .logo {
+	width: 140px;
 	height: auto;
 	margin: 0 auto;
 	display: block;
