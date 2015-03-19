@@ -5,7 +5,7 @@
 	<ul id="tiles" class="full">
 		<li class="teamprofile {{ portfolio.size }}" ng-repeat="portfolio in profiledetails.profiles.portfolios | orderBy: ['size', 'client', 'design']">
 			<a href="{{ portfolio.anchor }}">
-				<img src="{{ portfolio.preview.src }}" alt="{{ portfolio.preview.alt }}"/>
+				<img class="full" src="{{ portfolio.preview.src }}" alt="{{ portfolio.preview.alt }}"/>
 				<div class="text-box">
 					<h3>{{ portfolio.client }}</h3>
 					<h4>{{ portfolio.design }}</h4>
