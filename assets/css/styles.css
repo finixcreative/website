@@ -131,7 +131,6 @@ p a:hover {
 }
 .slide:active {}
 .logo {
-	width: 140px;
 	height: auto;
 	margin: 0 auto;
 	display: block;
@@ -170,7 +169,8 @@ nav ul li {
 	position: relative;
 	display: inline-block;
 }
-nav ul li:hover, nav ul li.active {
+nav ul li:hover,
+nav ul li.active {
 	background: rgba(0,0,0,0.1);
 }
 nav ul li .subnav,
@@ -494,5 +494,10 @@ img.saturate:hover {
 	.mobile {
 		display: block;
 	}
-	.text {padding-left: 0px;}
+	.text {
+		padding-left: 0px;
+	}
+	.logo {
+		max-width: 100px;
+	}
 }
