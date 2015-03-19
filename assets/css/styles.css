@@ -221,9 +221,9 @@ li .text-box a:hover {
 .article {
 	border-bottom: 1px solid #ccc;
 }
-.article:last-child {
+/*.article:last-child {
 	border-bottom: none;
-}
+}*/
 
 /* FORM */
 form {
