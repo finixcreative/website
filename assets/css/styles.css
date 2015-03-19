@@ -199,6 +199,7 @@ li .text-box {
 	padding: 20px;
 	position: absolute;
 	top: 0;
+	text-align: center;
 	z-index: 888;
 	display: none;
 }
@@ -207,8 +208,13 @@ li:hover .text-box {
 }
 li .text-box h3, 
 li .text-box h4 {
-	text-align: center;
 	text-transform: capitalize;
+}
+li .text-box a {
+	color: #fff;
+}
+li .text-box a:hover {
+	color: #f52;
 }
 
 .main {padding-top: 55px;}
