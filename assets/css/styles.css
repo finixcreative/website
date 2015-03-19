@@ -137,7 +137,7 @@ p a:hover {
 	display: block;
 }
 a.navlogo {
-	height: 55px;
+	height: 50px;
 	padding: 15px 20px;
 	position: absolute;
 	display: table-cell;
@@ -148,7 +148,7 @@ a.navlogo:hover {
 }
 a.navlogo img {
 	height: 30px;
-	margin: -4px 0;
+	margin: -10px 0;
 	padding: 0;
 	float: left;
 }
@@ -178,7 +178,7 @@ nav ul li .dropdown {
 	background: #444;
 	height: auto;	
 	display: none;
-	top: 56px;
+	top: 51px;
 	left: 0px;
 }
 nav ul li:hover > .dropdown,
@@ -202,7 +202,6 @@ nav ul li .dropdown li img {
 }
 nav ul li a {
 	color: #fff;
-	height: 55px;
 	padding: 15px 20px;
 	margin: 0;
 	font-size: 15px;
@@ -245,7 +244,7 @@ li .text-box a:hover {
 	color: #f52;
 }
 
-.main {padding-top: 55px;}
+.main {padding-top: 50px;}
 .article {
 	border-bottom: 1px solid #ccc;
 }
