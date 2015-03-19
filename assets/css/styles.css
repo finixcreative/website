@@ -116,11 +116,7 @@ p a:hover {
 .content {
 	padding: 20px;
 }
-.hero {
-	text-align: center;
-}
-.hero img.portrait {
-	width: 200px;
+.portrait {
 	border: 1px solid #fff;
 	border-radius: 50%;
 }
