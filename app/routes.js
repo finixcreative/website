@@ -47,6 +47,11 @@ angular.module('finixApp')
 				controller: 'ProfilesController',
 				controllerAs: 'profiles',
 			})
+			.when('/about/rsmith', {
+				templateUrl: 'app/pages/about/profile.html',
+				controller: 'RsmithController',
+				controllerAs: 'profiledetails',
+			})
 //			.when('/about/:profileId', {
 //				templateUrl: 'app/pages/about/profile.html',
 //				controller: 'ProfilesController',
