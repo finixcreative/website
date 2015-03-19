@@ -166,8 +166,9 @@ header {
 nav {}
 nav ul {}
 nav ul li {
-	display: inline-block;
 	float: left;
+	position: relative;
+	display: inline-block;
 }
 nav ul li:hover, nav ul li.active {
 	background: rgba(0,0,0,0.1);
