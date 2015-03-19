@@ -1,57 +1,64 @@
 <nav class="desktop full">
 	<ul class="constrain" ng-controller="TabController">
 		<li ng-class="{ active: isActive('/') }">
-			<a href="#/">
+			<a href="#/#">
 				<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
 			</a>
 		</li>
 		<li ng-class="{ active: isActive('/products') }">
-			<a href="#/products">Products</a>
+			<a href="#/products/#">Products</a>
+			<ul>
+				<li><a href="#/products/web/#">Web</a></li>
+				<li><a href="#/products/brand/#">Brand</a></li>
+				<li><a href="#/products/email/#">Email</a></li>
+				<li><a href="#/products/print/#">Print</a></li>
+				<li><a href="#/products/social/#">Social</a></li>
+			</ul>
 		</li>
 		<li ng-class="{ active: isActive('/support') }">
-			<a href="#/support">Support</a>
+			<a href="#/support/#">Support</a>
 		</li>
 		<!--
 		<li ng-class="{ active: isActive('/articles') }">
-			<a href="#/articles">Articles</a>
+			<a href="#/articles/#">Articles</a>
 		</li>
 		-->
 		<li ng-class="{ active: isActive('/about') }">
-			<a href="#/about">About</a>
+			<a href="#/about/#">About</a>
 		</li>
 		<li ng-class="{ active: isActive('/contact') }">
-			<a href="#/contact">Contact</a>
+			<a href="#/contact/#">Contact</a>
 		</li>
 	</ul>
 </nav>
 <nav class="tablet full">
 	<ul class="constrain" ng-controller="TabController">
 		<li ng-class="{ active: isActive('/') }">
-			<a href="#/">
+			<a href="#/#">
 				<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
 			</a>
 		</li>
-		<li ng-class="{ active: isActive('/products') }">
+		<li>
 			<a href="">Menu</a>
 			<ul class="subnav">
 				<li ng-class="{ active: isActive('/products') }">
-					<a href="#/products">Products</a>
+					<a href="#/products/#">Products</a>
 				</li>
 				<li ng-class="{ active: isActive('/support') }">
-					<a href="#/support">Support</a>
+					<a href="#/support/#">Support</a>
 				</li>
 				<!--
 				<li ng-class="{ active: isActive('/articles') }">
-					<a href="#/articles">Articles</a>
+					<a href="#/articles/#">Articles</a>
 				</li>
 				-->
 				<li ng-class="{ active: isActive('/about') }">
-					<a href="#/about">About</a>
+					<a href="#/about/#">About</a>
 				</li>
 			</ul>
 		</li>
 		<li ng-class="{ active: isActive('/contact') }">
-			<a href="#/contact">Contact</a>
+			<a href="#/contact/#">Contact</a>
 		</li>
 	</ul>
 </nav>
