@@ -178,7 +178,7 @@ nav ul li .dropdown {
 	background: #444;
 	height: auto;	
 	display: none;
-	top: 55px;
+	top: 56px;
 	left: 0px;
 }
 nav ul li:hover > .dropdown,
@@ -189,10 +189,16 @@ nav ul li .subnav {
 	position: absolute;
 }
 nav ul li .dropdown {
+	border-bottom: 1px solid #fff;
 	position: fixed;
 }
-nav ul li .dropdown li {
+nav ul li .dropdown li a {
 	text-align: center;
+}
+nav ul li .dropdown li img {
+	width: 100%;
+	max-width: 40px;
+	margin: 0 auto;
 }
 nav ul li a {
 	color: #fff;
