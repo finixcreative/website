@@ -1,4 +1,4 @@
-<nav class="full">
+<nav class="desktop full">
 	<ul class="constrain" ng-controller="TabController">
 		<li ng-class="{ active: isActive('/') }">
 			<a href="#/">
@@ -18,6 +18,37 @@
 		-->
 		<li ng-class="{ active: isActive('/about') }">
 			<a href="#/about">About</a>
+		</li>
+		<li ng-class="{ active: isActive('/contact') }">
+			<a href="#/contact">Contact</a>
+		</li>
+	</ul>
+</nav>
+<nav class="tablet full">
+	<ul class="constrain" ng-controller="TabController">
+		<li ng-class="{ active: isActive('/') }">
+			<a href="#/">
+				<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
+			</a>
+		</li>
+		<li ng-class="{ active: isActive('/products') }">
+			<a href="">Menu</a>
+			<ul class="dropdown">
+				<li ng-class="{ active: isActive('/products') }">
+					<a href="#/products">Products</a>
+				</li>
+				<li ng-class="{ active: isActive('/support') }">
+					<a href="#/support">Support</a>
+				</li>
+				<!--
+				<li ng-class="{ active: isActive('/articles') }">
+					<a href="#/articles">Articles</a>
+				</li>
+				-->
+				<li ng-class="{ active: isActive('/about') }">
+					<a href="#/about">About</a>
+				</li>
+			</ul>
 		</li>
 		<li ng-class="{ active: isActive('/contact') }">
 			<a href="#/contact">Contact</a>

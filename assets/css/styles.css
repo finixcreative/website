@@ -172,6 +172,19 @@ nav ul li {
 nav ul li:hover, nav ul li.active {
 	background: rgba(0,0,0,0.1);
 }
+nav ul li .subnav,
+nav ul li .dropdown {
+	background: #444;
+	height: auto;	
+	display: none;
+	top: 55px;
+	left: 0px;
+	box-shadow: 0 10px 0 0 rgba(0,0,0,0.1);
+}
+nav ul li:hover > .dropdown,
+nav ul li:hover > .subnav {
+	display: block;
+}
 nav ul li a {
 	color: #fff;
 	height: 55px;
