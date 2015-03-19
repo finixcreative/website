@@ -9,7 +9,7 @@ var profiles = [
 		"links": [
 			{
 				"text": "Portfolio",
-				"href": "#/about/rsmith",
+				"href": "#/about/rsmith/#",
 				"target": "",
 			},
 			{
