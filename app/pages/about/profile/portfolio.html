@@ -3,7 +3,7 @@
 		<h2>Portfolio</h2>
 	</div>
 	<ul id="tiles" class="full">
-		<li class="teamprofile {{ portfolio.size }}" ng-repeat="portfolio in profiledetails.profiles.portfolios | orderBy: ['size', 'client', 'design']">
+		<li class="tile {{ portfolio.size }}" ng-repeat="portfolio in profiledetails.profiles.portfolios | orderBy: ['size', 'client', 'design']">
 			<a href="{{ portfolio.anchor }}">
 				<img class="full" src="{{ portfolio.preview.src }}" alt="{{ portfolio.preview.alt }}"/>
 				<div class="text-box">
