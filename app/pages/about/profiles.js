@@ -66,5 +66,5 @@ var profiles = [
 			"alt": "Alex Cummings",
 		},
 		"link": [],
-0	},
+	},
 ];
