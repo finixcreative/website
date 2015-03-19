@@ -190,8 +190,10 @@ nav ul li .subnav {
 	position: absolute;
 }
 nav ul li .dropdown {
-	width: 100%;
 	position: fixed;
+}
+nav ul li .dropdown li {
+	text-align: center;
 }
 nav ul li a {
 	color: #fff;
