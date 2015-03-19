@@ -216,6 +216,11 @@ nav ul li a img {
 	margin: -10px 0;
 	padding: 0;
 }
+.web:hover {background-color: #099;}
+.brand:hover {background-color: #F7931E;}
+.email:hover {background-color: #439;}
+.print:hover {background-color: #39B54A;}
+.social:hover {background-color: #06a;}
 li.tile {
 	position: relative;
 	border: 1px solid #fff;
