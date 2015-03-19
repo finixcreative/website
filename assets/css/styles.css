@@ -506,4 +506,7 @@ img.saturate:hover {
 		margin: 0 auto;
 		float: none;
 	}
+	a.button {
+		width: 100%;
+	}
 }
