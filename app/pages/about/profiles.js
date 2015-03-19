@@ -6,7 +6,7 @@ var profiles = [
 			"src": "assets/images/team/richard_smith.jpg",
 			"alt": "Richard Smith",
 		},
-		"link": [
+		"links": [
 			{
 				"text": "Portfolio",
 				"href": "#/about/rsmith",
@@ -26,7 +26,7 @@ var profiles = [
 			"src": "assets/images/team/allison_vollmar.jpg",
 			"alt": "Allison Vollmar",
 		},
-		"link": [
+		"links": [
 			{
 				"text": "Linkedin",
 				"href": "http://www.linkedin.com/pub/allison-vollmar/8/ab2/610",
@@ -41,7 +41,7 @@ var profiles = [
 			"src": "assets/images/team/penelope_smith_vollmar.jpg",
 			"alt": "Penelope Smith-Vollmar",
 		},
-		"link": [],
+		"links": [],
 	},
 	{
 		"name": "Chris Baeckstrom",
@@ -50,7 +50,7 @@ var profiles = [
 			"src": "assets/images/team/chris_baeckstrom.jpg",
 			"alt": "Chris Baeckstrom",
 		},
-		"link": [
+		"links": [
 			{
 				"text": "Linkedin",
 				"href": "http://www.linkedin.com/pub/christopher-baeckstrom/74/b7a/548",
@@ -65,6 +65,6 @@ var profiles = [
 			"src": "assets/images/team/alex_cummings.jpg",
 			"alt": "Alex Cummings",
 		},
-		"link": [],
+		"links": [],
 	},
 ];
