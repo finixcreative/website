@@ -126,6 +126,7 @@ p a:hover {
 	color: #fff;
 	height: 100%;
 	padding: 40px 0;
+	position: relative;
 }
 .slide:active {}
 .logo {
@@ -323,11 +324,6 @@ button:hover {
 button:focus {
 	outline: none;
 }
-button#prev,
-button#next {
-	height: 100%;
-	top: 0;
-}
 button#prev {
 	left: 0;
 }
@@ -337,14 +333,16 @@ button#next {
 button.slidenav {
 	background: none;
 	color: rgba(0,0,0,0.2);
+	height: 100%;
 	margin: 0;
 	padding: 20px;
 	border: none;
-	position: fixed;
-	display: table-cell;
-	vertical-align: middle;
 	font-size: 100px;
 	line-height: 100px;
+	vertical-align: middle;
+	position: relative;
+	top: 0;
+	display: table-cell;
 	z-index: 998;
 }
 button.slidenav:hover {
