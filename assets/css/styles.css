@@ -340,7 +340,7 @@ button.slidenav {
 	font-size: 100px;
 	line-height: 100px;
 	vertical-align: middle;
-	position: relative;
+	position: absolute;
 	top: 0;
 	display: table-cell;
 	z-index: 998;
