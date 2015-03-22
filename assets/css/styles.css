@@ -516,6 +516,7 @@ img.saturate:hover {
 	li .profile {
 		height: auto;
 		position: relative;
+		float: left;
 	}
 	li:hover .product {
 		background: rgba(68,68,68,0.8);
