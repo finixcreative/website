@@ -513,12 +513,15 @@ img.saturate:hover {
 	li .text-box {
 		display: block;
 	}
+	li .product {
+		background: none;
+	}
+	li:hover .product {
+		background: rgba(68,68,68,0.8);
+	}
 	li .profile {
 		height: auto;
 		position: relative;
 		float: left;
-	}
-	li:hover .product {
-		background: rgba(68,68,68,0.8);
 	}
 }
