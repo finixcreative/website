@@ -6,7 +6,7 @@
 		<li class="tile {{ portfolio.size }}" ng-repeat="portfolio in profiledetails.profiles.portfolios | orderBy: ['size', 'client', 'design']">
 			<a href="{{ portfolio.anchor }}">
 				<img class="full" src="{{ portfolio.preview.src }}" alt="{{ portfolio.preview.alt }}"/>
-				<div class="text-box">
+				<div class="profile text-box">
 					<h3>{{ portfolio.client }}</h3>
 					<h4>{{ portfolio.design }}</h4>
 				</div>
