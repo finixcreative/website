@@ -44,7 +44,7 @@ var images = [
 	{
 		"background": {
 			"img": "assets/images/products/brand-background.png",
-			"color": "#F7931E",
+			"color": "#f91",
 			"position": "center bottom",
 		},
 		"icon": {
@@ -65,7 +65,7 @@ var images = [
 	{
 		"background": {
 			"img": "assets/images/products/email-background.png",
-			"color": "#439",
+			"color": "#54c",
 			"position": "top center",
 		},
 		"icon": {
@@ -86,7 +86,7 @@ var images = [
 	{
 		"background": {
 			"img": "assets/images/products/print-background.png",
-			"color": "#39B54A",
+			"color": "#3b4",
 			"position": "top center",
 		},
 		"icon": {
@@ -107,7 +107,7 @@ var images = [
 	{
 		"background": {
 			"img": "assets/images/products/social-background.png",
-			"color": "#06a",
+			"color": "#07b",
 			"position": "top center",
 		},
 		"icon": {
