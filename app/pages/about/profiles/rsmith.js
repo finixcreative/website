@@ -204,16 +204,6 @@ var rsmith = {
 			"size": "quarter",
 		},
 		{
-			"client": "Americana Leather",
-			"design": "Branding",
-			"preview": {
-				"src": "assets/images/portfolio/logo-americana.png",
-				"alt": "Americana Logo",
-			},
-			"anchor": "#",
-			"size": "sixth",
-		},
-		{
 			"client": "Efficient Energy Solutions",
 			"design": "Branding",
 			"preview": {
@@ -241,6 +231,16 @@ var rsmith = {
 				"alt": "Finix Logo",
 			},
 			"anchor": "http://finixcreative.github.io/website/",
+			"size": "sixth",
+		},
+		{
+			"client": "Frankford Leather",
+			"design": "Branding",
+			"preview": {
+				"src": "assets/images/portfolio/logo-americana.png",
+				"alt": "Americana Logo",
+			},
+			"anchor": "#",
 			"size": "sixth",
 		},
 		{
@@ -281,6 +281,16 @@ var rsmith = {
 				"alt": "Magic Hat Logo",
 			},
 			"anchor": "#",
+			"size": "sixth",
+		},
+		{
+			"client": "North State",
+			"design": "Branding",
+			"preview": {
+				"src": "assets/images/portfolio/logo-nsc.png",
+				"alt": "North State Logo",
+			},
+			"anchor": "",
 			"size": "sixth",
 		},
 		{
