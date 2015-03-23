@@ -185,7 +185,7 @@ var rsmith = {
 		},
 		{
 			"client": "Associated Environmental Systems",
-			"design": "Website",
+			"design": "Web Design",
 			"preview": {
 				"src": "assets/images/portfolio/web-aes_website.png",
 				"alt": "AES Website",
@@ -205,7 +205,7 @@ var rsmith = {
 		},
 		{
 			"client": "Americana Leather",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-americana.png",
 				"alt": "Americana Logo",
@@ -215,7 +215,7 @@ var rsmith = {
 		},
 		{
 			"client": "Efficient Energy Solutions",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-efficient_energy_solutions.png",
 				"alt": "Efficient Energy Solutions Logo",
@@ -225,7 +225,7 @@ var rsmith = {
 		},
 		{
 			"client": "Far Cry",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-far_cry.png",
 				"alt": "Far Cry Logo",
@@ -235,7 +235,7 @@ var rsmith = {
 		},
 		{
 			"client": "Finix",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-finix.png",
 				"alt": "Finix Logo",
@@ -245,7 +245,7 @@ var rsmith = {
 		},
 		{
 			"client": "Inner Edge Fitness",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-inner_edge_fitness.png",
 				"alt": "Inner Edge Fitness Logo",
@@ -255,7 +255,7 @@ var rsmith = {
 		},
 		{
 			"client": "Jim Cornelison",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-jim_cornelison.png",
 				"alt": "Jim Cornelison Logo",
@@ -265,7 +265,7 @@ var rsmith = {
 		},
 		{
 			"client": "LadyBag",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-ladybag.png",
 				"alt": "LadyBag Logo",
@@ -275,7 +275,7 @@ var rsmith = {
 		},
 		{
 			"client": "Magic Hat",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-magic_hat.png",
 				"alt": "Magic Hat Logo",
@@ -285,7 +285,7 @@ var rsmith = {
 		},
 		{
 			"client": "Rise & Grind",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-rise_and_grind.png",
 				"alt": "Rise & Grind Logo",
@@ -295,7 +295,7 @@ var rsmith = {
 		},
 		{
 			"client": "Synth",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-synth.png",
 				"alt": "Synth Logo",
@@ -305,7 +305,7 @@ var rsmith = {
 		},
 		{
 			"client": "County Tree Service",
-			"design": "Website",
+			"design": "Web Design",
 			"preview": {
 				"src": "assets/images/portfolio/web-cts_tree.png",
 				"alt": "County Tree Service Website",
@@ -315,7 +315,7 @@ var rsmith = {
 		},
 		{
 			"client": "Finix",
-			"design": "Website",
+			"design": "Web Design",
 			"preview": {
 				"src": "assets/images/portfolio/web-finix_website.png",
 				"alt": "Finix Website",
@@ -325,7 +325,7 @@ var rsmith = {
 		},
 		{
 			"client": "Propel",
-			"design": "Blog",
+			"design": "Blog Design",
 			"preview": {
 				"src": "assets/images/portfolio/web-propel_blog.png",
 				"alt": "Propel Blog",
@@ -335,7 +335,7 @@ var rsmith = {
 		},
 		{
 			"client": "Propel",
-			"design": "List App",
+			"design": "List Product App",
 			"preview": {
 				"src": "assets/images/portfolio/web-propel_list.png",
 				"alt": "Propel List App",
@@ -345,7 +345,7 @@ var rsmith = {
 		},
 		{
 			"client": "Propel",
-			"design": "Social App",
+			"design": "Social Product App",
 			"preview": {
 				"src": "assets/images/portfolio/web-propel_social.png",
 				"alt": "Propel Social App",
@@ -355,7 +355,7 @@ var rsmith = {
 		},
 		{
 			"client": "TV News Sales",
-			"design": "Order Portal",
+			"design": "Order Portal App",
 			"preview": {
 				"src": "assets/images/portfolio/web-tvnewssales.png",
 				"alt": "TV News Sales Order Portal",
