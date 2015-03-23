@@ -324,6 +324,16 @@ var rsmith = {
 			"size": "sixth",
 		},
 		{
+			"client": "U.S. Curling Association",
+			"design": "Branding",
+			"preview": {
+				"src": "assets/images/portfolio/logo-usca_mixed_nationals_08.png",
+				"alt": "USCA Mixed Nationals Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
 			"client": "County Tree Service",
 			"design": "Web Design",
 			"preview": {
