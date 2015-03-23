@@ -155,12 +155,32 @@ var rsmith = {
 	"portfolios": [
 		{
 			"client": "Associated Environmental Systems",
-			"design": "Logo",
+			"design": "Branding",
 			"preview": {
-				"src": "assets/images/portfolio/logo-aes.png",
-				"alt": "AES Logo",
+				"src": "assets/images/portfolio/aes-icons_environments.png",
+				"alt": "AES Environment Icons",
 			},
-			"anchor": "http://git-aes.github.io/WebsiteUpdate/",
+			"anchor": "",
+			"size": "sixth",
+		},
+		{
+			"client": "Associated Environmental Systems",
+			"design": "Branding",
+			"preview": {
+				"src": "assets/images/portfolio/aes-icons_chambers.png",
+				"alt": "AES Chamber Icons",
+			},
+			"anchor": "",
+			"size": "sixth",
+		},
+		{
+			"client": "Associated Environmental Systems",
+			"design": "Branding",
+			"preview": {
+				"src": "assets/images/portfolio/aes-icons_dashboard.png",
+				"alt": "AES Dashboard Icons",
+			},
+			"anchor": "",
 			"size": "sixth",
 		},
 		{
