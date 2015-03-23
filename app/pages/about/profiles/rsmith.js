@@ -204,6 +204,16 @@ var rsmith = {
 			"size": "quarter",
 		},
 		{
+			"client": "Battlegrid",
+			"design": "Branding",
+			"preview": {
+				"src": "assets/images/portfolio/logo-battlegrid.png",
+				"alt": "Battlegrid Logo",
+			},
+			"anchor": "#",
+			"size": "sixth",
+		},
+		{
 			"client": "Efficient Energy Solutions",
 			"design": "Branding",
 			"preview": {
