@@ -324,7 +324,7 @@ var rsmith = {
 			"size": "sixth",
 		},
 		{
-			"client": "U.S. Curling Association",
+			"client": "United States Curling Association",
 			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/logo-usca_mixed_nationals_08.png",
