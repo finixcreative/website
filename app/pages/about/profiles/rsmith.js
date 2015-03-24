@@ -157,6 +157,16 @@ var rsmith = {
 			"client": "Associated Environmental Systems",
 			"design": "Branding",
 			"preview": {
+				"src": "assets/images/portfolio/aes-dashboard_ipad_preview.png",
+				"alt": "AES Dashboard iPad preview",
+			},
+			"anchor": "",
+			"size": "sixth",
+		},
+		{
+			"client": "Associated Environmental Systems",
+			"design": "Branding",
+			"preview": {
 				"src": "assets/images/portfolio/aes-icons_environments.png",
 				"alt": "AES Environment Icons",
 			},
