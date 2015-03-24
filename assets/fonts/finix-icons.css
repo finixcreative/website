@@ -24,6 +24,7 @@ nav .icon-finix,
 nav .icon-menu {
 	font-size: 2em;
 	line-height: 0.67em;
+	display: block;
 }
 nav .icon-web,
 nav .icon-brand,
