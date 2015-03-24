@@ -20,9 +20,17 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-nav .icon-finix {
+nav .icon-finix,
+nav .icon-menu {
 	font-size: 2em;
 	line-height: 0.67em;
+}
+nav .icon-web,
+nav .icon-brand,
+nav .icon-email,
+nav .icon-print,
+nav .icon-social {
+	font-size: 3em;
 }
 .icon-finix:before {
 	content: "\e600";

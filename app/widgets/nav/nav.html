@@ -1,118 +1,85 @@
 <nav class="desktop full">
 	<ul class="constrain" ng-controller="TabController">
-		<li ng-class="{ active: isActive('/') }">
+		<li>
 			<a href="#/#">
 				<span class="icon-finix"></span>
 			</a>
 		</li>
-		<li ng-class="{ active: isActive('/products') }">
+		<li>
 			<a href="#/products/#">Products</a>
 			<ul class="dropdown full">
 				<li class="web fifth">
 					<a class="full" href="#/products/web/#">
-						<img src="assets/images/icons/icon-web.png"><br>Web
+						<span class="icon-web"></span><br>Web
 					</a>
 				</li>
 				<li class="brand fifth">
 					<a class="full" href="#/products/brand/#">
-						<img src="assets/images/icons/icon-brand.png"><br>Brand
+						<span class="icon-brand"></span><br>Brand
 					</a>
 				</li>
 				<li class="email fifth">
 					<a class="full" href="#/products/email/#">
-						<img src="assets/images/icons/icon-email.png"><br>Email
+						<span class="icon-email"></span><br>Email
 					</a>
 				</li>
 				<li class="print fifth">
 					<a class="full" href="#/products/print/#">
-						<img src="assets/images/icons/icon-print.png"><br>Print
+						<span class="icon-print"></span><br>Print
 					</a>
 				</li>
 				<li class="social fifth">
 					<a class="full" href="#/products/social/#">
-						<img src="assets/images/icons/icon-social.png"><br>Social
+						<span class="icon-social"></span><br>Social
 					</a>
 				</li>
 			</ul>
 		</li>
-		<li ng-class="{ active: isActive('/support') }">
+		<li>
 			<a href="#/support/#">Support</a>
 		</li>
 		<!--
-		<li ng-class="{ active: isActive('/articles') }">
+		<li>
 			<a href="#/articles/#">Articles</a>
 		</li>
 		-->
-		<li ng-class="{ active: isActive('/about') }">
+		<li>
 			<a href="#/about/#">About</a>
 		</li>
-		<li ng-class="{ active: isActive('/contact') }">
+		<li>
 			<a href="#/contact/#">Contact</a>
 		</li>
 	</ul>
 </nav>
-<nav class="tablet full">
+<nav class="tablet mobile full">
 	<ul class="constrain" ng-controller="TabController">
-		<li ng-class="{ active: isActive('/') }">
+		<li>
 			<a href="#/#">
-				<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
+				<span class="icon-finix"></span>
 			</a>
 		</li>
 		<li>
 			<a href="">
-				<img src="assets/images/icons/icon-menu.png" alt="Menu icon"/>
+				<span class="icon-menu"></span>
 			</a>
 			<ul class="subnav">
-				<li class="full" ng-class="{ active: isActive('/products') }">
+				<li class="full">
 					<a href="#/products/#">Products</a>
 				</li>
-				<li class="full" ng-class="{ active: isActive('/support') }">
+				<li class="full">
 					<a href="#/support/#">Support</a>
 				</li>
 				<!--
-				<li class="full" ng-class="{ active: isActive('/articles') }">
+				<li class="full"">
 					<a href="#/articles/#">Articles</a>
 				</li>
 				-->
-				<li class="full" ng-class="{ active: isActive('/about') }">
+				<li class="full">
 					<a href="#/about/#">About</a>
 				</li>
 			</ul>
-		</li>
-		<li ng-class="{ active: isActive('/contact') }">
-			<a href="#/contact/#">Contact</a>
-		</li>
-	</ul>
-</nav>
-<nav class="mobile full">
-	<ul class="constrain" ng-controller="TabController">
-		<li ng-class="{ active: isActive('/') }">
-			<a href="#/#">
-				<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
-			</a>
 		</li>
 		<li>
-			<a href="">
-				<img src="assets/images/icons/icon-menu.png" alt="Menu icon"/>
-			</a>
-			<ul class="subnav">
-				<li class="full" ng-class="{ active: isActive('/products') }">
-					<a href="#/products/#">Products</a>
-				</li>
-				<li class="full" ng-class="{ active: isActive('/support') }">
-					<a href="#/support/#">Support</a>
-				</li>
-				<!--
-				<li class="full" ng-class="{ active: isActive('/articles') }">
-					<a href="#/articles/#">Articles</a>
-				</li>
-				-->
-				<li class="full" ng-class="{ active: isActive('/about') }">
-					<a href="#/about/#">About</a>
-				</li>
-			</ul>
-		</li>
-		<li ng-class="{ active: isActive('/contact') }">
 			<a href="#/contact/#">Contact</a>
 		</li>
 	</ul>
