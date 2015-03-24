@@ -158,7 +158,7 @@ var rsmith = {
 			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/aes-dashboard_ipad_preview.png",
-				"alt": "AES Dashboard iPad preview",
+				"alt": "AES iPad Dashboard preview",
 			},
 			"anchor": "",
 			"size": "sixth",
