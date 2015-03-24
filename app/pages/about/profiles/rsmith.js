@@ -157,8 +157,8 @@ var rsmith = {
 			"client": "Associated Environmental Systems",
 			"design": "Branding",
 			"preview": {
-				"src": "assets/images/portfolio/aes-dashboard_ipad_preview.png",
-				"alt": "AES iPad Dashboard preview",
+				"src": "assets/images/portfolio/aes-icons_dashboard.png",
+				"alt": "AES Icons 1 - Dashboard",
 			},
 			"anchor": "",
 			"size": "sixth",
@@ -168,7 +168,7 @@ var rsmith = {
 			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/aes-icons_environments.png",
-				"alt": "AES Environment Icons",
+				"alt": "AES Icons 2 - Environments",
 			},
 			"anchor": "",
 			"size": "sixth",
@@ -178,7 +178,7 @@ var rsmith = {
 			"design": "Branding",
 			"preview": {
 				"src": "assets/images/portfolio/aes-icons_chambers.png",
-				"alt": "AES Chamber Icons",
+				"alt": "AES Icons 3 - Chambers",
 			},
 			"anchor": "",
 			"size": "sixth",
@@ -187,8 +187,8 @@ var rsmith = {
 			"client": "Associated Environmental Systems",
 			"design": "Branding",
 			"preview": {
-				"src": "assets/images/portfolio/aes-icons_dashboard.png",
-				"alt": "AES Dashboard Icons",
+				"src": "assets/images/portfolio/aes-dashboard_ipad_preview.png",
+				"alt": "AES iPad Dashboard preview",
 			},
 			"anchor": "",
 			"size": "sixth",
