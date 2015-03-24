@@ -57,3 +57,9 @@ nav .icon-social {
 .icon-menu:before {
 	content: "\e607";
 }
+.icon-arrow_left:before {
+	content: "\e608";	
+}
+.icon-arrow_right:before {
+	content: "\e609";
+}
