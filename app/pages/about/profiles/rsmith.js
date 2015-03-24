@@ -217,7 +217,7 @@ var rsmith = {
 			"client": "Australia Department of Tourism",
 			"design": "Branding",
 			"preview": {
-				"src": "assets/images/portfolio/australia.png",
+				"src": "assets/images/portfolio/logo-australia.png",
 				"alt": "Australia Tourism Logo",
 			},
 			"anchor": "",
