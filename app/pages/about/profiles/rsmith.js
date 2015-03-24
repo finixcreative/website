@@ -214,6 +214,16 @@ var rsmith = {
 			"size": "quarter",
 		},
 		{
+			"client": "Australia Department of Tourism",
+			"design": "Branding",
+			"preview": {
+				"src": "assets/images/portfolio/australia.png",
+				"alt": "Australia Tourism Logo",
+			},
+			"anchor": "",
+			"size": "sixth",
+		},
+		{
 			"client": "Battlegrid",
 			"design": "Branding",
 			"preview": {
