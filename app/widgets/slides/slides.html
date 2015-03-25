@@ -3,6 +3,8 @@
 	ng-repeat="image in images"
 	ng-show="image.visible"
 	ng-animate="animate"
+	ng-swipe-left="next()"
+	ng-swipe-right="prev()"
 	ng-style="{
 		'background-image': 'url({{image.background.img}})',
 		'background-color': '{{image.background.color}}',
