@@ -322,7 +322,7 @@ button {
 }
 .slide.ng-enter.ng-enter-active,
 .slide.ng-leave {
-	left: 0;
+	left: 0%;
 }
 .slide.ng-leave.ng-leave-active {
 	left: -100%;
