@@ -310,7 +310,8 @@ button {
 	text-transform: uppercase;
 }
 .ng-enter, 
-.ng-leave {
+.ng-leave,
+.ng-move {
 	-webkit-transition: 1s linear all;
 	-moz-transition: 1s linear all;
 	-ms-transition: 1s linear all;
@@ -321,6 +322,7 @@ button {
 	left: 100%;
 }
 .slide.ng-enter.ng-enter-active,
+.slide.ng-move.ng-move-active,
 .slide.ng-leave {
 	left: 0%;
 }
