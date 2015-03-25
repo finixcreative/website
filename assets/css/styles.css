@@ -309,22 +309,22 @@ button {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.animate-enter, 
-.animate-leave {
-	-webkit-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
-	-moz-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
-	-ms-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
-	-o-transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
-	transition: 1000ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+.ng-enter, 
+.ng-leave {
+	-webkit-transition: 1s linear all;
+	-moz-transition: 1s linear all;
+	-ms-transition: 1s linear all;
+	-o-transition: 1s linear all;
+	transition: 1s linear all;
 }
-.animate-enter {
+.slide.ng-enter {
 	left: 100%;
 }
-.animate-enter.animate-enter-active,
-.animate-leave {
+.slide.ng-enter.ng-enter-active,
+.slide.ng-leave {
 	left: 0;
 }
-.animate-leave.animate-leave-active {
+.slide.ng-leave.ng-leave-active {
 	left: -100%;
 }
 button:hover {
