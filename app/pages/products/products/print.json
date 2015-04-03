@@ -1,0 +1,10 @@
+{
+	"id": "print",
+	"name": "Print Design",
+	"src": "assets/images/products/print.jpg",
+	"url": "app/pages/products/views/product-print.html",
+	"link": "slide.selectTab(9)",
+	"icon": "assets/images/icons/icon-print.png",
+	"icontag": "Icon - Print",
+	"shortdescription": "Complete your branding package with custom printed materials for local networking needs. From business cards to advertisement design, we can provide you with professional, eye-catching designs for all of your needs.",
+}

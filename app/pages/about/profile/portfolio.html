@@ -1,0 +1,16 @@
+<section class="full">
+	<div class="content constrain">
+		<h2>Portfolio</h2>
+	</div>
+	<ul id="tiles" class="full">
+		<li class="tile {{ portfolio.size }}" ng-repeat="portfolio in profiledetails.profiles.portfolios | orderBy: ['size', 'client', 'design', 'preview.alt']">
+			<a href="{{ portfolio.anchor }}">
+				<img class="full" src="{{ portfolio.preview.src }}" alt="{{ portfolio.preview.alt }}"/>
+				<div class="profile text-box">
+					<h3>{{ portfolio.client }}</h3>
+					<h4>{{ portfolio.design }}</h4>
+				</div>
+			</a>
+		</li>
+	</ul>
+</section>

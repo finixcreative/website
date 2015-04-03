@@ -1,0 +1,50 @@
+<section class="constrain" ng-show="slide.isSelected(2)">
+	<article class="content full">
+		<h2>Resume</h2>
+	</article>
+	<article class="content full">
+		<h3>Experience</h3>
+		<ul>
+			<li class="card full" ng-repeat="job in team.products[0].jobs">
+				<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="logo sixth">
+				<div class="text fivesixth">
+					<p>
+						<b>{{ job.position }}</b><br>
+						{{ job.company }}, {{ job.location }} | {{ job.dates }}<br>
+						<em>{{ job.description }}</em>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</article>
+	<article class="content full">
+		<h3>Education</h3>
+		<ul>
+			<li class="card full" ng-repeat="school in team.products[0].schools">
+				<img src="{{ school.logo.src }}" alt="{{ school.logo.alt }}" class="logo sixth">
+				<div class="text fivesixth">
+					<p>
+						<b>{{ school.name }}</b><br>
+						{{ school.location }} | {{ school.dates }}<br>
+						<em>{{ school.degree }}</em>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</article>
+	<article class="content full">
+		<h3>References</h3>
+		<ul>
+			<li class="card full" ng-repeat="reference in team.products[0].references">
+				<img src="{{ reference.portrait.src }}" alt="{{ reference.portrait.alt }}" class="logo sixth">
+				<div class="text fivesixth">
+					<p>
+						<b>{{ reference.name }}</b><br>
+						{{ reference.position }}, {{ reference.company }}<br>
+						<a href="mailto:{{ reference.email }}">{{ reference.email }}</a> | <a href="tel:{{ reference.phone }}">{{ reference.phone }}</a> | <a href="{{ reference.linkedin }}">Linkedin</a>
+					</p>
+				</div>
+			</li>
+		</ul>
+	</article>
+</section>

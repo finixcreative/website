@@ -1,0 +1,28 @@
+<div class="hero">
+	<img src="images/icon-webdesign.png" alt="Web Design"/>
+	<h1>Web Design</h1>
+</div>
+<div class="body constrain content">
+	<div class="description">
+		<p>Product description and selling points</p>
+		<ul id="details">
+			<li>Point 1</li>
+			<li>Point 2</li>
+			<li>Point 3</li>
+			<li>Point 4</li>
+			<li>Point 5</li>
+		</ul>
+		<ul id="gallery">
+			<li>
+				<img src="" alt="{{product.alt}}"/>
+			</li>
+		</ul>
+		<ul id="testimonials">
+			<li ng-repeat="product.testimonial in products">
+				<p>{{product.testimonial}}</p>
+				<a href="{{product.source}}">{{product.source}}</a>
+			</li>
+		</ul>
+	</div>
+	<div class="orderform" data-ng-include data-src="'form-order.htm'"></div>
+</div>

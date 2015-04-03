@@ -1,0 +1,23 @@
+<div class="body full">
+	<div class="constrain">
+		<div class="content half">
+			<h1>Articles</h1>
+		</div>
+		<div class="content half">
+			<input class="full" type="search" name="search" placeholder="Search articles" ng-model="searchtext">
+		</div>
+		<article class="content full" ng-repeat="article in articles.articles | orderBy: 'date' | filter: searchtext">
+			<img src="{{ article.image }}" alt="{{ article.caption }}"/>
+			<div class="articletext">
+				<h3>{{ article.headline }}: {{ article.subheadline }}</h3>
+				<h4>By <a href="{{ article.author.link }}" target="_blank">{{ article.author.name }}</a></h4>
+				<p>{{article.content}}</p>
+			</div>
+			<a id="readmore" class="buttonalt" href="#">Read More!</a>
+		</article>
+		<div class="content full" ng-show="!articles.length">
+			<h3>Womp womp...</h3>
+			<p>Sorry, we couldn't find any articles containing "{{searchtext}}".</p>
+		</div>
+	</div>
+</div>

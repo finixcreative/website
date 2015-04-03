@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="controllers">
+<head>
+	<title>Digital Marketing and Web Design Solutions for Small Businesses | Finix</title>
+	<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
+	<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
+	<meta name="author" content="Richard Smith">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="../images/icons/social/icon-finix.png"/>
+	<link type="text/css" rel="stylesheet" href="../css/styles.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+	<script type="text/javascript" src="../js/buy.js"></script>
+	<script type="text/javascript">// <![CDATA[
+		Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
+	// ]]></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+	<script type="text/javascript" src="../js/app.js"></script>
+</head>
+<body ng-controller="SlideController as slide">
+	<main id="product-web" class="product">
+		<div class="hero constrain">
+			<a class="navlogo" href="/website/">
+				<img src="../images/logo-finix-2014.png" alt="Finix Logo"/>
+			</a>
+			<div class="content">
+				<img class="logo" src="../images/icons/icon-web.png" alt="Web Design"/>
+				<h1>Web Design</h1>
+			</div>
+		</div>
+		<div class="body">
+			<div class="constrain">
+				<div class="description content">
+					<h3>Build your online presence</h3>
+					<p>
+						In today's internet-driven marketplace, every business needs a professional website to stay in the game. Without a strong online presence, many potential customers will never find your business. This entry-level package starts with a single custom web page to give small businesses an entry point, but from there you can expand with as many more pages as you need. We build cross-device compatible websites to help you reach customers on computers, smartphones, and tablets.
+					</p>
+					<ul id="details">
+						<li ng-repeat="product.specs in products">
+							{{product.spec}}
+						</li>
+					</ul>
+					<ul id="gallery">
+						<li ng-repeat="product.img in products">
+							<img src="{{product.img}}" alt="{{product.alt}}"/>
+						</li>
+					</ul>
+					<ul id="testimonials">
+						<li ng-repeat="product.testimonial in products">
+							<p>{{product.testimonial}}</p>
+							<a href="{{product.source}}">{{product.source}}</a>
+						</li>
+					</ul>
+				</div>
+				<div class="form content">
+					<form ng-model>
+						<h3>Get started now!</h3>
+						<label for="name">Name</label><input type="text" id="name" name="name" required/>
+						<label for="email">Email</label><input type="text" id="email" name="email" required/>
+						<button type="button" id="buynow" name="submit">Buy Now!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer data-ng-include data-src="'footer.htm'">
+		</footer>
+	</main>
+</body>
+</html>

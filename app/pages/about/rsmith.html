@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html ng-app="controllers">
+<head>
+	<title>Richard Smith, Co-founder | Finix</title>
+	<meta name="description" content="Digital Marketing and Web Design Solutions for Small Businesses">
+	<meta name="keywords" content="Web Design,Marketing,Digital Marketing,Social Media Marketing,Email Marketing,HTML,CSS,JavaScript">
+	<meta name="author" content="Richard Smith">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="../images/icons/social/icon-finix.png"/>
+	<link type="text/css" rel="stylesheet" href="../css/styles.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+	<script type="text/javascript" src="../js/buy.js"></script>
+	<script type="text/javascript">// <![CDATA[
+		Stripe.setPublishableKey('pk_test_gECjQexoB1QkU0i62ESTmOPP');
+	// ]]></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+	<script type="text/javascript" src="../js/app.js"></script>
+</head>
+<body id="rsmith" class="teammember" ng-controller="SlideController as slide">
+	<header>
+		<nav class="constrain">
+			<ul>
+				<li>
+					<a href="/website/">
+						<img src="assets/images/logo-finix-2014.png" alt="Finix Logo"/>
+					</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(1) }">
+					<a href ng-click="slide.selectTab(1)">Introduction</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(2) }">
+					<a href ng-click="slide.selectTab(2)">Resume</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(3) }">
+					<a href ng-click="slide.selectTab(3)">Portfolio</a>
+				</li>
+				<li ng-class="{ active:slide.isSelected(4) }">
+					<a href ng-click="slide.selectTab(4)">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main ng-controller="TeamController as team">
+		<div class="hero constrain">
+			<div class="content">
+				<img class="portrait" src="../{{ team.products[0].portrait }}" alt="{{ team.products[0].portraitalt }}"/>
+				<h1>{{ team.products[0].name }}</h1>
+			</div>
+		</div>
+		<div class="body">
+			<section class="constrain" ng-show="slide.isSelected(1)">
+				<article class="content full">
+					<h2>Introduction</h2>
+				</article>
+				<article class="content full">
+					<p>{{ team.products[0].letter.p1 }}</p>
+					<p>{{ team.products[0].letter.p2 }}</p>
+					<p>{{ team.products[0].letter.p3 }}</p>
+					<p>{{ team.products[0].letter.p4 }}</p>
+					<p>{{ team.products[0].letter.p5 }}</p>
+				</article>
+			</section>
+			<section class="constrain" ng-show="slide.isSelected(2)">
+				<article class="content full">
+					<h2>Resume</h2>
+				</article>
+				<article class="content full">
+					<h3>Experience</h3>
+					<ul>
+						<li class="card full" ng-repeat="job in team.products[0].jobs">
+							<img src="{{ job.logo.src }}" alt="{{ job.logo.alt }}" class="logo sixth">
+							<div class="text fivesixth">
+								<p>
+									<b>{{ job.position }}</b><br>
+									{{ job.company }}, {{ job.location }} | {{ job.dates }}<br>
+									<em>{{ job.description }}</em>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</article>
+				<article class="content full">
+					<h3>Education</h3>
+					<ul>
+						<li class="card full" ng-repeat="school in team.products[0].schools">
+							<img src="{{ school.logo.src }}" alt="{{ school.logo.alt }}" class="logo sixth">
+							<div class="text fivesixth">
+								<p>
+									<b>{{ school.name }}</b><br>
+									{{ school.location }} | {{ school.dates }}<br>
+									<em>{{ school.degree }}</em>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</article>
+				<article class="content full">
+					<h3>References</h3>
+					<ul>
+						<li class="card full" ng-repeat="reference in team.products[0].references">
+							<img src="{{ reference.portrait.src }}" alt="{{ reference.portrait.alt }}" class="logo sixth">
+							<div class="text fivesixth">
+								<p>
+									<b>{{ reference.name }}</b><br>
+									{{ reference.position }}, {{ reference.company }}<br>
+									<a href="mailto:{{ reference.email }}">{{ reference.email }}</a> | <a href="tel:{{ reference.phone }}">{{ reference.phone }}</a> | <a href="{{ reference.linkedin }}">Linkedin</a>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</article>
+			</section>
+			<section ng-show="slide.isSelected(3)">
+				<div class="content constrain">
+					<h2>Portfolio</h2>
+				</div>
+				<ul id="tiles" class="full">
+					<li class="teamprofile {{ portfolio.size }}" ng-repeat="portfolio in team.products[0].portfolios | orderBy: ['size', 'client', 'design']">
+						<a href="{{ portfolio.anchor }}">
+							<img src="{{ portfolio.preview.src }}" alt="{{ portfolio.preview.alt }}"/>
+							<div class="text-box">
+								<h3>{{ portfolio.client }}</h3>
+								<h4>{{ portfolio.design }}</h4>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section class="constrain" ng-show="slide.isSelected(4)">
+				<article class="content">
+					<h2>Contact</h2>
+				</article>
+				<article class="content">
+					<p>
+						<a href="mailto:{{ team.products[0].email }}">Email: {{ team.products[0].email }}</a><br>
+						<a href="tel:{{ team.products[0].phone }}">Phone: {{ team.products[0].phone }}</a><br>
+						<a href="https://www.linkedin.com/in/richardrsmith3/">
+							Connect:<br>
+							<img class="saturate" src="../images/icons/social/icon-linkedin.png" alt="linkedin icon"/>
+						</a>
+					</p>
+				</article>
+			</section>
+		</div>
+		<footer>
+			<div class="content constrain">
+				<div class="contact">
+					<h3>Contact me:</h3>
+					<a>rsmith@finixcreative.com</a><br>
+					<a>203-295-4369</a><br>
+				</div>
+				<div class="social" ng-controller="SocialController as social">
+					<h3>Connect with me:</h3>
+					<a id="{{social.products[2].name}}" href="https://www.linkedin.com/in/richardrsmith3/" target="_blank">
+						<img src="../images/icons/social/icon-{{social.products[2].name}}.png" alt="{{social.products[2].name}} icon"/>
+					</a>
+				</div>
+				<div class="copyright"><p>&copy; 2014 Finix. All rights reserved.</p></div>
+			</div>
+		</footer>
+	</main>
+</body>
+</html>

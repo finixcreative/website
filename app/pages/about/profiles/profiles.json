@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Richard Smith",
+		"title": "Co-founder",
+		"portrait": "assets/images/team/richard_smith.jpg",
+		"portraitalt": "Richard Smith",
+		"bio": "Richard puts on his pants like everyone else, one leg at a time.",
+		"link": "#/about/rsmith",
+	},
+	{
+		"name": "Allison Vollmar",
+		"title": "Co-founder",
+		"portrait": "assets/images/team/allison_vollmar.jpg",
+		"portraitalt": "Allison Vollmar",
+		"bio": "Allison woke up like this.",
+		"link": "http://www.linkedin.com/pub/allison-vollmar/8/ab2/610",
+	},
+	{
+		"name": "Penelope the Puppy",
+		"title": "Director of Mammal Resources",
+		"portrait": "assets/images/team/penelope_smith_vollmar.jpg",
+		"portraitalt": "Penelope Smith-Vollmar",
+		"bio": "Penelope is the actual center of the universe.",
+		"link": "#/about/penny",
+	},
+	{
+		"name": "Alex Cummings",
+		"title": "Game Developer",
+		"portrait": "assets/images/team/alex_cummings.jpg",
+		"portraitalt": "Alex Cummings",
+		"bio": "Alex makes it rain.",
+		"link": "#/about/acummings",
+	},
+	{
+		"name": "Chris Baeckstrom",
+		"title": "Desktop Publisher",
+		"portrait": "assets/images/team/chris_baeckstrom.jpg",
+		"portraitalt": "Chris Baeckstrom",
+		"bio": "Chris is pretty fly for a white guy.",
+		"link": "#/about/cbaeckstrom",
+	}
+]
